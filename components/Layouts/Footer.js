@@ -7,7 +7,6 @@ class Footer extends Component {
 
 		return (
 			<React.Fragment>
-				{/* Top Footer Section */}
 				<footer className="footer-section ptb-100">
 					<div className="container">
 						<div className="row">
@@ -22,25 +21,20 @@ class Footer extends Component {
 										aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 										ullamco laboris nisi ut aliquip ex ea commodo consequat.
 									</p>
-
 									<ul className="footer-social">
 										<li>
-											<Link href="https://www.linkedin.com/company/daasly">
-												<a>
-													<i className="fab fa-linkedin"></i>
-												</a>
-											</Link>
+											<a href="https://www.linkedin.com/company/daasly" target="_blank">
+												<i className="fab fa-linkedin"></i>
+											</a>
 										</li>
 									</ul>
 								</div>
 							</div>
-
 							<div className="col-lg-2 col-md-6 col-sm-6">
 								<div className="single-footer-widget">
 									<div className="footer-heading">
 										<h3>Important Links</h3>
 									</div>
-
 									<ul className="footer-quick-links">
 										<li>
 											<Link href="/">
@@ -70,43 +64,12 @@ class Footer extends Component {
 									</ul>
 								</div>
 							</div>
-
 							<div className="col-lg-2 col-md-6 col-sm-6">
 								<div className="single-footer-widget">
 									<div className="footer-heading">
-										<h3 style={{ color: "transparent" }}>' '</h3>
 									</div>
-
-									{/* <ul className="footer-quick-links">
-										<li>
-											<Link href="/">
-												<a>Home</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/blog">
-												<a>Blog</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/services">
-												<a>Services</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/partner">
-												<a>Client</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/contact">
-												<a>Contact</a>
-											</Link>
-										</li>
-									</ul> */}
 								</div>
 							</div>
-
 							<div className="col-lg-4 col-md-6 col-sm-6">
 								<div className="single-footer-widget">
 									<div className="footer-heading">
@@ -166,17 +129,14 @@ class Footer extends Component {
 						/>
 					</div>
 				</footer>
-				{/* End Top Footer Section */}
-
-				{/* Bottom Footer Section */}
 				<div className="copyright-area">
 					<div className="container">
 						<div className="row align-items-center">
 							<div className="col-lg-6 col-md-6">
 								<p>
-									&copy; {currentYear} Raxr. All Rights Reserved by
+									&copy; {currentYear} Daasly. All Rights Reserved by
 									<a href="https://envytheme.com/" target="_blank">
-										EnvyTheme
+										Daasly, Inc.
 									</a>
 								</p>
 							</div>
@@ -198,7 +158,6 @@ class Footer extends Component {
 						</div>
 					</div>
 				</div>
-				{/* End Bottom Footer Section */}
 			</React.Fragment>
 		)
 	}

@@ -72,7 +72,7 @@ class Navbar extends Component {
 								</button>
 
 								<div className={classOne} id="navbarSupportedContent">
-									<ul className="navbar-nav">
+									<ul className="navbar-nav justify-content-end mr-0">
 										<li className="nav-item">
 											<Link href="/about-us" activeClassName="active">
 												<a className="nav-link">About us</a>
