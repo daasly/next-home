@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Link from "../../utils/ActiveLink"
 import Daasly from "../../images/DaaslyResize2.png"
-import DaaslyWhite from "../../images/DaaslyWhite.png"
+import DaaslyWhite2 from "../../images/DaaslyWhite2.png"
 
 class Navbar extends Component {
 	// Navbar
@@ -9,11 +9,11 @@ class Navbar extends Component {
 	state = {
 		display: false,
 		collapsed: true,
-		active: false
+		active: false,
 	}
 	toggleNavbar = () => {
 		this.setState({
-			collapsed: !this.state.collapsed
+			collapsed: !this.state.collapsed,
 		})
 	}
 	componentDidMount() {
@@ -48,7 +48,7 @@ class Navbar extends Component {
 							<nav className="navbar navbar-expand-md navbar-light">
 								<Link href="/">
 									<a className="navbar-brand">
-										<img src={DaaslyWhite} className="white-logo" alt="logo" />
+										<img src={DaaslyWhite2} className="white-logo" alt="logo" />
 										<img src={Daasly} className="black-logo" alt="logo" />
 									</a>
 								</Link>
