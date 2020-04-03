@@ -1,12 +1,13 @@
 import React, { Component } from "react"
 import Link from "../../utils/ActiveLink"
-
+import Daasly from "../../images/DaaslyResize2.png"
 class Navbar extends Component {
 	// Navbar
 	_isMounted = false
 	state = {
 		display: false,
-		collapsed: true
+		collapsed: true,
+		active: false
 	}
 	toggleNavbar = () => {
 		this.setState({
@@ -45,16 +46,8 @@ class Navbar extends Component {
 							<nav className="navbar navbar-expand-md navbar-light">
 								<Link href="/">
 									<a className="navbar-brand">
-										<img
-											src={require("../../images/logo-white.png")}
-											className="white-logo"
-											alt="logo"
-										/>
-										<img
-											src={require("../../images/logo-black.png")}
-											className="black-logo"
-											alt="logo"
-										/>
+										<img src="" className="white-logo" alt="logo" />
+										<img src={Daasly} className="black-logo" alt="logo" />
 									</a>
 								</Link>
 
@@ -74,13 +67,18 @@ class Navbar extends Component {
 								<div className={classOne} id="navbarSupportedContent">
 									<ul className="navbar-nav justify-content-end mr-0">
 										<li className="nav-item">
+											<Link href="/" activeClassName="active">
+												<a className="nav-link">Home</a>
+											</Link>
+										</li>
+										<li className="nav-item">
 											<Link href="/about-us" activeClassName="active">
 												<a className="nav-link">About us</a>
 											</Link>
 										</li>
 
 										<li className="nav-item">
-											<Link href="/services">
+											<Link href="/services" activeClassName="active">
 												<a className="nav-link">
 													Services <i className="fas"></i>
 												</a>
@@ -88,7 +86,7 @@ class Navbar extends Component {
 										</li>
 
 										<li className="nav-item">
-											<Link href="/blog">
+											<Link href="/blog" activeClassName="active">
 												<a className="nav-link">
 													Blog <i className="fas"></i>
 												</a>
@@ -97,7 +95,7 @@ class Navbar extends Component {
 									</ul>
 
 									<div className="others-options">
-										<Link href="/contact">
+										<Link href="/contact" activeClassName="active">
 											<a className="default-btn">
 												Contact Us
 												<span></span>
