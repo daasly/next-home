@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import Link from "../../utils/ActiveLink"
 import Daasly from "../../images/DaaslyResize2.png"
+import DaaslyWhite from "../../images/DaaslyWhite.png"
+
 class Navbar extends Component {
 	// Navbar
 	_isMounted = false
@@ -46,7 +48,7 @@ class Navbar extends Component {
 							<nav className="navbar navbar-expand-md navbar-light">
 								<Link href="/">
 									<a className="navbar-brand">
-										<img src="" className="white-logo" alt="logo" />
+										<img src={DaaslyWhite} className="white-logo" alt="logo" />
 										<img src={Daasly} className="black-logo" alt="logo" />
 									</a>
 								</Link>
