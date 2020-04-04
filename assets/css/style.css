@@ -41,6 +41,7 @@ This files table contents are outlined below>>>>>
 ** - Blog Details Area CSS
 ** - Contact Area CSS
 ** - Footer Section CSS
+** - Cookies Section CSS
 ** - Copyright Section CSS
 ** - Go Top CSS
 */
@@ -470,7 +471,7 @@ Navbar Area CSS
 .main-nav .navbar .navbar-nav .nav-item a:focus,
 .main-nav .navbar .navbar-nav .nav-item a.active {
 	/* color: #00b0ee; */
-	border-bottom: solid 1.5px
+	border-bottom: solid 1.5px;
 }
 
 .main-nav .navbar .navbar-nav .nav-item a i {
@@ -1170,7 +1171,7 @@ Navbar Area CSS
 	visibility: visible;
 	top: -15px;
 	/* -webkit-transition: 0.6s;
-	transition: 0.6s; */ 
+	transition: 0.6s; */
 }
 
 .main-nav
@@ -1198,7 +1199,7 @@ Navbar Area CSS
 	visibility: visible;
 	top: -15px;
 	/* -webkit-transition: 0.6s;
-	transition: 0.6s; */ 
+	transition: 0.6s; */
 }
 
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
@@ -5772,3 +5773,42 @@ Go Top CSS
 	top: 50%;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* Cookies Consent CSS  */
+
+.cookie-container {
+	position: fixed;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	bottom: -100%;
+	left: 0;
+	right: 0;
+	background: #2f3640;
+	color: #f5f6fa;
+	padding: 0 32px;
+	box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.8);
+	z-index: 10;
+	transition: 400ms;
+	text-align: center;
+	height: 100px;
+}
+
+.cookie-container.active {
+	bottom: 0;
+}
+
+.cookie-container a {
+	color: #f5f6fa;
+}
+
+.cookie-btn {
+	background-color: #00b0ee;
+	border: 0;
+	color: #ffffff;
+	padding: 12px 48px;
+	font-size: 18px;
+	margin-bottom: 8px;
+	border-radius: 8px;
+	cursor: pointer;
+}
