@@ -1,6 +1,12 @@
 import React, { Component } from "react"
+import Redirect from "next/link"
 
 class ContactForm extends Component {
+	handleSubmit = (e) => {
+		e.preventDefault()
+		window.location.href = "/thank-you"
+	}
+
 	render() {
 		return (
 			<div className="contact-section ptb-100">
@@ -15,7 +21,7 @@ class ContactForm extends Component {
 						<div className="col-lg-6">
 							<div className="contact-form">
 								<h3>Send Us a Message</h3>
-								<form id="contactForm">
+								<form id="contactForm" onSubmit={this.handleSubmit}>
 									<div className="row">
 										<div className="col-lg-6 col-md-6">
 											<div className="form-group">
@@ -81,7 +87,7 @@ class ContactForm extends Component {
 												<div
 													style={{
 														display: "flex",
-														justifyContent: "space-between"
+														justifyContent: "space-between",
 													}}
 												>
 													<label htmlFor="email">
