@@ -17,6 +17,7 @@ class WorkingProcess extends Component {
 								<img
 									src={require("../../images/process/process1.png")}
 									alt="image"
+									id='process-item-people'
 								/>
 
 								<h3>People</h3>
@@ -61,6 +62,7 @@ class WorkingProcess extends Component {
 								<img
 									src={require("../../images/process/process3.png")}
 									alt="image"
+									id='process-item-tech'
 								/>
 
 								<h3>Technology</h3>

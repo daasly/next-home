@@ -40,12 +40,12 @@ export default class MyApp extends App {
 			<React.Fragment>
 				<DefaultSeo
 					title="Daasly, Inc"
-					description="Raxr - React Next Data Science & Analytics Template. This has been built with React, Next.js, Express.js, and ES6+"
+					description="At Daasly, we’re passionate about data. We’ve channeled this passion into a system that helps you strategize, collect, connect, enable and activate your data. We assist clients at every stage of the data journey, from strategy, implementation, optimization, and management."
 					openGraph={{
 						type: "website",
 						locale: "en_IE",
-						url: "https://raxr-react.envytheme.com/",
-						site_name: "Raxr - React Next Data Science & Analytics Template"
+						url: "https://www.daasly.com/",
+						site_name: "Daasly - Data As A Service"
 					}}
 				/>
 

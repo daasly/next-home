@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Link from "../../utils/ActiveLink"
-import Daasly from "../../images/DaaslyResize2.png"
-import DaaslyWhite2 from "../../images/DaaslyWhite2.png"
+import logohorizontalblack from "../../images/logo-horizontal-black.png"
+import logohorizontalwhite from "../../images/logo-horizontal-white.png"
 
 class Navbar extends Component {
 	// Navbar
@@ -48,8 +48,8 @@ class Navbar extends Component {
 							<nav className="navbar navbar-expand-md navbar-light">
 								<Link href="/">
 									<a className="navbar-brand">
-										<img src={DaaslyWhite2} className="white-logo" alt="logo" />
-										<img src={Daasly} className="black-logo" alt="logo" />
+										<img src={logohorizontalwhite} className="white-logo" alt="logo" />
+										<img src={logohorizontalblack} className="black-logo" alt="logo" />
 									</a>
 								</Link>
 
@@ -82,7 +82,8 @@ class Navbar extends Component {
 										<li className="nav-item">
 											<Link href="/services" activeClassName="active">
 												<a className="nav-link">
-													Services <i className="fas"></i>
+													Services
+													{/* <i className="fas"></i> */}
 												</a>
 											</Link>
 										</li>
@@ -90,7 +91,8 @@ class Navbar extends Component {
 										<li className="nav-item">
 											<Link href="/blog" activeClassName="active">
 												<a className="nav-link">
-													Blog <i className="fas"></i>
+													Blog
+													{/* <i className="fas"></i> */}
 												</a>
 											</Link>
 										</li>
