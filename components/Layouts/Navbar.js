@@ -4,7 +4,6 @@ import logohorizontalblack from "../../images/logo-horizontal-black.png"
 import logohorizontalwhite from "../../images/logo-horizontal-white.png"
 
 class Navbar extends Component {
-	// Navbar
 	_isMounted = false
 	state = {
 		display: false,
