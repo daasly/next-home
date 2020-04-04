@@ -13,17 +13,22 @@ class Footer extends Component {
 							<div className="col-lg-4 col-md-6 col-sm-6">
 								<div className="single-footer-widget">
 									<div className="footer-heading">
-										<h3>About Us</h3>
+										<h3>About us</h3>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-										ullamco laboris nisi ut aliquip ex ea commodo consequat.
+										Daasly is a data strategy and management consultant based
+										out of Miami, FL. Founded in 2015, Daasly has a proven track
+										record of delivering results. We specialize in helping our
+										clients understand and utilize their data better by
+										identifying gaps between people, processes, and technology
+										to drive businesses forward.
 									</p>
 									<ul className="footer-social">
 										<li>
-											<a href="https://www.linkedin.com/company/daasly" target="_blank">
+											<a
+												href="https://www.linkedin.com/company/daasly"
+												target="_blank"
+											>
 												<i className="fab fa-linkedin"></i>
 											</a>
 										</li>
@@ -66,8 +71,7 @@ class Footer extends Component {
 							</div>
 							<div className="col-lg-2 col-md-6 col-sm-6">
 								<div className="single-footer-widget">
-									<div className="footer-heading">
-									</div>
+									<div className="footer-heading"></div>
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-6">

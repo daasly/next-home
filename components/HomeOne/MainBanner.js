@@ -12,12 +12,13 @@ class MainBanner extends Component {
 							<div className="row align-items-center">
 								<div className="col-lg-6 col-md-12">
 									<div className="main-banner-content">
-										<h1>Big Data And Analytics</h1>
+										<h1>Make Your Data Work for You</h1>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-											sed do eiusmod tempor incididunt ut labore et dolore magna
-											aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-											ullamco laboris nisi ut aliquip.
+											At Daasly, we’re passionate about data. We’ve channeled
+											this passion into a system that helps you strategize,
+											collect, connect, enable and activate your data. We assist
+											clients at every stage of the data journey, from strategy,
+											implementation, optimization, and management.
 										</p>
 
 										<div className="banner-btn">
