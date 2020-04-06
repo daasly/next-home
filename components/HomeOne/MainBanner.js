@@ -100,7 +100,7 @@ class MainBanner extends Component {
 
 				<div className="creative-shape">
 					<img
-						src={require("../../images/main-banner-shape/home-shape-2.png")}
+						src={require("../../images/main-banner-shape/main-banner-shape1.png")}
 						alt="main-image"
 					/>
 				</div>
