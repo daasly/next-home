@@ -5786,7 +5786,7 @@ Go Top CSS
 	right: 0;
 	background: #2f3640;
 	color: #f5f6fa;
-	padding: 0 32px;
+	padding: 0 70px;
 	box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.8);
 	z-index: 10;
 	transition: 400ms;
@@ -5794,12 +5794,12 @@ Go Top CSS
 	height: 100px;
 }
 
-.cookie-container.active {
-	bottom: 0;
+.cookie-container p {
+	width: 1000px;
 }
 
-.cookie-container a {
-	color: #f5f6fa;
+.cookie-container.active {
+	bottom: 0;
 }
 
 .cookie-btn {
