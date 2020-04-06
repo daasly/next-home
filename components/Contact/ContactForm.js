@@ -117,6 +117,9 @@ class ContactForm extends Component {
 												Send Message
 											</button>
 										</div>
+										<div className="col-lg-12 col-md-12">
+											<p>I consent to having Daasly use the provided information for direct marketing purposes including contact by phone, email, SMS, or other electronic means.</p>
+										</div>
 									</div>
 								</form>
 							</div>
