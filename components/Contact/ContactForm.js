@@ -10,6 +10,7 @@ const ContactForm = () => {
 		message: "",
 		subject: "",
 	})
+	const [contactMethod, setContactMethod] = useState('')
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
@@ -41,7 +42,7 @@ const ContactForm = () => {
 							<h3>Send Us a Message</h3>
 							<form
 								id="contactForm"
-								action={`https://us-central1-daasly.cloudfunctions.net/addLead?sourceKey=I6HxQt5HGEvjCZLysbmk&email=${state.email}&name=${state.name}&firstName=&lastName=&phone=${state.phone}&subject=${state.subject}&message=${state.message}`}
+								action={`https://us-central1-daasly.cloudfunctions.net/addLead?sourceKey=I6HxQt5HGEvjCZLysbmk&email=${state.email}&name=${state.name}&firstName=&lastName=&phone=${state.phone}&subject=${state.subject}&message=${state.message}&contactMethod=${contactMethod}`}
 								onSubmit={handleSubmit}
 							>
 								<div className="row">
@@ -134,6 +135,8 @@ const ContactForm = () => {
 														id="email"
 														className="form-control"
 														name="email"
+														value={contactMethod}
+														onChange={e => setContactMethod(e.target.value)}
 													/>
 												</label>
 												<label htmlFor="email">
@@ -143,6 +146,8 @@ const ContactForm = () => {
 														id="email"
 														className="form-control"
 														name="email"
+														onChange={e => setContactMethod(e.target.value)}
+														value={contactMethod}
 													/>
 												</label>
 											</div>
