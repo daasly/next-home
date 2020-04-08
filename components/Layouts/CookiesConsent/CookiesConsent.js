@@ -24,7 +24,7 @@ const CookiesConsent = () => {
 				partners.
 			</p>
 			<button className="cookie-btn" onClick={handleClick}>
-				Accept
+				<span>Accept</span>	
 			</button>
 		</div>
 	)
