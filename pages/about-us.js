@@ -14,12 +14,12 @@ class AboutUs extends Component {
 		return (
 			<React.Fragment>
 				<Navbar />
-				<PageBanner
+				{/* <PageBanner
 					pageTitle="About Us"
 					breadcrumbTextOne="Why Daasly"
 					breadcrumbTextTwo="About Us"
 					breadcrumbUrl="#"
-				/>
+				/> */}
 				<AboutUsContent />
 				<FunFacts />
 

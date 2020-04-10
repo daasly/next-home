@@ -11,12 +11,12 @@ class Services extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner
+                {/* <PageBanner
                     pageTitle="Services" 
                     breadcrumbTextOne="Home" 
                     breadcrumbTextTwo="Services" 
                     breadcrumbUrl="/" 
-                />
+                /> */}
                 <FeaturedService />
                 <ServicesContent />
                 <div className="pb-100">

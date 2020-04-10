@@ -11,12 +11,12 @@ class Contact extends Component {
 		return (
 			<React.Fragment>
 				<Navbar />
-				<PageBanner
+				{/* <PageBanner
 					pageTitle="Contact Us"
 					breadcrumbTextOne="Let's Get to Work"
 					breadcrumbTextTwo="We're Here to Help"
 					breadcrumbUrl="#"
-				/>
+				/> */}
 				<ContactInfo />
 				<ContactForm />
 				<div className="ptb-100">

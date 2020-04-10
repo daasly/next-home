@@ -57,14 +57,14 @@ class Testimonial extends Component {
 							<div className="testimonial-single-item">
 								<div className="testimonial-image">
 									<img
-										src={require("../../images/clients/client1.jpg")}
+										src={require("../../images/clients/dan_antonson.jpeg")}
 										alt="image"
 									/>
 								</div>
 
 								<div className="testimonial-info">
-									<h3>Richard Denial</h3>
-									<span>IT Executive</span>
+									<h3>Dan Antonson</h3>
+									<span>Associate Director- Marketing Technology</span>
 								</div>
 
 								<div className="testimonial-content">
@@ -72,10 +72,7 @@ class Testimonial extends Component {
 										<i className="flaticon-quote"></i>
 									</div>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-										commodo viverra maecenas accumsan lacus vel facilisis.
+										Daasly has been a solid resource for data onboarding. They know their way around data and have been instrumental in developing our overall data strategy.
 									</p>
 								</div>
 							</div>

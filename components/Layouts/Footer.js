@@ -16,12 +16,7 @@ class Footer extends Component {
 										<h3>About us</h3>
 									</div>
 									<p>
-										Daasly is a data strategy and management consultant based
-										out of Miami, FL. Founded in 2015, Daasly has a proven track
-										record of delivering results. We specialize in helping our
-										clients understand and utilize their data better by
-										identifying gaps between people, processes, and technology
-										to drive businesses forward.
+										Daasly is a data strategy consulting firm based out of Miami, FL. Founded in 2015, Daasly has a proven track record of delivering results. We specialize in helping our clients understand and utilize their data better by identifying gaps between people, processes, and technology to drive businesses forward.
 									</p>
 									<ul className="footer-social">
 										<li>

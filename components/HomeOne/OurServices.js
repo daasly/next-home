@@ -72,7 +72,7 @@ class OurServices extends Component {
 								<div className="icon">
 									<i className="flaticon-chart"></i>
 								</div>
-								<h3>Software Development</h3>
+								<h3>Data-Centric Dashboard Development</h3>
 								<p>
 									Data-centric, full-stack web development, including
 									visualizations and API integration
