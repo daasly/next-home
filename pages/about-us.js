@@ -8,6 +8,7 @@ import Testimonial from "../components/Common/Testimonial"
 import TeamMember from "../components/Common/TeamMember"
 import Customers from "../components/Common/Customers"
 import Footer from "../components/Layouts/Footer"
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class AboutUs extends Component {
 	render() {
@@ -21,6 +22,7 @@ class AboutUs extends Component {
 					breadcrumbUrl="#"
 				/>
 				<AboutUsContent />
+				<CookiesConsent/>
 				<FunFacts />
 
 				<div className="pb-100">

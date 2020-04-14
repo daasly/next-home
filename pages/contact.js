@@ -5,6 +5,7 @@ import ContactInfo from "../components/Contact/ContactInfo"
 import ContactForm from "../components/Contact/ContactForm"
 import SubscribeStyleThree from "../components/Common/SubscribeStyleThree"
 import Footer from "../components/Layouts/Footer"
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class Contact extends Component {
 	render() {
@@ -17,6 +18,7 @@ class Contact extends Component {
 					breadcrumbTextTwo="We're Here to Help"
 					breadcrumbUrl="#"
 				/>
+				<CookiesConsent/>
 				<ContactInfo />
 				<ContactForm />
 				<div className="ptb-100">
