@@ -25,7 +25,7 @@ class AboutUs extends Component {
 				<FunFacts />
 
 				<div className="pb-100">
-					<GetStartedProject />
+					<GetStartedProject smallTitle="Let's Get Started" title="Ready to Get to Work?" contact={true} />
 				</div>
 
 				<Testimonial />

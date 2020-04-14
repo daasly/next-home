@@ -70,11 +70,11 @@ class ServicesContent extends Component {
                                 <div className="icon">
                                     <i className="flaticon-chart"></i>
                                 </div>
-                                <h3>Data- Centric Dashboard Development</h3>
+                                <h3>Data-Centric Software Development</h3>
                                 <br/>
                                 <p>Data-centric visualization web development.</p>
 
-                                <Link href="/dc-dashboard-development">
+                                <Link href="/dc-software-development">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>

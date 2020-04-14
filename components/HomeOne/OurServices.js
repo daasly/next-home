@@ -23,7 +23,7 @@ class OurServices extends Component {
 									Map the course to a sound and scalable analytical platform
 								</p>
 
-								<Link href="/service-details">
+								<Link href="/data-strategy">
 									<a className="service-btn">
 										Read More
 										<i className="flaticon-right"></i>
@@ -41,7 +41,7 @@ class OurServices extends Component {
 								<h3>Data Enablement</h3>
 								<p>Execute all the components of your data strategy</p>
 
-								<Link href="/service-details">
+								<Link href="/data-enablement">
 									<a className="service-btn">
 										Read More
 										<i className="flaticon-right"></i>
@@ -58,7 +58,7 @@ class OurServices extends Component {
 								<h3>Data Management</h3>
 								<p>Continuous support and execution of your data strategy</p>
 
-								<Link href="/service-details">
+								<Link href="/data-management">
 									<a className="service-btn">
 										Read More
 										<i className="flaticon-right"></i>
@@ -72,14 +72,14 @@ class OurServices extends Component {
 								<div className="icon">
 									<i className="flaticon-chart"></i>
 								</div>
-								<h3>Data-Centric Dashboard Development</h3>
+								<h3>Data-Centric Software Development</h3>
 								<br/>
 								<p>
 									Data-centric, full-stack web development, including
 									visualizations and API integration
 								</p>
 
-								<Link href="/service-details">
+								<Link href="/dc-software-development">
 									<a className="service-btn">
 										Read More
 										<i className="flaticon-right"></i>
@@ -97,7 +97,7 @@ class OurServices extends Component {
 								<br/>
 								<p>Google Tag Manager and Google Analytics management</p>
 
-								<Link href="/service-details">
+								<Link href="/google-analytics">
 									<a className="service-btn">
 										Read More
 										<i className="flaticon-right"></i>
@@ -117,7 +117,7 @@ class OurServices extends Component {
 									Domo Certified collection and analysis of business information
 								</p>
 
-								<Link href="/service-details">
+								<Link href="/business-intelligence-consulting">
 									<a className="service-btn">
 										Read More
 										<i className="flaticon-right"></i>

@@ -13,8 +13,8 @@ class ServiceDetailsContent extends Component {
                                     <p>{this.props.subtext}</p>
                                     <div className="col-lg-6">
 	                                    <div className="about-content">
-                                        
-		                                    <ul className="about-list">
+                                        {this.props.listItems && (
+                                            <ul className="about-list">
 		                                    	<li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.listItems.one}
@@ -48,6 +48,8 @@ class ServiceDetailsContent extends Component {
 		                                    		{this.props.listItems.eight}
 		                                    	</li>
 		                                    </ul>
+                                        )}
+		                                    
                                     	</div>
                                     </div>
                                     {/* <div className="features-text">
@@ -83,40 +85,58 @@ class ServiceDetailsContent extends Component {
                                     <h3>{this.props.headerTwo}</h3>
                                     <div className="col-lg-16">
 	                                    <div className="about-content">
-		                                    <ul className="about-list">
+                                        {this.props.secondList && (
+                                            <ul className="about-list">
+                                            {this.props.secondList.one && (
 		                                    	<li>
 		                                    		<i className="flaticon-tick"></i>
-		                                    		{this.props.secondList.one}
+		                                    		{this.props.secondList.one }
 		                                    	</li>
+                                            )}
+                                            {this.props.secondList.two && (
 		                                    	<li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.secondList.two}
 		                                    	</li>
+                                            )}
+                                            {this.props.secondList.three && (
 		                                    	<li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.secondList.three}
 		                                    	</li>
+                                            )}
+                                            {this.props.secondList.four && (
 		                                    	<li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.secondList.four}
 		                                    	</li>
+                                            )}
+                                            {this.props.secondList.five && (
                                                 <li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.secondList.five}
 		                                    	</li>
-                                                {/* <li>
+                                            )}
+                                            {this.props.secondList.six && (
+                                                <li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.secondList.six}
 		                                    	</li>
+                                            )}
+                                            {this.props.secondList.seven && (
                                                 <li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.secondList.seven}
 		                                    	</li>
+                                            )}
+                                            {this.props.secondList.eight && (
                                                 <li>
 		                                    		<i className="flaticon-tick"></i>
 		                                    		{this.props.secondList.eight}
-		                                    	</li> */}
+		                                    	</li>
+                                            )}
 		                                    </ul>
+                                        )} 
                                     	</div>
                                     </div>
                                     {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>

@@ -11,7 +11,7 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar2 />
                 <br/>
-                <GetStartedProject smallTitle="Custom Dashboard Development" title='Custom Lead Management Systems' button="Schedule a Consultation"/>
+                <GetStartedProject smallTitle="Data-Centric Software Development" title='Custom Lead Management Systems' button="Schedule a Consultation"/>
                 {/* <PageBanner
                     pageTitle="Data-Centric Dashboard Development" 
                     breadcrumbTextOne="Home" 
@@ -19,7 +19,7 @@ class ServiceDetails extends Component {
                     breadcrumbUrl="/" 
                 /> */}
                 <ServiceDetailsContent 
-                    header="See your data how you want to" 
+                    header="See Your Data How You Want To" 
                     subtext='Provide your team with a clear and organized, custom-built dashboard to suit your organization’s exact needs and priorities. Our Custom Dashboard Development service includes seamless API integration of your most relevant data, so you can see exactly what you and make analysis effortless.' 
                     listItems="" 
                     headerTwo="What We Do" 
