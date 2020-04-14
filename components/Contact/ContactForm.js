@@ -120,17 +120,19 @@ const ContactForm = () => {
 										</div>
 									</div>
 									<div className="col-lg-6 col-md-6">
-										<h5>Preferred Contact Method</h5>
+										<h5 style={{width: 250}}>Preferred Contact Method</h5>
 										<div className="form-group">
 											<div
 												style={{
 													display: "flex",
 													justifyContent: "space-between",
+													height: 50
 												}}
 											>
 												<label htmlFor="email">
 													Email
 													<input
+													  style={{height: 40}}
 														type="radio"
 														id="email"
 														className="form-control"
@@ -142,6 +144,7 @@ const ContactForm = () => {
 												<label htmlFor="email">
 													Phone
 													<input
+													  style={{height: 40}}
 														type="radio"
 														id="email"
 														className="form-control"
@@ -160,7 +163,7 @@ const ContactForm = () => {
 										</button>
 									</div>
 									<div className="col-lg-12 col-md-12">
-										<p>
+										<p style={{fontSize: '12px'}}>
 											I consent to having Daasly use the provided information
 											for direct marketing purposes including contact by phone,
 											email, SMS, or other electronic means.
