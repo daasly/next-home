@@ -9,8 +9,9 @@ const ContactForm = () => {
 		phone: "",
 		message: "",
 		subject: "",
+		contactMethod: ''
 	})
-	const [contactMethod, setContactMethod] = useState('')
+	// const [contactMethod, setContactMethod] = useState('')
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
@@ -42,7 +43,7 @@ const ContactForm = () => {
 							<h3>Send Us a Message</h3>
 							<form
 								id="contactForm"
-								action={`https://us-central1-daasly.cloudfunctions.net/addLead?sourceKey=I6HxQt5HGEvjCZLysbmk&email=${state.email}&name=${state.name}&firstName=&lastName=&phone=${state.phone}&subject=${state.subject}&message=${state.message}&contactMethod=${contactMethod}`}
+								action={`https://us-central1-daasly.cloudfunctions.net/addLead?sourceKey=${process.env.apiKey}&email=${state.email}&name=${state.name}&phone=${state.phone}&subject=${state.subject}&message=${state.message}&contactMethod=${state.contactMethod}`}
 								onSubmit={handleSubmit}
 							>
 								<div className="row">
@@ -136,9 +137,9 @@ const ContactForm = () => {
 														type="radio"
 														id="email"
 														className="form-control"
-														name="email"
-														value={contactMethod}
-														onChange={e => setContactMethod(e.target.value)}
+														name="contactMethod"
+														value="email"
+														onClick={handleChange}
 													/>
 												</label>
 												<label htmlFor="email">
@@ -146,11 +147,11 @@ const ContactForm = () => {
 													<input
 													  style={{height: 40}}
 														type="radio"
-														id="email"
+														id="phone"
 														className="form-control"
-														name="email"
-														onChange={e => setContactMethod(e.target.value)}
-														value={contactMethod}
+														name="contactMethod"
+														onClick={handleChange}
+														value='phone'
 													/>
 												</label>
 											</div>
