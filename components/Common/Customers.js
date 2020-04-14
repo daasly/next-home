@@ -8,7 +8,7 @@ class Customers extends Component {
 				<div className="container">
 					<div className="partner-title">
 						<span>Who We've Worked With</span>
-						<h2>Customer Success Stories</h2>
+						<h2>Customer Success</h2>
 					</div>
 
 					<div className="partner-list">

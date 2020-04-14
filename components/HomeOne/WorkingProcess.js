@@ -9,6 +9,7 @@ class WorkingProcess extends Component {
 					<div className="section-title">
 						<span>Report Rewind</span>
 						<h2>Our Approach</h2>
+						<p>Identifying gaps between people, processes and technology</p>
 					</div>
 
 					<div className="row">
@@ -26,7 +27,7 @@ class WorkingProcess extends Component {
 									do best?
 								</p>
 
-								<Link href="/project-details">
+								<Link href="/services">
 									<a className="process-btn">
 										Read More
 										<i className="flaticon-right"></i>
@@ -48,7 +49,7 @@ class WorkingProcess extends Component {
 									A to point B?
 								</p>
 
-								<Link href="/project-details">
+								<Link href="/services">
 									<a className="process-btn">
 										Read More
 										<i className="flaticon-right"></i>
@@ -68,7 +69,7 @@ class WorkingProcess extends Component {
 								<h3>Technology</h3>
 								<p>What are your data sources? How are they being utilized?</p>
 
-								<Link href="/project-details">
+								<Link href="/services">
 									<a className="process-btn">
 										Read More
 										<i className="flaticon-right"></i>
