@@ -1255,7 +1255,33 @@ Navbar Area CSS
 	height: auto;
 }
 
+.navbar-area2 {
+	background-color: #01082d;
+	/* -webkit-transition: 0.6s;
+	transition: 0.6s; */
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+
 .navbar-area.is-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999999;
+	-webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+	background: #ffffff !important;
+	-webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+	animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+	/* -webkit-transition: 0.6s;
+	transition: 0.6s; */
+}
+.navbar-area2.is-sticky {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1274,7 +1300,15 @@ Navbar Area CSS
 	color: #000000;
 }
 
+.navbar-area2.is-sticky.is-sticky .main-nav .navbar .navbar-brand {
+	color: #000000;
+}
+
 .navbar-area.is-sticky .navbar-nav .nav-item a {
+	color: #5b5b98;
+}
+
+.navbar-area2.is-sticky .navbar-nav .nav-item a {
 	color: #5b5b98;
 }
 
@@ -1284,11 +1318,25 @@ Navbar Area CSS
 	color: #00b0ee;
 }
 
+.navbar-area2.is-sticky .navbar-nav .nav-item a:hover,
+.navbar-area2.is-sticky .navbar-nav .nav-item a:focus,
+.navbar-area2.is-sticky .navbar-nav .nav-item a.active {
+	color: #00b0ee;
+}
+
 .navbar-area.is-sticky .main-nav .navbar-brand .white-logo {
 	display: none;
 }
 
+.navbar-area2.is-sticky .main-nav .navbar-brand .white-logo {
+	display: none;
+}
+
 .navbar-area.is-sticky .main-nav .navbar-brand .black-logo {
+	display: block;
+}
+
+.navbar-area2.is-sticky .main-nav .navbar-brand .black-logo {
 	display: block;
 }
 

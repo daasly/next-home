@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
+import Navbar2 from '../components/Layouts/Navbar2';
 import PageBanner from '../components/Common/PageBanner';
 import FeaturedService from '../components/Services/FeaturedService';
 import ServicesContent from '../components/Services/ServicesContent';
@@ -10,7 +10,8 @@ class Services extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar />
+                <Navbar2 />
+                <br/>
                 {/* <PageBanner
                     pageTitle="Services" 
                     breadcrumbTextOne="Home" 

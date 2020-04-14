@@ -9,12 +9,12 @@ class Blog extends Component {
 		return (
 			<React.Fragment>
 				<Navbar />
-				<PageBanner
+				{/* <PageBanner
 					pageTitle="Blog"
 					breadcrumbTextOne="Home"
 					breadcrumbTextTwo="Blog"
 					breadcrumbUrl="/"
-				/>
+				/> */}
 				<BlogCard />
 				<Footer />
 			</React.Fragment>

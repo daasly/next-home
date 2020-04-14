@@ -27,7 +27,7 @@ class Index extends Component {
                     <FeaturedService />
                 </div>
                 <Testimonial />
-                <GetStartedProject />
+                <GetStartedProject title={"Ready to Get to Work?"} />
                 <BlogPost />
                 <Customers />
                 <Subscribe />

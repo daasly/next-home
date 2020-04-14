@@ -73,6 +73,7 @@ class OurServices extends Component {
 									<i className="flaticon-chart"></i>
 								</div>
 								<h3>Data-Centric Dashboard Development</h3>
+								<br/>
 								<p>
 									Data-centric, full-stack web development, including
 									visualizations and API integration
@@ -93,6 +94,7 @@ class OurServices extends Component {
 									<i className="flaticon-science"></i>
 								</div>
 								<h3>Google Analytics</h3>
+								<br/>
 								<p>Google Tag Manager and Google Analytics management</p>
 
 								<Link href="/service-details">
@@ -110,6 +112,7 @@ class OurServices extends Component {
 									<i className="flaticon-data-management"></i>
 								</div>
 								<h3>Business Intelligence</h3>
+								<br/>
 								<p>
 									Domo Certified collection and analysis of business information
 								</p>
