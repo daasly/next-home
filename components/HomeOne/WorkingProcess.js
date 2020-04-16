@@ -26,7 +26,7 @@ class WorkingProcess extends Component {
 									Who is your team? How long have they been there? What do they
 									do best?
 								</p>
-
+                  
 								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
 										{this.props.buttonText ? this.props.buttonText : 'Read More'}
@@ -68,6 +68,7 @@ class WorkingProcess extends Component {
 
 								<h3>{this.props.headerThree ? this.props.headerThree : 'Technology'}</h3>
 								<p>What are your data sources? How are they being utilized?</p>
+
 
 								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
