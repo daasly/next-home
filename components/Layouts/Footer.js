@@ -13,24 +13,31 @@ class Footer extends Component {
 							<div className="col-lg-4 col-md-6 col-sm-6">
 								<div className="single-footer-widget">
 									<div className="footer-heading">
-										<h3>About us</h3>
+										<h3>About Us</h3>
 									</div>
 									<p>
-										Daasly is a data strategy and management consultant based
-										out of Miami, FL. Founded in 2015, Daasly has a proven track
-										record of delivering results. We specialize in helping our
-										clients understand and utilize their data better by
-										identifying gaps between people, processes, and technology
-										to drive businesses forward.
+										Daasly is a data strategy consulting firm based out of Miami, FL. Founded in 2015, Daasly has a proven track record of delivering results. We specialize in helping our clients understand and utilize their data better by identifying gaps between people, processes, and technology to drive businesses forward.
 									</p>
 									<ul className="footer-social">
-										<li>
+										{/* <li>
 											<a
 												href="https://www.linkedin.com/company/daasly"
 												target="_blank"
 											>
 												<i className="fab fa-linkedin"></i>
 											</a>
+										</li> */}
+										<li>
+											<img src="https://storage.cloud.google.com/daasly_public/sdvosb.svg" alt="sdvosb"/>
+										</li>
+										<li>
+											<img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb"/>
+										</li>
+										<li>
+											<img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb"/>
+										</li>
+										<li>
+											<img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb"/>
 										</li>
 									</ul>
 								</div>
@@ -113,6 +120,18 @@ class Footer extends Component {
 										</a>
 										<a href="http://maps.google.com/?q=Daasly" target="_blank">
 											<span>8004 NW 154th St #632 Miami Lakes, FL 33016</span>
+										</a>
+									</div>
+
+									<div className="footer-info-contact">
+										<a href="https://www.linkedin.com/company/daasly/" target="_blank">
+											<i className="fab fa-linkedin"></i>
+										</a>
+										<a href="https://www.linkedin.com/company/daasly/" target="_blank">
+											<h3>Linkedin</h3>
+										</a>
+										<a href="https://www.linkedin.com/company/daasly/" target="_blank">
+											<span>linkedin.com/company/daasly</span>
 										</a>
 									</div>
 								</div>

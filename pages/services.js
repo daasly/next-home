@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
+import Navbar2 from '../components/Layouts/Navbar2';
 import PageBanner from '../components/Common/PageBanner';
 import FeaturedService from '../components/Services/FeaturedService';
 import ServicesContent from '../components/Services/ServicesContent';
@@ -11,19 +11,23 @@ class Services extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar />
-                <PageBanner
+                <Navbar2 />
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                {/* <PageBanner
                     pageTitle="Services" 
                     breadcrumbTextOne="Home" 
                     breadcrumbTextTwo="Services" 
                     breadcrumbUrl="/" 
-                />
-                <CookiesConsent/>
+                /> */}
                 <FeaturedService />
                 <ServicesContent />
                 <div className="pb-100">
                     <SubscribeStyleThree />
                 </div>
+                <CookiesConsent/>
                 <Footer />
             </React.Fragment>
         );

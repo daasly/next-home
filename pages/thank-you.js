@@ -1,31 +1,25 @@
 import React, { Component } from "react"
-import Navbar2 from "../components/Layouts/Navbar2"
+import Navbar from "../components/Layouts/Navbar"
 import PageBanner from "../components/Common/PageBanner"
 import BlogCard from "../components/Blog/BlogCard"
 import Footer from "../components/Layouts/Footer"
-import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
-class Blog extends Component {
+class ThankYou extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar2 />
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				{/* <PageBanner
-					pageTitle="Blog"
+				<Navbar />
+				<PageBanner
+					pageTitle="Thanks for your message! We will be in touch with you very soon. In the mean time, read the latest updates on our blog."
 					breadcrumbTextOne="Home"
-					breadcrumbTextTwo="Blog"
+					breadcrumbTextTwo="Thank You"
 					breadcrumbUrl="/"
-				/> */}
+				/>
 				<BlogCard />
-        <CookiesConsent/>
 				<Footer />
 			</React.Fragment>
 		)
 	}
 }
 
-export default Blog
+export default ThankYou

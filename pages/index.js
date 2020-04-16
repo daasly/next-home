@@ -15,28 +15,28 @@ import Footer from "../components/Layouts/Footer"
 import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class Index extends Component {
-	render() {
-		return (
-			<React.Fragment>
-				<Navbar />
-				<MainBanner />
-				<CookiesConsent />
-				<OurServices />
-				<AboutUs />
-				<FunFacts />
-				<WorkingProcess />
-				<div className="pb-100">
-					<FeaturedService />
-				</div>
-				<Testimonial />
-				<GetStartedProject />
-				<BlogPost />
-				<Customers />
-				<Subscribe />
-				<Footer />
-			</React.Fragment>
-		)
-	}
+    render() {
+        return (
+            <React.Fragment>
+                <Navbar />
+                <MainBanner />
+                <OurServices />
+                <AboutUs />
+                <FunFacts />
+                <WorkingProcess services={true}/>
+                <div className="pb-100">
+                    <FeaturedService />
+                </div>
+                <Testimonial />
+                <GetStartedProject smallTitle="Let's Get Started" title={"Ready to Get to Work?"} contact={true} />
+                <BlogPost />
+                <Customers />
+                <Subscribe />
+                <CookiesConsent />
+                <Footer />
+            </React.Fragment>
+        );
+    }
 }
 
 export default Index
