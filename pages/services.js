@@ -5,6 +5,7 @@ import FeaturedService from '../components/Services/FeaturedService';
 import ServicesContent from '../components/Services/ServicesContent';
 import SubscribeStyleThree from '../components/Common/SubscribeStyleThree';
 import Footer from '../components/Layouts/Footer';
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class Services extends Component {
     render() {
@@ -26,6 +27,7 @@ class Services extends Component {
                 <div className="pb-100">
                     <SubscribeStyleThree />
                 </div>
+                <CookiesConsent/>
                 <Footer />
             </React.Fragment>
         );

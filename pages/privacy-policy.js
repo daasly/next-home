@@ -3,6 +3,7 @@ import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import PrivacyPolicyContent from '../components/PrivacyPolicy/PrivacyPolicyContent';
 import Footer from '../components/Layouts/Footer';
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class PrivacyPolicy extends Component {
     render() {
@@ -15,6 +16,7 @@ class PrivacyPolicy extends Component {
                     breadcrumbTextTwo="Privacy Policy" 
                     breadcrumbUrl="/" 
                 />
+                <CookiesConsent/>
                 <PrivacyPolicyContent />
                 <Footer />
             </React.Fragment>

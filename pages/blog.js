@@ -3,6 +3,7 @@ import Navbar2 from "../components/Layouts/Navbar2"
 import PageBanner from "../components/Common/PageBanner"
 import BlogCard from "../components/Blog/BlogCard"
 import Footer from "../components/Layouts/Footer"
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class Blog extends Component {
 	render() {
@@ -20,6 +21,7 @@ class Blog extends Component {
 					breadcrumbUrl="/"
 				/> */}
 				<BlogCard />
+        <CookiesConsent/>
 				<Footer />
 			</React.Fragment>
 		)
