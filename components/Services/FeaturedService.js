@@ -8,34 +8,34 @@ class FeaturedService extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="software-content">
-                                <span>Our Featured Services</span>
-                                <h2>Software Developement Services</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices Lorem Ipsum is simply dummy text.</p>
+                                <span>Featured Service</span>
+                                <h2>Google Analytics</h2>
+                                <p>Complete and effective Google Analytics-wide management.</p>
 
                                 <ul className="features-list">
                                     <li>
-                                        <span>Software Development</span>
+                                        <span>Google Tag Manager Implementation</span>
                                     </li>
                                     <li>
-                                        <span>Automatic Optimization</span>
+                                        <span>Measurement Framework Creation</span>
                                     </li>
                                     <li>
-                                        <span>Applicatication Services</span>
+                                        <span>Google Optimize Implementation</span>
                                     </li>
                                     <li>
-                                        <span>IT Security Services</span>
+                                        <span>Data Visualization and Recording</span>
                                     </li>
                                     <li>
-                                        <span>Data Analytics</span>
+                                        <span>Google Data Studio Implementation</span>
                                     </li>
                                     <li>
-                                        <span>System Integration Service</span>
+                                        <span>Custom Client Training and Support</span>
                                     </li>
                                     <li>
-                                        <span>Help Desk Services</span>
+                                        <span>Audits and Diagnostics</span>
                                     </li>
                                     <li>
-                                        <span>API Integration Service</span>
+                                        <span>Testing and Optimization</span>
                                     </li>
                                 </ul>
                             </div>

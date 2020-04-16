@@ -4,6 +4,7 @@ import PageBanner from '../components/Common/PageBanner';
 import FaqContent from '../components/Faq/FaqContent';
 import FaqContactForm from '../components/Faq/FaqContactForm';
 import Footer from '../components/Layouts/Footer';
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class Faq extends Component {
     render() {
@@ -16,6 +17,7 @@ class Faq extends Component {
                     breadcrumbTextTwo="Faq" 
                     breadcrumbUrl="/" 
                 />
+                <CookiesConsent/>
                 <FaqContent />
                 <FaqContactForm />
                 <Footer />

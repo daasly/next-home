@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
+import Navbar2 from '../components/Layouts/Navbar2';
 import PageBanner from '../components/Common/PageBanner';
 import FeaturedService from '../components/Services/FeaturedService';
 import ServicesContent from '../components/Services/ServicesContent';
 import SubscribeStyleThree from '../components/Common/SubscribeStyleThree';
 import Footer from '../components/Layouts/Footer';
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class Services extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar />
+                <Navbar2 />
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 {/* <PageBanner
                     pageTitle="Services" 
                     breadcrumbTextOne="Home" 
@@ -22,6 +27,7 @@ class Services extends Component {
                 <div className="pb-100">
                     <SubscribeStyleThree />
                 </div>
+                <CookiesConsent/>
                 <Footer />
             </React.Fragment>
         );

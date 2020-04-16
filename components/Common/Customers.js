@@ -7,8 +7,8 @@ class Customers extends Component {
 			<div className="partner-section pt-100 pb-70">
 				<div className="container">
 					<div className="partner-title">
-						<span>Who We've Worked With</span>
-						<h2>Customer Success</h2>
+						<span>Previous Clients</span>
+						<h2>Who We've Worked With</h2>
 					</div>
 
 					<div className="partner-list">
@@ -89,7 +89,7 @@ class Customers extends Component {
 							</Link>
 						</div>
 
-						<div className="partner-item">
+						{/* <div className="partner-item">
 							<Link href="/partner">
 								<a>
 									<img
@@ -98,9 +98,9 @@ class Customers extends Component {
 									/>
 								</a>
 							</Link>
-						</div>
+						</div> */}
 
-						<div className="partner-item">
+						{/* <div className="partner-item">
 							<Link href="/partner">
 								<a>
 									<img
@@ -109,7 +109,7 @@ class Customers extends Component {
 									/>
 								</a>
 							</Link>
-						</div>
+						</div> */}
 					</div>
 				</div>
 

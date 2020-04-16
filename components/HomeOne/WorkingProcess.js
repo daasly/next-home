@@ -4,12 +4,12 @@ import Link from "next/link"
 class WorkingProcess extends Component {
 	render() {
 		return (
-			<section className="process-section pt-100 pb-70">
+			<section className={this.props.padding ? this.props.padding : "process-section pt-100 pb-70"}>
 				<div className="container">
 					<div className="section-title">
 						<span>Report Rewind</span>
 						<h2>Our Approach</h2>
-						<p>Identifying gaps between people, processes and technology</p>
+						<p>{this.props.text ? this.props.text : "Identifying gaps between people, processes, and technology"}</p>
 					</div>
 
 					<div className="row">
@@ -21,15 +21,15 @@ class WorkingProcess extends Component {
 									id='process-item-people'
 								/>
 
-								<h3>People</h3>
+								<h3>{this.props.headerOne? this.props.headerOne : 'People'}</h3>
 								<p>
 									Who is your team? How long have they been there? What do they
 									do best?
 								</p>
-
-								<Link href="/services">
+                  
+								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
-										Read More
+										{this.props.buttonText ? this.props.buttonText : 'Read More'}
 										<i className="flaticon-right"></i>
 									</a>
 								</Link>
@@ -43,15 +43,15 @@ class WorkingProcess extends Component {
 									alt="image"
 								/>
 
-								<h3>Process</h3>
+								<h3>{this.props.headerTwo? this.props.headerTwo : 'Process'}</h3>
 								<p>
 									What does your data look like? How do you get data from point
 									A to point B?
 								</p>
 
-								<Link href="/services">
+								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
-										Read More
+										{this.props.buttonText ? this.props.buttonText : 'Read More'}
 										<i className="flaticon-right"></i>
 									</a>
 								</Link>
@@ -66,12 +66,13 @@ class WorkingProcess extends Component {
 									id='process-item-tech'
 								/>
 
-								<h3>Technology</h3>
+								<h3>{this.props.headerThree ? this.props.headerThree : 'Technology'}</h3>
 								<p>What are your data sources? How are they being utilized?</p>
 
-								<Link href="/services">
+
+								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
-										Read More
+										{this.props.buttonText ? this.props.buttonText : 'Read More'}
 										<i className="flaticon-right"></i>
 									</a>
 								</Link>

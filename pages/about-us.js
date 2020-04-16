@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Navbar from "../components/Layouts/Navbar"
+import Navbar2 from "../components/Layouts/Navbar2"
 import PageBanner from "../components/Common/PageBanner"
 import AboutUsContent from "../components/AboutUs/AboutUsContent"
 import FunFacts from "../components/Common/FunFacts"
@@ -8,12 +8,17 @@ import Testimonial from "../components/Common/Testimonial"
 import TeamMember from "../components/Common/TeamMember"
 import Customers from "../components/Common/Customers"
 import Footer from "../components/Layouts/Footer"
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class AboutUs extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar />
+				<Navbar2 />
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 				{/* <PageBanner
 					pageTitle="About Us"
 					breadcrumbTextOne="Why Daasly"
@@ -21,10 +26,11 @@ class AboutUs extends Component {
 					breadcrumbUrl="#"
 				/> */}
 				<AboutUsContent />
+				<CookiesConsent/>
 				<FunFacts />
 
 				<div className="pb-100">
-					<GetStartedProject />
+					<GetStartedProject smallTitle="Let's Get Started" title="Ready to Get to Work?" contact={true} />
 				</div>
 
 				<Testimonial />
