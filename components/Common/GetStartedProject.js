@@ -8,25 +8,36 @@ class GetStartedProject extends Component {
 					<div className="row align-items-center">
 						<div className="col-lg-6">
 							<div className="productive-content">
-								<span>Let’s Get Started</span>
-								<h3>Ready to Get to Work?</h3>
+								<span>{this.props.smallTitle}</span>
+								<h3>{this.props.title}</h3>
 								<p>
 									Get on track for a better, effective and more productive
 									business by tackling your most difficult data problems with
 									Daasly. Automate your data pipeline, save time and discover
 									more.
 								</p>
-
-								<div className="productive-btn">
-									<a className="productive-btn-one" href="/contact">
-										Get Started
-										<span></span>
-									</a>
-									<a href="/contact" className="productive-btn">
-										Contact Us
-										<span></span>
-									</a>
-								</div>
+								{
+									this.props.contact ? (
+										<div className="productive-btn">
+									    <a className="productive-btn-one" href="/contact">
+									    	Get Started
+									    	<span></span>
+									    </a>
+									    <a href="/contact" className="productive-btn">
+									    	Contact Us
+									    	<span></span>
+									    </a>
+								    </div>
+									) : (
+										<div className="productive-btn">
+											<a className="productive-btn-one" href="/contact">
+												Schedule a Consultation
+												<span></span>
+											</a>
+										</div>
+									)
+								}
+								
 							</div>
 						</div>
 
