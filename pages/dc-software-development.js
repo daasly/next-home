@@ -11,6 +11,9 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar2 />
                 <br/>
+                <br/>
+                <br/>
+                <br/>
                 <GetStartedProject smallTitle="Data-Centric Software Development" title='Custom Lead Management Systems' button="Schedule a Consultation"/>
                 {/* <PageBanner
                     pageTitle="Data-Centric Dashboard Development" 

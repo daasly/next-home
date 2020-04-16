@@ -12,7 +12,10 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar2 />
                 <br/>
-                <GetStartedProject smallTitle="Data Enablement" title="Execute all the components of your data strategy" button='Schedule a Consultation'/>
+                <br/>
+                <br/>
+                <br/>
+                <GetStartedProject smallTitle="Data Enablement" title="Execute All the Components of Your Data Strategy" button='Schedule a Consultation'/>
                 {/* <PageBanner
                     pageTitle="Data Enablement" 
                     breadcrumbTextOne="Home" 

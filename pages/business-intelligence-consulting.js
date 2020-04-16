@@ -11,6 +11,9 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar2 />
                 <br/>
+                <br/>
+                <br/>
+                <br/>
                 <GetStartedProject smallTitle="Business Intelligence Consulting"title="Domo Certified Platform Professional Services Partner" button="Schedule a Consultation"/>
                 {/* <PageBanner
                     pageTitle="Business Intelligence Consulting" 

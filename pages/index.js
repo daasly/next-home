@@ -22,12 +22,12 @@ class Index extends Component {
                 <OurServices />
                 <AboutUs />
                 <FunFacts />
-                <WorkingProcess />
+                <WorkingProcess services={true}/>
                 <div className="pb-100">
                     <FeaturedService />
                 </div>
                 <Testimonial />
-                <GetStartedProject title={"Ready to Get to Work?"} />
+                <GetStartedProject smallTitle="Let's Get Started" title={"Ready to Get to Work?"} contact={true} />
                 <BlogPost />
                 <Customers />
                 <Subscribe />

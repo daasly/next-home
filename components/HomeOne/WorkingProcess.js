@@ -27,7 +27,7 @@ class WorkingProcess extends Component {
 									do best?
 								</p>
 
-								<Link href="/contact">
+								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
 										{this.props.buttonText ? this.props.buttonText : 'Read More'}
 										<i className="flaticon-right"></i>
@@ -49,7 +49,7 @@ class WorkingProcess extends Component {
 									A to point B?
 								</p>
 
-								<Link href="/contact">
+								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
 										{this.props.buttonText ? this.props.buttonText : 'Read More'}
 										<i className="flaticon-right"></i>
@@ -69,7 +69,7 @@ class WorkingProcess extends Component {
 								<h3>{this.props.headerThree ? this.props.headerThree : 'Technology'}</h3>
 								<p>What are your data sources? How are they being utilized?</p>
 
-								<Link href="/contact">
+								<Link href={this.props.services ? "/services" : "/contact"}>
 									<a className="process-btn">
 										{this.props.buttonText ? this.props.buttonText : 'Read More'}
 										<i className="flaticon-right"></i>

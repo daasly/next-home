@@ -17,17 +17,7 @@ class GetStartedProject extends Component {
 									more.
 								</p>
 								{
-									this.props.button && (
-										<div className="productive-btn">
-											<a className="productive-btn-one" href="/contact">
-												{this.props.button}
-												<span></span>
-											</a>
-										</div>
-									)
-								}
-								{
-									this.props.contact && (
+									this.props.contact ? (
 										<div className="productive-btn">
 									    <a className="productive-btn-one" href="/contact">
 									    	Get Started
@@ -38,6 +28,13 @@ class GetStartedProject extends Component {
 									    	<span></span>
 									    </a>
 								    </div>
+									) : (
+										<div className="productive-btn">
+											<a className="productive-btn-one" href="/contact">
+												Schedule a Consultation
+												<span></span>
+											</a>
+										</div>
 									)
 								}
 								

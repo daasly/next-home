@@ -15,6 +15,9 @@ class AboutUs extends Component {
 			<React.Fragment>
 				<Navbar2 />
 				<br/>
+				<br/>
+				<br/>
+				<br/>
 				{/* <PageBanner
 					pageTitle="About Us"
 					breadcrumbTextOne="Why Daasly"

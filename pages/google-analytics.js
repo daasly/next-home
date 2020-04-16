@@ -11,6 +11,9 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar2 />
                 <br/>
+                <br/>
+                <br/>
+                <br/>
                 <GetStartedProject 
                     smallTitle="Google Analytics" 
                     title="Google Tag Manager and Google Analytics Management" 
@@ -23,7 +26,7 @@ class ServiceDetails extends Component {
                     breadcrumbUrl="/" 
                 /> */}
                 <ServiceDetailsContent 
-                    header="Get the most out of Google"
+                    header="Get the Most Out of Google"
                     subtext="Our team will become experts on your organization’s goals and configure your Google tools to work towards them. Get accurate user behavior tracking that leads to actionable insights, and let our team personalize your dashboards to save you time and increase your data’s productivity."
                     listItems="" 
                     secondList={{one: "Google tools audits and diagnostics ", two: "Google Tag Manager, Optimize and Data Studio implementation", three: "Data visualization and reporting through customized dashboards", four: "Provide detailed analytics about user activity and behavior", five: "Measurement framework creation", six: "Testing and Optimization", seven: "Client training and support"}}

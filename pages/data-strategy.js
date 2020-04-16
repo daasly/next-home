@@ -12,7 +12,10 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar2 />
                 <br/>
-                <GetStartedProject smallTitle="Data Strategy" title="Map the Course to a Sound and Scalable Analytical Platform" button="Schedule a Consultation"/>
+                <br/>
+                <br/>
+                <br/>
+                <GetStartedProject smallTitle="Data Strategy" title="Map the Course to a Sound and Scalable Analytical Platform"/>
                 {/* <PageBanner
                     pageTitle="Data Strategy" 
                     breadcrumbTextOne="Home" 
@@ -20,7 +23,7 @@ class ServiceDetails extends Component {
                     breadcrumbUrl="/" 
                 /> */}
                 <ServiceDetailsContent 
-                    header="Is Your Data Working For You?" 
+                    header="Is Your Data Working for You?" 
                     subtext="We believe the key to effective data strategy lies in a complete understanding of your organization’s challenges, needs, goals and objectives. We will guide you through analyzing your current data journey and the process of identifying key data points needed to achieve your goals." 
                     headerTwo="What We Do"
                     secondList={

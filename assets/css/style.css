@@ -3147,6 +3147,7 @@ Partner Section CSS
 	flex-wrap: wrap;
 	margin-right: -5px;
 	margin-left: -5px;
+	justify-content: center;
 }
 
 .partner-list .partner-item {
@@ -3166,7 +3167,7 @@ Partner Section CSS
 }
 
 .partner-list .partner-item:nth-child(6) {
-	margin-left: 10%;
+	/* margin-left: 10%; */
 }
 
 .partner-shape {
@@ -5546,11 +5547,18 @@ Footer Section CSS
 
 .single-footer-widget .footer-social li {
 	display: inline-block;
-	margin-right: 10px;
+	/* margin-right: 10px; */
+	
 }
 
 .single-footer-widget .footer-social li:last-child {
 	margin-right: 0;
+	/* width: 100px; */
+}
+
+.single-footer-widget .footer-social img {
+	width: 80px;
+	height: auto;
 }
 
 .single-footer-widget .footer-social i {

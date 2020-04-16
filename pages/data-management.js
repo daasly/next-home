@@ -12,6 +12,9 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar2 />
                 <br/>
+                <br/>
+                <br/>
+                <br/>
                 <GetStartedProject 
                     smallTitle="Data Management" 
                     title="Continuous Support and Execution of Your Data Strategy" 
