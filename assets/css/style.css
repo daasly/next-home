@@ -3785,7 +3785,7 @@ Subscribe Section CSS
 =================================================*/
 .subscribe-section {
   position: relative;
-  z-index: 999;
+  z-index: 9;
 }
 
 .subscribe-content-area {
