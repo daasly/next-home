@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Link from "next/link"
+import sdvosb from '../../images/SDVOSB-logo-White (1).svg'
 
 class Footer extends Component {
 	render() {
@@ -28,16 +29,7 @@ class Footer extends Component {
 											</a>
 										</li> */}
 										<li>
-											<img src="https://storage.cloud.google.com/daasly_public/sdvosb.svg" alt="sdvosb"/>
-										</li>
-										<li>
-											<img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb"/>
-										</li>
-										<li>
-											<img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb"/>
-										</li>
-										<li>
-											<img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb"/>
+											<img src={require('../../images/SDVOSB.jpg')} alt="sdvosb"/>
 										</li>
 									</ul>
 								</div>

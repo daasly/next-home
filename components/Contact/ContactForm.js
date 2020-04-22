@@ -127,13 +127,17 @@ const ContactForm = () => {
 												style={{
 													display: "flex",
 													justifyContent: "space-between",
-													height: 50
+													alignItems: 'center',
+													height: 50,
+													padding: 20
 												}}
 											>
 												<label htmlFor="email">
 													Email
+												</label>
+													
 													<input
-													  style={{height: 40}}
+													  style={{height: 40, marginLeft: 10}}
 														type="radio"
 														id="email"
 														className="form-control"
@@ -141,11 +145,11 @@ const ContactForm = () => {
 														value="email"
 														onClick={handleChange}
 													/>
-												</label>
 												<label htmlFor="email">
 													Phone
+												</label>
 													<input
-													  style={{height: 40}}
+													  style={{height: 40, marginLeft: 10}}
 														type="radio"
 														id="phone"
 														className="form-control"
@@ -153,7 +157,6 @@ const ContactForm = () => {
 														onClick={handleChange}
 														value='phone'
 													/>
-												</label>
 											</div>
 										</div>
 									</div>

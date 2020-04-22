@@ -30,6 +30,8 @@ class ServiceDetails extends Component {
                     header="Add Our Expertise to Your Team's Skill Set" 
                     subtext="Reduce your workload with Daasly’s Data Management service. Ensure your data quality always meets your highest standards by letting our team of experts administer your data systems. By adding our expertise to your team’s skill set you can unlock your data’s full capacity for providing insights." 
                     headerTwo="What We Do" 
+                    imageOne={require('../images/projects/project6.png')}
+                    imageTwo={require('../images/contact.png')}
                     listItems="" 
                     secondList={
                         {

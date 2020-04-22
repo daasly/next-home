@@ -19,28 +19,28 @@ class FeaturedService extends Component {
 
 								<ul className="features-list">
 									<li>
-										<span>Connect</span>
+										<span>Connect Platforms</span>
 									</li>
 									<li>
-										<span>Optimize</span>
+										<span>Optimize Performance</span>
 									</li>
 									<li>
-										<span>Align</span>
+										<span>Align Metrics</span>
 									</li>
 									<li>
-										<span>Predict</span>
+										<span>Predict Results</span>
 									</li>
 									<li>
-										<span>Measure</span>
+										<span>Measure Data</span>
 									</li>
 									<li>
-										<span>Visualize</span>
+										<span>Visualize Information</span>
 									</li>
 									<li>
-										<span>Analyze</span>
+										<span>Analyze Information</span>
 									</li>
 									<li>
-										<span>Automate</span>
+										<span>Automate Processes</span>
 									</li>
 								</ul>
 							</div>
