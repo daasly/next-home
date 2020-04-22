@@ -481,11 +481,11 @@ Navbar Area CSS
   margin-left: 1px;
 }
 
-/* .main-nav .navbar .navbar-nav .nav-item:hover a,
+.main-nav .navbar .navbar-nav .nav-item:hover a,
 .main-nav .navbar .navbar-nav .nav-item:focus a,
 .main-nav .navbar .navbar-nav .nav-item.active a {
 	color: #00b0ee;
-} */
+}
 
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -530,8 +530,8 @@ Navbar Area CSS
   left: -5px;
   top: 50%;
   width: 0;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
   height: 1px;
   background-color: #00b0ee;
   -webkit-transform: translateY(-50%);
@@ -1062,8 +1062,8 @@ Navbar Area CSS
   opacity: 1;
   visibility: visible;
   top: -15px;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 
 .main-nav
@@ -1102,8 +1102,8 @@ Navbar Area CSS
   opacity: 1;
   visibility: visible;
   top: -15px;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 
 .main-nav
@@ -1138,8 +1138,8 @@ Navbar Area CSS
   opacity: 1;
   visibility: visible;
   top: -15px;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 
 .main-nav
@@ -1170,8 +1170,8 @@ Navbar Area CSS
 	opacity: 1;
 	visibility: visible;
 	top: -15px;
-	/* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 
 .main-nav
@@ -1198,8 +1198,8 @@ Navbar Area CSS
 	opacity: 1;
 	visibility: visible;
 	top: -15px;
-	/* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
@@ -1210,16 +1210,16 @@ Navbar Area CSS
   opacity: 1;
   visibility: visible;
   top: -15px;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 
 .main-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 100%;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 
 .main-nav .navbar .other-option {
@@ -1246,8 +1246,8 @@ Navbar Area CSS
 
 .navbar-area {
   background-color: transparent;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
   position: absolute;
   z-index: 999;
   left: 0;
@@ -1257,9 +1257,9 @@ Navbar Area CSS
 }
 
 .navbar-area2 {
-  background-color: #01082d;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  background-color: #2a1779;
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
   position: absolute;
   z-index: 999;
   left: 0;
@@ -1279,8 +1279,8 @@ Navbar Area CSS
   background: #ffffff !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  /* -webkit-transition: 0.6s;
-	transition: 0.6s; */
+  -webkit-transition: 0.6s;
+	transition: 0.6s;
 }
 .navbar-area2.is-sticky {
   position: fixed;
@@ -5638,6 +5638,9 @@ Footer Section CSS
 
 .single-footer-widget .footer-info-contact:last-child {
   margin-bottom: 0;
+}
+.single-footer-widget .footer-info-contact:last-child i {
+  margin-top: 5px;
 }
 
 .single-footer-widget .footer-info-contact i {

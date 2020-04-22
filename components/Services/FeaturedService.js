@@ -9,34 +9,45 @@ class FeaturedService extends Component {
                         <div className="col-lg-6">
                             <div className="software-content">
                                 <span>Featured Service</span>
-                                <h2>Google Analytics</h2>
-                                <p>Complete and effective Google Analytics-wide management.</p>
+                                <h2>Domo Consulting</h2>
+                                <p>Daasly is a proud Certified Domo Platform, Professional Services and Technical Consultant Partners. Domo is a game-changing, cloud-based platform specializing in business intelligence tools and data visualization.</p>
 
                                 <ul className="features-list">
                                     <li>
-                                        <span>Google Tag Manager Implementation</span>
+                                        <span>Connect Platforms</span>
                                     </li>
                                     <li>
-                                        <span>Measurement Framework Creation</span>
+                                        <span>Optimize Performance</span>
                                     </li>
                                     <li>
-                                        <span>Google Optimize Implementation</span>
-                                    </li>
-                                    <li>
-                                        <span>Data Visualization and Recording</span>
-                                    </li>
-                                    <li>
-                                        <span>Google Data Studio Implementation</span>
-                                    </li>
-                                    <li>
-                                        <span>Custom Client Training and Support</span>
-                                    </li>
-                                    <li>
-                                        <span>Audits and Diagnostics</span>
-                                    </li>
-                                    <li>
-                                        <span>Testing and Optimization</span>
-                                    </li>
+										<span>Align Metrics</span>
+									</li>
+									<li>
+										<span>Predict Results</span>
+									</li>
+									<li>
+										<span>Measure Data</span>
+									</li>
+									<li>
+										<span>Visualize Information</span>
+									</li>
+									<li>
+										<span>Analyze Information</span>
+									</li>
+									<li>
+										<span>Automate Processes</span>
+									</li>
+                                </ul>
+                                <ul style={{listStyleType: 'none', display: 'flex', padding: '0', marginTop: 10}}>
+                                    <li style={{padding: 10}}>
+								    	<img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb" style={{ width: 80}}/>
+								    </li>
+								    <li style={{padding: 10}}>
+								    	<img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb" style={{ width: 80}}/>
+								    </li>
+								    <li style={{padding: 10}}>
+								    	<img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb" style={{ width: 80}}/>
+								    </li>
                                 </ul>
                             </div>
                         </div>

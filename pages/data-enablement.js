@@ -26,6 +26,8 @@ class ServiceDetails extends Component {
                     header="Get From Data to Insights" 
                     subtext='Work with our team to execute all the components of your data strategy with complete attention to detail. Bring your strategy to life in order to leverage your data to achieve real organizational goals. Let our experts activate your data plans with custom-built tools and comprehensive support.' 
                     headerTwo='What We Do'
+                    imageOne={require('../images/projects/project2.png')}
+                    imageTwo={require('../images/tab-solution.png')}
                     secondList={
                         {
                             one: "Find the right tools or roles for your organization",

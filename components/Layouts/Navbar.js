@@ -81,10 +81,48 @@ class Navbar extends Component {
 										<li className="nav-item">
 											<Link href="/services" activeClassName="active">
 												<a className="nav-link">
-													Services
-													{/* <i className="fas"></i> */}
+													Services {''}
+													<i className="fas fa-chevron-down"></i>
 												</a>
 											</Link>
+
+											<ul className='dropdown-menu'>
+												<li className='nav-item'>
+													<Link href='/data-strategy' activeClassName='active'>
+														<a className='nav-link'>Data Strategy</a>
+													</Link>
+												</li>
+
+												<li className='nav-item'>
+													<Link href='/data-enablement' activeClassName='active'>
+														<a className='nav-link'>Data Enablement</a>
+													</Link>
+												</li>
+
+												<li className='nav-item'>
+													<Link href='/data-management' activeClassName='active'>
+														<a className='nav-link'>Data Management</a>
+													</Link>
+												</li>
+
+												<li className='nav-item'>
+													<Link href='/dc-software-development' activeClassName='active'>
+														<a className='nav-link'>Data-Centric Software Development</a>
+													</Link>
+												</li>
+
+												<li className='nav-item'>
+													<Link href='/google-analytics' activeClassName='active'>
+														<a className='nav-link'>Google Analytics</a>
+													</Link>
+												</li>
+
+												<li className='nav-item'>
+													<Link href='/business-intelligence-consulting' activeClassName='active'>
+														<a className='nav-link'>Business Intelligence Consulting</a>
+													</Link>
+												</li>
+											</ul>
 										</li>
 
 										<li className="nav-item">

@@ -26,6 +26,8 @@ class ServiceDetails extends Component {
                     header="Is Your Data Working for You?" 
                     subtext="We believe the key to effective data strategy lies in a complete understanding of your organization’s challenges, needs, goals and objectives. We will guide you through analyzing your current data journey and the process of identifying key data points needed to achieve your goals." 
                     headerTwo="What We Do"
+                    imageOne={require('../images/projects/project4.png')}
+                    imageTwo={require('../images/data-service.png')}
                     secondList={
                         {
                             one: "Study and understand your existing data journey",
