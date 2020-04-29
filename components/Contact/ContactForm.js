@@ -11,8 +11,7 @@ const ContactForm = () => {
 		subject: "",
 		contactMethod: ''
 	})
-	// const [contactMethod, setContactMethod] = useState('')
-
+	
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		const form = event.target

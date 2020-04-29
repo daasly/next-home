@@ -6,9 +6,17 @@ class BlogCard extends Component {
 		return (
 			<section className="blog-section ptb-100">
 				<div className="container">
+				{this.props.pageTitle && (
+				<div className="section-title">
+					<h2>Thank You</h2>
+					<br/>
+					<span style={{color: '#737b9a'}}>{this.props.pageTitle}</span>
+				</div>
+			)}
 					<div className="section-title">
 						<span>Read Our Latest Post</span>
-						<h2>What's New</h2>
+						<h2>Blog & Updates</h2>
+						<br/>
 						<div>
 							<p>
 								Data is constantly changing. At Daasly, we believe in having a
@@ -37,34 +45,33 @@ class BlogCard extends Component {
 											<Link href="#">
 												<a>
 													<i className="fa fa-user-alt"></i>
-													Admin
+													Emilio Izquierdo
 												</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="#">
 												<a>
-													<i className="fas fa-calendar-week"></i>7 Dec 2020
+													<i className="fas fa-calendar-week"></i>9 Aug 2019
 												</a>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<i className="far fa-comments"></i>3 Comments
-										</li>
+										</li> */}
 									</ul>
 
 									<h3>
-										<Link href="/blog-details">
-											<a>Startup marketing solution for business owner</a>
+										<Link href="/its-a-marathon-blog">
+											<a>It's a Marathon, Not a Sprint</a>
 										</Link>
 									</h3>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod.
+										"Our advanced technology and machine learning algorithms allow organizations to quickly detect data relationships in structured, semi-structured, and some unstructured formats." 
 									</p>
 
-									<Link href="/blog-details">
+									<Link href="/its-a-marathon-blog">
 										<a className="read-more">
 											Read More
 											<i className="fa fa-chevron-right"></i>
@@ -91,34 +98,33 @@ class BlogCard extends Component {
 											<Link href="#">
 												<a>
 													<i className="fa fa-user-alt"></i>
-													Admin
+													Emilio Izquierdo
 												</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="#">
 												<a>
-													<i className="fas fa-calendar-week"></i>7 Dec 2020
+													<i className="fas fa-calendar-week"></i>12 Sept 2019
 												</a>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<i className="far fa-comments"></i>3 Comments
-										</li>
+										</li> */}
 									</ul>
 
 									<h3>
-										<Link href="/blog-details">
-											<a>Web developement best work in future world</a>
+										<Link href="/data-buy-in-blog">
+											<a>The Data Buy-In</a>
 										</Link>
 									</h3>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod.
+										Data professionals face an endless challenge to get the buy-in of management and IT to provide the technology and resources needed to efficiently and effectively analyze their constantly growing enterprise data stores.
 									</p>
 
-									<Link href="/blog-details">
+									<Link href="/data-buy-in-blog">
 										<a className="read-more">
 											Read More
 											<i className="fa fa-chevron-right"></i>
@@ -145,34 +151,33 @@ class BlogCard extends Component {
 											<Link href="#">
 												<a>
 													<i className="fa fa-user-alt"></i>
-													Admin
+													Emilio Izquierdo
 												</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="#">
 												<a>
-													<i className="fas fa-calendar-week"></i>7 Dec 2020
+													<i className="fas fa-calendar-week"></i>9 Sept 2019
 												</a>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<i className="far fa-comments"></i>3 Comments
-										</li>
+										</li> */}
 									</ul>
 
 									<h3>
-										<Link href="/blog-details">
-											<a>Creative solutions to improve your business!</a>
+										<Link href="/the-first-step-blog">
+											<a>It's the First Step</a>
 										</Link>
 									</h3>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod.
+										Just like any machine that needs to work in unison, a technology solution will run out of fuel without the right structure and processes.
 									</p>
 
-									<Link href="/blog-details">
+									<Link href="/the-first-step-blog">
 										<a className="read-more">
 											Read More
 											<i className="fa fa-chevron-right"></i>
@@ -199,36 +204,35 @@ class BlogCard extends Component {
 											<Link href="#">
 												<a>
 													<i className="fa fa-user-alt"></i>
-													Admin
+													Emilio Izquierdo
 												</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="#">
 												<a>
-													<i className="fas fa-calendar-week"></i>7 Dec 2020
+													<i className="fas fa-calendar-week"></i>19 Feb 2020
 												</a>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<i className="far fa-comments"></i>3 Comments
-										</li>
+										</li> */}
 									</ul>
 
 									<h3>
-										<Link href="/blog-details">
+										<Link href="/domo-and-aws">
 											<a>
-												Making peace with the feast or famine of freelancing
+												Domo Partners with AWS
 											</a>
 										</Link>
 									</h3>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod.
+										The new Domo BI platform update features a new collaboration with AWS to enable users to work with third-party data and a low-code tool for developers.
 									</p>
 
-									<Link href="/blog-details">
+									<Link href="/domo-and-aws">
 										<a className="read-more">
 											Read More
 											<i className="fa fa-chevron-right"></i>
@@ -356,10 +360,10 @@ class BlogCard extends Component {
 								</Link>
 
 								<Link href="#">
-									<a className="page-numbers">1</a>
+									<a className="page-numbers current">1</a>
 								</Link>
 
-								<span className="page-numbers current">2</span>
+								<span className="page-numbers">2</span>
 
 								<Link href="#">
 									<a className="page-numbers">3</a>

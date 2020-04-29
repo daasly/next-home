@@ -14,7 +14,7 @@ class ServiceDetails extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <GetStartedProject smallTitle="Business Intelligence Consulting"title="Domo Certified Platform Professional Services Partner" button="Schedule a Consultation"/>
+                <GetStartedProject smallTitle="Business Intelligence Consulting"title="Domo Certified Platform Professional Services Partner" button="Schedule a Consultation" subtext={true}/>
                 {/* <PageBanner
                     pageTitle="Business Intelligence Consulting" 
                     breadcrumbTextOne="Home" 
@@ -31,6 +31,11 @@ class ServiceDetails extends Component {
                    imageOne={require('../images/projects/project1.png')}
                    imageTwo={require('../images/about.png')}
                    />
+                   <GetStartedProject spacing='productive-section pt-80' smallTitle="Let's Get Started"title="Ready for Better Intelligence?" button="Schedule a Consultation" body='Get on track for a better, effective and more productive business by tackling your most difficult data problems with Daasly.' domo={true}/>
+                    <br/>
+                    <br/>
+                    <br/>
+                   
                 <Footer />
             </React.Fragment>
         );

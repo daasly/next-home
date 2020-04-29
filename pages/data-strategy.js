@@ -15,7 +15,7 @@ class ServiceDetails extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <GetStartedProject smallTitle="Data Strategy" title="Map the Course to a Sound and Scalable Analytical Platform"/>
+                <GetStartedProject smallTitle="Data Strategy" title="Map the Course to a Sound and Scalable Analytical Platform" subtext={true}/>
                 {/* <PageBanner
                     pageTitle="Data Strategy" 
                     breadcrumbTextOne="Home" 
@@ -37,7 +37,18 @@ class ServiceDetails extends Component {
                         }
                     }
                 />
-                <WorkingProcess padding={'process-section pt-20 pb-70'} buttonText="Learn More"/>
+                <WorkingProcess 
+                    padding={'process-section pt-20 pb-70'} 
+                    buttonText="Get Started"
+                    text="Report Rewind is our process to find exactly where your organization needs us. We will guide you through a whiteboard exercise where we’ll perform a deep dive to understand what you are trying to measure and report, as well as your current process. During the Report Rewind process, we examine three fundamental aspects of your organization that are proven to affect the most positive change when optimized: your people, process and technology. Our Report Rewind process will identify gaps between these three aspects within your organization, which we will then turn into recommendations to meet your organization’s goals. What do we analyze with Report Rewind? "
+                    processText='What does your data look like? How is your data stored? How does your data move across your systems?'
+                    techText='Where is your data created? How can you access your data?'
+                    />
+                <GetStartedProject spacing='productive-section pt-80' smallTitle="Let's Get Started" title='Ready for Better Data?'/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <Footer />
             </React.Fragment>
         );

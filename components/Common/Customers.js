@@ -10,13 +10,36 @@ class Customers extends Component {
 						<span>Previous Clients</span>
 						<h2>Who We've Worked With</h2>
 					</div>
+					
 
 					<div className="partner-list">
 						<div className="partner-item">
-							<Link href="/partner">
-								<a>
+							<Link  href="//www.aramark.com/">
+								<a target='_blank'>
 									<img
-										src={require("../../images/partner/partner1.png")}
+										src={require("../../images/Aramark edited (1).svg")}
+										alt="image"
+									/>
+								</a>
+							</Link>
+						</div>
+
+						<div className="partner-item"> 
+							<Link href="//www.frontpointsecurity.com/"> 
+								<a target='_blank'>
+									<img
+										src={require("../../images/Frontpoint Edited.svg")}
+										alt="image"
+									/>
+								</a>
+							</Link>
+						</div>
+
+						<div className="partner-item"> 
+							<Link href="//collegiseducation.com/">
+								<a target='_blank'>
+									<img
+										src={require("../../images/Collegis Edited.svg")}
 										alt="image"
 									/>
 								</a>
@@ -24,10 +47,10 @@ class Customers extends Component {
 						</div>
 
 						<div className="partner-item">
-							<Link href="/partner">
-								<a>
+							<Link href="//www.whereoware.com/">
+								<a target='_blank'>
 									<img
-										src={require("../../images/partner/partner2.png")}
+										src={require("../../images/WOW Edited.svg")}
 										alt="image"
 									/>
 								</a>
@@ -35,10 +58,10 @@ class Customers extends Component {
 						</div>
 
 						<div className="partner-item">
-							<Link href="/partner">
-								<a>
+							<Link href="//www.youfit.com/">
+								<a target='_blank'>
 									<img
-										src={require("../../images/partner/partner3.png")}
+										src={require("../../images/Youfit Edited.png")}
 										alt="image"
 									/>
 								</a>
@@ -46,10 +69,10 @@ class Customers extends Component {
 						</div>
 
 						<div className="partner-item">
-							<Link href="/partner">
-								<a>
+							<Link href="//www.dgtlnk.com/">
+								<a target='_blank'>
 									<img
-										src={require("../../images/partner/partner4.png")}
+										src={require("../../images/Digital Ink Edited.svg")}
 										alt="image"
 									/>
 								</a>
@@ -57,10 +80,10 @@ class Customers extends Component {
 						</div>
 
 						<div className="partner-item">
-							<Link href="/partner">
-								<a>
+							<Link href="//fanspeak.com/">
+								<a target='_blank'>
 									<img
-										src={require("../../images/partner/partner5.png")}
+										src={require("../../images/Fanspeak edited.png")}
 										alt="image"
 									/>
 								</a>
@@ -68,37 +91,15 @@ class Customers extends Component {
 						</div>
 
 						<div className="partner-item">
-							<Link href="/partner">
-								<a>
+							<Link href="//www.newyorklife.com/">
+								<a target='_blank'>
 									<img
-										src={require("../../images/partner/partner5.png")}
+										src={require("../../images/NYL Logo Edited.png")}
 										alt="image"
 									/>
 								</a>
 							</Link>
 						</div>
-
-						<div className="partner-item">
-							<Link href="/partner">
-								<a>
-									<img
-										src={require("../../images/partner/partner6.png")}
-										alt="image"
-									/>
-								</a>
-							</Link>
-						</div>
-
-						{/* <div className="partner-item">
-							<Link href="/partner">
-								<a>
-									<img
-										src={require("../../images/partner/partner7.png")}
-										alt="image"
-									/>
-								</a>
-							</Link>
-						</div> */}
 
 						{/* <div className="partner-item">
 							<Link href="/partner">

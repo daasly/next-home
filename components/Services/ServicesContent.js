@@ -36,10 +36,10 @@ class ServicesContent extends Component {
                                     <i className="flaticon-data-analytics"></i>
                                 </div>
 
-                                <h3>Data Enablement</h3>
+                                <h3>Data Execution</h3>
                                 <p>Execute all the components of your data strategy.</p>
 
-                                <Link href="/data-enablement">
+                                <Link href="/data-execution">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>
@@ -72,7 +72,7 @@ class ServicesContent extends Component {
                                 </div>
                                 <h3>Data-Centric Software Development</h3>
                                 <br/>
-                                <p>Data-centric visualization web development.</p>
+                                <p>Custom dashboards, lead management, and visualization systems.</p>
 
                                 <Link href="/dc-software-development">
                                     <a className="service-btn">

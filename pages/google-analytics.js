@@ -18,6 +18,7 @@ class ServiceDetails extends Component {
                     smallTitle="Google Analytics" 
                     title="Google Tag Manager and Google Analytics Management" 
                     button="Schedule a Consultation"
+                    subtext={true}
                 />
                 {/* <PageBanner
                     pageTitle="Google Analytics" 
@@ -34,6 +35,17 @@ class ServiceDetails extends Component {
                     secondList={{one: "Google tools audits and diagnostics ", two: "Google Tag Manager, Optimize and Data Studio implementation", three: "Data visualization and reporting through customized dashboards", four: "Provide detailed analytics about user activity and behavior", five: "Measurement framework creation", six: "Testing and Optimization", seven: "Client training and support"}}
                     headerTwo="What We Do"
                 />
+                <GetStartedProject 
+                    spacing='productive-section pt-60'
+                    smallTitle="Let's Get Started" 
+                    title="Ready for Better Analytics?" 
+                    button="Schedule a Consultation"
+                    body='Get on track for a better, effective and more productive business by tackling your most difficult data problems with Daasly. '
+                />
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <Footer />
             </React.Fragment>
         );

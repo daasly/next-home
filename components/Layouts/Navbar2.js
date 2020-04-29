@@ -91,8 +91,8 @@ class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/data-enablement" activeClassName="active">
-                            <a className="nav-link">Data Enablement</a>
+                          <Link href="/data-execution" activeClassName="active">
+                            <a className="nav-link">Data Execution</a>
                           </Link>
                         </li>
 

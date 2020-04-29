@@ -7,8 +7,9 @@ class WorkingProcess extends Component {
 			<section className={this.props.padding ? this.props.padding : "process-section pt-100 pb-70"}>
 				<div className="container">
 					<div className="section-title">
-						<span>Report Rewind</span>
+						<span>{this.props.smallTitle ? this.props.smallTitle : 'Report Rewind'}</span>
 						<h2>Our Approach</h2>
+						<br/>
 						<p>{this.props.text ? this.props.text : "Identifying gaps between people, processes, and technology"}</p>
 					</div>
 
@@ -23,8 +24,7 @@ class WorkingProcess extends Component {
 
 								<h3>{this.props.headerOne? this.props.headerOne : 'People'}</h3>
 								<p>
-									Who is your team? How long have they been there? What do they
-									do best?
+									{this.props.people ? this.props.people : 'Who is your team? How long have they been there? What do they do best?'}	
 								</p>
                   
 								<Link href={this.props.services ? "/services" : "/contact"}>
@@ -45,8 +45,7 @@ class WorkingProcess extends Component {
 
 								<h3>{this.props.headerTwo? this.props.headerTwo : 'Process'}</h3>
 								<p>
-									What does your data look like? How do you get data from point
-									A to point B?
+									{this.props.processText ? this.props.processText : 'What does your data look like? How do you get data from point A to point B?'}
 								</p>
 
 								<Link href={this.props.services ? "/services" : "/contact"}>
@@ -67,7 +66,9 @@ class WorkingProcess extends Component {
 								/>
 
 								<h3>{this.props.headerThree ? this.props.headerThree : 'Technology'}</h3>
-								<p>What are your data sources? How are they being utilized?</p>
+								<p>
+									{this.props.techText ? this.props.techText : 'What are your data sources? How are they being utilized?'}
+								</p>
 
 
 								<Link href={this.props.services ? "/services" : "/contact"}>

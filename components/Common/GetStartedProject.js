@@ -3,19 +3,20 @@ import React, { Component } from 'react';
 class GetStartedProject extends Component {
   render() {
     return (
-      <section className="productive-section pt-100">
+      <section className={this.props.spacing ? this.props.spacing : "productive-section pt-100"}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="productive-content">
                 <span>{this.props.smallTitle}</span>
                 <h3>{this.props.title}</h3>
-                <p>
-                  Get on track for a better, effective and more productive
-                  business by tackling your most difficult data problems with
-                  Daasly. Automate your data pipeline, save time and discover
-                  more.
-                </p>
+                {this.props.subtext ? null : 
+                  <p>
+                    {
+                    this.props.body ? this.props.body : 'Get on track for a better, effective and more productive business by tackling your most difficult data problems with Daasly.'
+                    }
+                  </p>
+                }
                 {this.props.contact ? (
                   <div className="productive-btn">
                     <a className="productive-btn-one" href="/contact">
@@ -44,6 +45,26 @@ class GetStartedProject extends Component {
               </div>
             </div>
           </div>
+          {this.props.domo && (
+                        <>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div style={{ display: 'flex', justifyContent: 'center'}}>
+                            <ul style={{listStyleType: 'none', display: 'flex', padding: '0', marginTop: 10}}>
+                                <li style={{padding: 10}}>
+					    	    	<img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb" style={{ width: 80}}/>
+					    	    </li>
+					    	    <li style={{padding: 10}}>
+					    	    	<img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb" style={{ width: 80}}/>
+					    	    </li>
+					    	    <li style={{padding: 10}}>
+					    	    	<img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb" style={{ width: 80}}/>
+					    	    </li>
+                            </ul>
+                        </div>   
+                        </>
+                    )}
         </div>
       </section>
     );
