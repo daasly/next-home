@@ -385,6 +385,8 @@
     -webkit-box-flex: 0;
     flex: 0 0 50%;
     max-width: 50%;
+    min-height: 92px;
+    margin-bottom: 2.5rem;
   }
   .partner-list .partner-item:nth-child(6) {
     margin-left: 0;
@@ -1067,6 +1069,8 @@
     -webkit-box-flex: 0;
     flex: 0 0 33%;
     max-width: 33%;
+    min-height: 92px;
+    margin-bottom: 1.5rem;
   }
   .partner-list .partner-item:nth-child(6) {
     margin-left: 0;
