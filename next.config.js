@@ -14,6 +14,7 @@ module.exports = withPlugins([
         optimizeImagesInDev: false,
         env: {
             apiKey: 'I6HxQt5HGEvjCZLysbmk',
+            newsLetterKey: '2TqqbIBcergQYn16LETH',
         },
         mozjpeg: {
             quality: 80,

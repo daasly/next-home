@@ -11,7 +11,7 @@ class FunFacts extends Component {
 							<ReactWOW animation="fadeInUp" delay=".2s">
 								<div className="single-fun-fact">
 									<h3>
-										820
+										50B
 										<span className="sign-icon">+</span>
 									</h3>
 									<p style={{ textAlign: "center" }}>Rows Analyzed</p>
@@ -23,7 +23,7 @@ class FunFacts extends Component {
 							<ReactWOW animation="fadeInUp" delay=".3s">
 								<div className="single-fun-fact">
 									<h3>
-										150
+										10K
 										<span className="sign-icon">+</span>
 									</h3>
 									<p>Visualizations Generated</p>
@@ -35,7 +35,7 @@ class FunFacts extends Component {
 							<ReactWOW animation="fadeInUp" delay=".4s">
 								<div className="single-fun-fact">
 									<h3>
-										20
+										2K
 										<span className="sign-icon">+</span>
 									</h3>
 									<p>KPIs Developed</p>
@@ -47,7 +47,7 @@ class FunFacts extends Component {
 							<ReactWOW animation="fadeInUp" delay=".5s">
 								<div className="single-fun-fact">
 									<h3>
-										120
+										10M
 										<span className="sign-icon">+</span>
 									</h3>
 									<p>Lines of Code Written</p>

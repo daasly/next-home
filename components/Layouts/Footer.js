@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Link from "next/link"
-import sdvosb from '../../images/SDVOSB-logo-White (1).svg'
+
 
 class Footer extends Component {
 	render() {
@@ -29,7 +29,7 @@ class Footer extends Component {
 											</a>
 										</li> */}
 										<li>
-											<img src={require('../../images/SDVOSB.jpg')} alt="sdvosb"/>
+											<img src={require('../../images/SDVOSB edited.png')} alt="sdvosb"/>
 										</li>
 									</ul>
 								</div>

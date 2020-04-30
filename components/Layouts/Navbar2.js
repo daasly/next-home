@@ -40,7 +40,7 @@ class Navbar extends Component {
     return (
       <React.Fragment>
         <div id="navbar" className="navbar-area2">
-          <div className="main-nav">
+          <div className="main-nav main-nav-2">
             <div className="container">
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link href="/">
@@ -91,8 +91,8 @@ class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/data-enablement" activeClassName="active">
-                            <a className="nav-link">Data Enablement</a>
+                          <Link href="/data-execution" activeClassName="active">
+                            <a className="nav-link">Data Execution</a>
                           </Link>
                         </li>
 
@@ -122,14 +122,14 @@ class Navbar extends Component {
                       </ul>
                     </li>
 
-                    <li className="nav-item">
-                      <Link href="/blog" activeClassName="active">
-                        <a className="nav-link">
-                          Blog
-                          {/* <i className="fas"></i> */}
-                        </a>
-                      </Link>
-                    </li>
+                    {/* <li className="nav-item"> */}
+                    {/* <Link href="/blog" activeClassName="active"> */}
+                    {/* <a className="nav-link"> */}
+                    {/* Blog */}
+                    {/* <i className="fas"></i> */}
+                    {/* </a> */}
+                    {/* </Link> */}
+                    {/* </li> */}
                   </ul>
 
                   <div className="others-options">

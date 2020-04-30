@@ -20,24 +20,6 @@ class BlogSideBar extends Component {
 
                 <div className="widget widget_plamb_posts_thumb">
                     <h3 className="widget-title">Recent posts</h3>
-
-                    <article className="item">
-                        <Link href="#">
-                            <a className="thumb">
-                                <span className="fullimage cover bg1" role="img"></span>
-                            </a>
-                        </Link>
-
-                        <div className="info">
-                            <time>February 10, 2020</time>
-                            <h4 className="title usmall">
-                                <Link href="#">
-                                    <a>Making peace with the feast or famine of freelancing</a>
-                                </Link>
-                            </h4>
-                        </div>
-                    </article>
-
                     <article className="item">
                         <Link href="#">
                             <a className="thumb">
@@ -46,10 +28,10 @@ class BlogSideBar extends Component {
                         </Link>
 
                         <div className="info">
-                            <time>June 21, 2020</time>
+                            <time>September 12, 2019</time>
                             <h4 className="title usmall">
-                                <Link href="#">
-                                    <a>I used the web for a day on a 50 mb budget</a>
+                                <Link href="data-buy-in-blog">
+                                    <a>The Data Buy-In</a>
                                 </Link>
                             </h4>
                         </div>
@@ -63,17 +45,34 @@ class BlogSideBar extends Component {
                         </Link>
 
                         <div className="info">
-                            <time>June 30, 2020</time>
+                            <time>September 09, 2019</time>
                             <h4 className="title usmall">
-                                <Link href="#">
-                                    <a>How to create a responsive popup gallery?</a>
+                                <Link href="/the-first-step-blog">
+                                    <a>It's the First Step</a>
+                                </Link>
+                            </h4>
+                        </div>
+                    </article>
+
+                    <article className="item">
+                        <Link href="#">
+                            <a className="thumb">
+                                <span className="fullimage cover bg1" role="img"></span>
+                            </a>
+                        </Link>
+
+                        <div className="info">
+                            <time>August 9, 2019</time>
+                            <h4 className="title usmall">
+                                <Link href="/its-a-marathon-blog">
+                                    <a>It's a Marathon, Not a Sprint</a>
                                 </Link>
                             </h4>
                         </div>
                     </article>
                 </div>
 
-                <div className="widget widget_categories">
+                {/* <div className="widget widget_categories">
                     <h3 className="widget-title">Categories</h3>
 
                     <ul>
@@ -103,9 +102,9 @@ class BlogSideBar extends Component {
                             </Link>
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div className="widget widget_recent_comments">
+                {/* <div className="widget widget_recent_comments">
                     <h3 className="widget-title">Recent comments</h3>
 
                     <ul>
@@ -165,9 +164,9 @@ class BlogSideBar extends Component {
                             </Link>
                         </li>
                     </ul>
-                </div>
+                </div> */}
  
-                <div className="widget widget_tag_cloud">
+                {/* <div className="widget widget_tag_cloud">
                     <h3 className="widget-title">Tags</h3>
 
                     <div className="tagcloud section-bottom">
@@ -227,7 +226,7 @@ class BlogSideBar extends Component {
                             </a>
                         </Link>
                     </div>
-                </div>
+                </div> */}
             </aside>
         );
     }

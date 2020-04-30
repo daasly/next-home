@@ -42,35 +42,35 @@ class MainBanner extends Component {
 								<div className="col-lg-6 col-md-12">
 									<div className="banner-image">
 										{/* Shape images */}
-										<ReactWOW animation="fadeInUp" delay="1s">
+										<ReactWOW animation="fadeInUp" delay=".1s">
 											<img
 												src={require("../../images/home-two/home-two-shape1.png")}
 												alt="image"
 											/>
 										</ReactWOW>
 
-										<ReactWOW animation="fadeInLeft" delay="1s">
+										<ReactWOW animation="fadeInLeft" delay=".1s">
 											<img
 												src={require("../../images/home-two/home-two-shape2.png")}
 												alt="image"
 											/>
 										</ReactWOW>
 
-										<ReactWOW animation="fadeInRight" delay="1s">
+										<ReactWOW animation="fadeInRight" delay=".1s">
 											<img
 												src={require("../../images/home-two/home-two-shape3.png")}
 												alt="image"
 											/>
 										</ReactWOW>
 
-										<ReactWOW animation="fadeInUp" delay="1s">
+										<ReactWOW animation="fadeInUp" delay=".1s">
 											<img
 												src={require("../../images/home-two/home-two-shape4.png")}
 												alt="image"
 											/>
 										</ReactWOW>
 
-										<ReactWOW animation="zoomIn" delay="1s">
+										<ReactWOW animation="zoomIn" delay=".1s">
 											<img
 												src={require("../../images/home-two/home-two-shape5.png")}
 												alt="image"
@@ -78,7 +78,7 @@ class MainBanner extends Component {
 										</ReactWOW>
 
 										{/* Main image */}
-										<ReactWOW animation="zoomIn" delay="1s">
+										<ReactWOW animation="zoomIn" delay=".1s">
 											<img
 												src={require("../../images/home-two/main-image2.png")}
 												alt="image"
