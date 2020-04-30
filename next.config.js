@@ -12,6 +12,10 @@ module.exports = withPlugins([
         handleImages: ['jpeg', 'jpg', 'png', 'svg', 'webp', 'gif', 'ico'],
         optimizeImages: true,
         optimizeImagesInDev: false,
+        env: {
+            apiKey: 'I6HxQt5HGEvjCZLysbmk',
+            newsLetterKey: '2TqqbIBcergQYn16LETH',
+        },
         mozjpeg: {
             quality: 80,
         },
@@ -30,3 +34,4 @@ module.exports = withPlugins([
     }],
     [withCSS],[withFonts],[withSass]
 ]);
+

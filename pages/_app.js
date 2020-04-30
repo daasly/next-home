@@ -1,62 +1,62 @@
-import '../assets/css/bootstrap.min.css';
-import '../assets/css/animate.min.css';
-import '../assets/css/flaticon.css';
-import '../assets/css/fontawesome.min.css';
-import '../assets/css/style.css';
-import '../assets/css/responsive.css';
+import "../assets/css/bootstrap.min.css"
+import "../assets/css/animate.min.css"
+import "../assets/css/flaticon.css"
+import "../assets/css/fontawesome.min.css"
+import "../assets/css/style.css"
+import "../assets/css/responsive.css"
 
-import App from 'next/app';
-import { DefaultSeo } from 'next-seo';
-import Loader from '../components/Shared/Loader';
-import GoTop from '../components/Shared/GoTop';
+import App from "next/app"
+import { DefaultSeo } from "next-seo"
+import Loader from "../components/Shared/Loader"
+import GoTop from "../components/Shared/GoTop"
 
 export default class MyApp extends App {
-    static async getInitialProps ({ Component, ctx }) {
-        return {
-            pageProps: Component.getInitialProps
-            ? await Component.getInitialProps(ctx)
-            : {}
-        }
-    }
+	static async getInitialProps({ Component, ctx }) {
+		return {
+			pageProps: Component.getInitialProps
+				? await Component.getInitialProps(ctx)
+				: {}
+		}
+	}
 
-    // Preloader
-    state = {
-        loading: true
-    };
-    componentDidMount() {
-        this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
-    }
-    componentWillUnmount() {
-        if (this.timerHandle) {
-            clearTimeout(this.timerHandle);
-            this.timerHandle = 0;
-        }
-    }
-    
-    render () {
-        const { Component, pageProps } = this.props
+	// Preloader
+	state = {
+		loading: true
+	}
+	componentDidMount() {
+		this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000)
+	}
+	componentWillUnmount() {
+		if (this.timerHandle) {
+			clearTimeout(this.timerHandle)
+			this.timerHandle = 0
+		}
+	}
 
-        return (
-            <React.Fragment>
-                <DefaultSeo
-                    title="Raxr - React Next Data Science & Analytics Template"
-                    description="Raxr - React Next Data Science & Analytics Template. This has been built with React, Next.js, Express.js, and ES6+"
-                    openGraph={{
-                        type: 'website',
-                        locale: 'en_IE',
-                        url: 'https://raxr-react.envytheme.com/',
-                        site_name: 'Raxr - React Next Data Science & Analytics Template',
-                    }}
-                />
+	render() {
+		const { Component, pageProps } = this.props
 
-                <Component {...pageProps} />
-                
-                {/* Preloader */}
-                <Loader loading={this.state.loading} />
+		return (
+			<React.Fragment>
+				<DefaultSeo
+					title="Daasly, Inc"
+					description="At Daasly, we’re passionate about data. We’ve channeled this passion into a system that helps you strategize, collect, connect, enable and activate your data. We assist clients at every stage of the data journey, from strategy, implementation, optimization, and management."
+					openGraph={{
+						type: "website",
+						locale: "en_IE",
+						url: "https://www.daasly.com/",
+						site_name: "Daasly - Data As A Service"
+					}}
+				/>
 
-                {/* Go Top Button */}
-                <GoTop scrollStepInPx="50" delayInMs="10.50" />
-            </React.Fragment>
-        );
-    }
+				<Component {...pageProps} />
+
+				{/* Preloader */}
+				<Loader loading={this.state.loading} />
+
+				{/* Go Top Button */}
+				<GoTop scrollStepInPx="50" delayInMs="10.50" />
+			</React.Fragment>
+		)
+	}
 }

@@ -3,6 +3,7 @@ import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import TermsConditionContent from '../components/TermsCondition/TermsConditionContent';
 import Footer from '../components/Layouts/Footer';
+import CookiesConsent from "../components/Layouts/CookiesConsent/CookiesConsent"
 
 class TermsCondition extends Component {
     render() {
@@ -16,6 +17,7 @@ class TermsCondition extends Component {
                     breadcrumbUrl="/" 
                 />
                 <TermsConditionContent />
+                <CookiesConsent/>
                 <Footer />
             </React.Fragment>
         );
