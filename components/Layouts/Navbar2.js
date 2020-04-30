@@ -40,7 +40,7 @@ class Navbar extends Component {
     return (
       <React.Fragment>
         <div id="navbar" className="navbar-area2">
-          <div className="main-nav">
+          <div className="main-nav main-nav-2">
             <div className="container">
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link href="/">
