@@ -3015,6 +3015,24 @@ Sidebar Widget Area CSS
 /*================================================
 Partner Section CSS
 =================================================*/
+.partner-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#youfit {
+  height: 3.25rem;
+}
+
+#dgtink {
+  height: 6.75rem;
+}
+
+#nylife {
+  height: 6.75rem;
+}
+
 .partner-section {
   position: relative;
   background-color: #00b0ee;
@@ -3059,6 +3077,7 @@ Partner Section CSS
   max-width: 20%;
   padding-left: 35px;
   padding-right: 5px;
+  margin-bottom: 3.5rem;
 }
 
 .partner-list .partner-item a {
@@ -3068,9 +3087,9 @@ Partner Section CSS
   margin-bottom: 30px;
 }
 
-.partner-list .partner-item:nth-child(6) {
+/* .partner-list .partner-item:nth-child(6) {
   margin-left: 10%;
-}
+} */
 
 .partner-shape {
   position: absolute;
