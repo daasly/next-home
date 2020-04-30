@@ -8,7 +8,7 @@ class ServicesContent extends Component {
                 <div className="container">
                     <div className="section-title">
                         <span>Our Services</span>
-                        <h2>Expolre Our Data Services</h2>
+                        <h2>What We Do</h2>
                     </div>
 
                     <div className="row">
@@ -18,10 +18,10 @@ class ServicesContent extends Component {
                                     <i className="flaticon-big-data"></i>
                                 </div>
 
-                                <h3>Big Data</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
+                                <h3>Data Strategy</h3>
+                                <p>Map the course to a sound and scalable analytical platform.</p>
 
-                                <Link href="/service-details">
+                                <Link href="/data-strategy">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>
@@ -36,10 +36,10 @@ class ServicesContent extends Component {
                                     <i className="flaticon-data-analytics"></i>
                                 </div>
 
-                                <h3>Data Analytics</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
+                                <h3>Data Execution</h3>
+                                <p>Execute all the components of your data strategy.</p>
 
-                                <Link href="/service-details">
+                                <Link href="/data-execution">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>
@@ -53,10 +53,10 @@ class ServicesContent extends Component {
                                 <div className="icon">
                                     <i className="flaticon-document"></i>
                                 </div>
-                                <h3>Managed Analytics</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
+                                <h3>Data Management</h3>
+                                <p>Continuous support and constant execution of your data strategy.</p>
 
-                                <Link href="/service-details">
+                                <Link href="/data-management">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>
@@ -70,10 +70,11 @@ class ServicesContent extends Component {
                                 <div className="icon">
                                     <i className="flaticon-chart"></i>
                                 </div>
-                                <h3>Business Intelligence</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
+                                <h3>Data-Centric Software Development</h3>
+                                <br/>
+                                <p>Custom dashboards, lead management, and visualization systems.</p>
 
-                                <Link href="/service-details">
+                                <Link href="/dc-software-development">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>
@@ -87,10 +88,11 @@ class ServicesContent extends Component {
                                 <div className="icon">
                                     <i className="flaticon-science"></i>
                                 </div>
-                                <h3>Data Science</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
+                                <h3>Google Analytics</h3>
+                                <br/>
+                                <p>Google Tag Manager and Google Analytics management.</p>
 
-                                <Link href="/service-details">
+                                <Link href="/google-analytics">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>
@@ -104,10 +106,11 @@ class ServicesContent extends Component {
                                 <div className="icon">
                                     <i className="flaticon-data-management"></i>
                                 </div>
-                                <h3>Data Management</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
+                                <h3>Business Intelligence Consulting</h3>
+                                <br/>
+                                <p>Domo Certified collection and analysis of business information.</p>
 
-                                <Link href="/service-details">
+                                <Link href="/business-intelligence-consulting">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>

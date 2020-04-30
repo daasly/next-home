@@ -41,54 +41,82 @@ class Testimonial extends Component {
         this._isMounted = false;
     }
 
-    render() {
-        return (
-            <section className="testimonial-section ptb-100">
-                <div className="container">
-                    <div className="section-title">
-                        <span>Testimonial</span>
-                        <h2>What Our Client Say</h2>
-                    </div>
+					{this.state.display ? (
+						<OwlCarousel
+							className="testimonial-slider owl-carousel owl-theme"
+							{...options}
+						>
+							<div className="testimonial-single-item">
+								<div className="testimonial-image">
+									<img
+										src={require("../../images/clients/dan_antonson.jpeg")}
+										alt="image"
+									/>
+								</div>
 
-                    {this.state.display ? <OwlCarousel 
-                        className="testimonial-slider owl-carousel owl-theme"
-                            {...options}
-                        >
-                        <div className="testimonial-single-item">
-                            <div className="testimonial-image">
-                                <img src={require("../../images/clients/client1.jpg")} alt="image" />
-                            </div>
+								<div className="testimonial-info">
+									<h3>Dan Antonson</h3>
+									<span>Associate Director- Marketing Technology</span>
+								</div>
 
-                            <div className="testimonial-info">
-                                <h3>Richard Denial</h3>
-                                <span>IT Executive</span>
-                            </div>
+								<div className="testimonial-content">
+									<div className="icon">
+										<i className="flaticon-quote"></i>
+									</div>
+									<p>
+										Daasly has been a solid resource for data onboarding. They know their way around data and have been instrumental in developing our overall data strategy.
+									</p>
+								</div>
+							</div>
 
-                            <div className="testimonial-content">
-                                <div className="icon">
-                                    <i className="flaticon-quote"></i>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                            </div>
-                        </div>
+							<div className="testimonial-single-item">
+								<div className="testimonial-image">
+									<img
+										src={require("../../images/clients/dan_antonson.jpeg")}
+										alt="image"
+									/>
+								</div>
 
-                        <div className="testimonial-single-item">
-                            <div className="testimonial-image">
-                                <img src={require("../../images/clients/client2.jpg")} alt="image" />
-                            </div>
+								<div className="testimonial-info">
+									<h3>Dan Antonson</h3>
+									<span>Associate Director- Marketing Technology</span>
+								</div>
 
-                            <div className="testimonial-info">
-                                <h3>Sarah Taylor</h3>
-                                <span>Lead Architecure</span>
-                            </div>
+								<div className="testimonial-content">
+									<div className="icon">
+										<i className="flaticon-quote"></i>
+									</div>
+									<p>
+										Daasly has been a solid resource for data onboarding. They know their way around data and have been instrumental in developing our overall data strategy.
+									</p>
+								</div>
+							</div>
 
-                            <div className="testimonial-content">
-                                <div className="icon">
-                                    <i className="flaticon-quote"></i>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                            </div>
-                        </div>
+							<div className="testimonial-single-item">
+								<div className="testimonial-image">
+									<img
+										src={require("../../images/clients/dan_antonson.jpeg")}
+										alt="image"
+									/>
+								</div>
+								<div className="testimonial-info">
+									<h3>Dan Antonson</h3>
+									<span>Associate Director- Marketing Technology</span>
+								</div>
+								<div className="testimonial-content">
+									<div className="icon">
+										<i className="flaticon-quote"></i>
+									</div>
+									<p>
+										Daasly has been a solid resource for data onboarding. They know their way around data and have been instrumental in developing our overall data strategy.
+									</p>
+								</div>
+							</div>
+						</OwlCarousel>
+					) : (
+						""
+					)}
+				</div>
 
                         <div className="testimonial-single-item">
                             <div className="testimonial-image">

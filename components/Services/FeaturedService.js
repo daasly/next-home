@@ -8,35 +8,46 @@ class FeaturedService extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="software-content">
-                                <span>Our Featured Services</span>
-                                <h2>Software Developement Services</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices Lorem Ipsum is simply dummy text.</p>
+                                <span>Featured Service</span>
+                                <h2>Domo Consulting</h2>
+                                <p>Daasly is a proud Certified Domo Platform, Professional Services and Technical Consultant Partners. Domo is a game-changing, cloud-based platform specializing in business intelligence tools and data visualization.</p>
 
                                 <ul className="features-list">
                                     <li>
-                                        <span>Software Development</span>
+                                        <span>Connect Platforms</span>
                                     </li>
                                     <li>
-                                        <span>Automatic Optimization</span>
+                                        <span>Optimize Performance</span>
                                     </li>
                                     <li>
-                                        <span>Applicatication Services</span>
-                                    </li>
-                                    <li>
-                                        <span>IT Security Services</span>
-                                    </li>
-                                    <li>
-                                        <span>Data Analytics</span>
-                                    </li>
-                                    <li>
-                                        <span>System Integration Service</span>
-                                    </li>
-                                    <li>
-                                        <span>Help Desk Services</span>
-                                    </li>
-                                    <li>
-                                        <span>API Integration Service</span>
-                                    </li>
+										<span>Align Metrics</span>
+									</li>
+									<li>
+										<span>Predict Results</span>
+									</li>
+									<li>
+										<span>Measure Data</span>
+									</li>
+									<li>
+										<span>Visualize Information</span>
+									</li>
+									<li>
+										<span>Analyze Information</span>
+									</li>
+									<li>
+										<span>Automate Processes</span>
+									</li>
+                                </ul>
+                                <ul style={{listStyleType: 'none', display: 'flex', padding: '0', marginTop: 10}}>
+                                    <li style={{padding: 10}}>
+								    	<img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb" style={{ width: 80}}/>
+								    </li>
+								    <li style={{padding: 10}}>
+								    	<img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb" style={{ width: 80}}/>
+								    </li>
+								    <li style={{padding: 10}}>
+								    	<img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb" style={{ width: 80}}/>
+								    </li>
                                 </ul>
                             </div>
                         </div>
