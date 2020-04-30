@@ -122,14 +122,14 @@ class Navbar extends Component {
                       </ul>
                     </li>
 
-                    <li className="nav-item">
-                      <Link href="/blog" activeClassName="active">
-                        <a className="nav-link">
-                          Blog
-                          {/* <i className="fas"></i> */}
-                        </a>
-                      </Link>
-                    </li>
+                    {/* <li className="nav-item"> */}
+                    {/* <Link href="/blog" activeClassName="active"> */}
+                    {/* <a className="nav-link"> */}
+                    {/* Blog */}
+                    {/* <i className="fas"></i> */}
+                    {/* </a> */}
+                    {/* </Link> */}
+                    {/* </li> */}
                   </ul>
 
                   <div className="others-options">
