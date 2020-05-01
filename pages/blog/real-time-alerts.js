@@ -21,7 +21,7 @@ class RealTimeAlerts extends Component {
                   text="Real-time data and alerts are valuable. Alerts in #googleanalytics, or any #bi tool, can be extremely useful but they can also create a distraction for your team. To best leverage real-time alerts, ensure there is a business need that necessitates an answer followed by a direct action that can take place to address each alert. You want to avoid having your sales floor upwards of 30 minutes a day looking at a monitor waiting for updates. 
                     Need help properly identifying the need for and setting up real-time alerts? Daasly can help! "
                   articleLink="//www.statsglitch.com/google-analytics-real-time-alerts-4.html"
-                  shareLink="//www.linkedin.com/shareArticle?mini=true&url=https://daasly.com/blog/real-time-alerts&title=&summary=&source="
+                  shareLink="https://www.linkedin.com/shareArticle?mini=true&url=https://daasly.com/blog/real-time-alerts&title=&summary=&source="
                   />
                 <Footer />
             </React.Fragment>

@@ -20,7 +20,7 @@ class GoogleTagManager extends Component {
                   quote="There are well over 11 reasons why you should use Google Tag Manager, these are just the tip."
                   text="Analytics Mania did a great job explaining the basics of what Google Tag Manager (GTM) is and why you should be using this powerful tool. In short, GTM empowers marketing teams to take control of tagging code, creating a clear distinction between the source code of your web applications and tagging events used for analytics in one place. The basic benefits of GTM are deployable by just about anyone who is willing to dedicate a little time to learn. Users with development experience can leverage GTM at much greater lengths. Let me know if Daasly can help you!"
                   articleLink="//www.analyticsmania.com/post/reasons-why-you-should-use-google-tag-manager/"
-                  shareLink="//www.linkedin.com/shareArticle?mini=true&url=https://daasly.com/blog/google-tag-manager&title=&summary=&source="
+                  shareLink="https://www.linkedin.com/shareArticle?mini=true&url=https://daasly.com/blog/google-tag-manager&title=&summary=&source="
                   />
                 <Footer />
             </React.Fragment>

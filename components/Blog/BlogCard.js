@@ -76,7 +76,7 @@ const BlogCard = (props) => {
 									</h3>
 
 									<p>
-										This is no time to panic, but it certainly is a good time to reassess your data strategies as you set up your home office
+										This is no time to panic, but it certainly is a good time to reassess your data strategies as you set up your home office.
 									</p>
 
 									<Link href="/blog/covid-19">

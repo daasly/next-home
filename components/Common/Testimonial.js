@@ -63,7 +63,7 @@ class Testimonial extends Component {
 								</div>
 
 								<div className="testimonial-info">
-									<h3>Dan Antonson</h3>
+									<a target='_blank'href='//www.linkedin.com/in/danantonson/'><h3>Dan Antonson</h3></a>
 									<span>Associate Director- Marketing Technology</span>
 								</div>
 
@@ -86,7 +86,7 @@ class Testimonial extends Component {
 								</div>
 
 								<div className="testimonial-info">
-									<h3>Ron Merryman</h3>
+									<a target='_blank'href='//www.linkedin.com/in/ronmerryman/'><h3>Ron Merryman</h3></a>
 									<span>Vice President - Information Technology</span>
 								</div>
 
@@ -100,15 +100,16 @@ class Testimonial extends Component {
 								</div>
 							</div>
 
+						
 							<div className="testimonial-single-item">
 								<div className="testimonial-image">
-									<img
-										src={require("../../images/clients/dan_antonson.jpeg")}
-										alt="image"
-									/>
+										<img
+											src={require("../../images/clients/dan_antonson.jpeg")}
+											alt="image"
+										/>
 								</div>
 								<div className="testimonial-info">
-									<h3>Dan Antonson</h3>
+									<a target='_blank'href='//www.linkedin.com/in/danantonson/'><h3>Dan Antonson</h3></a>
 									<span>Associate Director- Marketing Technology</span>
 								</div>
 								<div className="testimonial-content">
@@ -120,6 +121,7 @@ class Testimonial extends Component {
 									</p>
 								</div>
 							</div>
+							
 						</OwlCarousel>
 					) : (
 						""
