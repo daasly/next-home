@@ -110,8 +110,8 @@ class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/google-analytics" activeClassName="active">
-                            <a className="nav-link">Google Analytics</a>
+                          <Link href="/digital-marketing-tools" activeClassName="active">
+                            <a className="nav-link">Digital Marketing Tools</a>
                           </Link>
                         </li>
 

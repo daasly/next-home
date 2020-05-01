@@ -19,6 +19,7 @@ class Subscribe extends Component {
 		xhr.setRequestHeader("Accept", "application/json")
 		xhr.send(data)
 		this.setState({disabled: true})
+		form.reset()
 	}
 	render() {
 		
