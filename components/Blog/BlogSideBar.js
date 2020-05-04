@@ -10,71 +10,62 @@ class BlogSideBar extends Component {
                         <label>
                             <span className="screen-reader-text">Search for:</span>
                             <input type="search" className="search-field" placeholder="Search..." />
-                        </label>
-
+                        </label>    
                         <button type="submit">
                             <i className="fas fa-search"></i>
                         </button>
                     </form>
-                </div>
-
+                </div>  
                 <div className="widget widget_plamb_posts_thumb">
                     <h3 className="widget-title">Recent posts</h3>
                     <article className="item">
-                        <Link href="#">
+                        <Link href="/blog/covid-19">
                             <a className="thumb">
                                 <span className="fullimage cover bg2" role="img"></span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <div className="info">
-                            <time>September 12, 2019</time>
+                            <time>April 09, 2020</time>
                             <h4 className="title usmall">
-                                <Link href="data-buy-in-blog">
-                                    <a>The Data Buy-In</a>
+                                <Link href="/blog/covid-19">
+                                    <a>Covid-19</a>
                                 </Link>
                             </h4>
                         </div>
-                    </article>
-
+                    </article>  
                     <article className="item">
-                        <Link href="#">
+                        <Link href="/blog/real-time-alerts">
                             <a className="thumb">
                                 <span className="fullimage cover bg3" role="img"></span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <div className="info">
-                            <time>September 09, 2019</time>
+                            <time>March 10, 2020</time>
                             <h4 className="title usmall">
-                                <Link href="/the-first-step-blog">
-                                    <a>It's the First Step</a>
+                                <Link href="/blog/real-time-alerts">
+                                    <a>Real-time Data and Alerts</a>
                                 </Link>
                             </h4>
                         </div>
-                    </article>
-
+                    </article>  
                     <article className="item">
-                        <Link href="#">
+                        <Link href="/blog/ga-network-dimensions">
                             <a className="thumb">
                                 <span className="fullimage cover bg1" role="img"></span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <div className="info">
-                            <time>August 9, 2019</time>
+                            <time>March 4, 2020</time>
                             <h4 className="title usmall">
-                                <Link href="/its-a-marathon-blog">
-                                    <a>It's a Marathon, Not a Sprint</a>
+                                <Link href="/blog/ga-network-dimensions">
+                                    <a>Removed Dimensions from Google Analytics</a>
                                 </Link>
                             </h4>
                         </div>
                     </article>
-                </div>
-
+                </div>  
                 {/* <div className="widget widget_categories">
-                    <h3 className="widget-title">Categories</h3>
-
+                    <h3 className="widget-title">Categories</h3>    
                     <ul>
                         <li>
                             <Link href="#">
@@ -102,11 +93,9 @@ class BlogSideBar extends Component {
                             </Link>
                         </li>
                     </ul>
-                </div> */}
-
+                </div> */}  
                 {/* <div className="widget widget_recent_comments">
-                    <h3 className="widget-title">Recent comments</h3>
-
+                    <h3 className="widget-title">Recent comments</h3>   
                     <ul>
                         <li>
                             <span className="comment-author-link">
@@ -165,60 +154,52 @@ class BlogSideBar extends Component {
                         </li>
                     </ul>
                 </div> */}
- 
+    
                 {/* <div className="widget widget_tag_cloud">
-                    <h3 className="widget-title">Tags</h3>
-
+                    <h3 className="widget-title">Tags</h3>  
                     <div className="tagcloud section-bottom">
                         <Link href="#">
                             <a>
                                 IT 
                                 <span className="tag-link-count"> (3)</span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <Link href="#">
                             <a>
                                 Raxr 
                                 <span className="tag-link-count"> (3)</span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <Link href="#">
                             <a>
                                 Games 
                                 <span className="tag-link-count"> (2)</span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <Link href="#">
                             <a>
                                 Fashion 
                                 <span className="tag-link-count"> (2)</span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <Link href="#">
                             <a>
                                 Travel 
                                 <span className="tag-link-count"> (1)</span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <Link href="#">
                             <a>
                                 Smart 
                                 <span className="tag-link-count"> (1)</span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <Link href="#">
                             <a>
                                 Marketing 
                                 <span className="tag-link-count"> (1)</span>
                             </a>
-                        </Link>
-
+                        </Link> 
                         <Link href="#">
                             <a>
                                 Tips 

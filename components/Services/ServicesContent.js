@@ -88,11 +88,11 @@ class ServicesContent extends Component {
                                 <div className="icon">
                                     <i className="flaticon-science"></i>
                                 </div>
-                                <h3>Google Analytics</h3>
+                                <h3>Digital Marketing Tools</h3>
                                 <br/>
                                 <p>Google Tag Manager and Google Analytics management.</p>
 
-                                <Link href="/google-analytics">
+                                <Link href="/digital-marketing-tools">
                                     <a className="service-btn">
                                         Read More
                                         <i className="flaticon-right"></i>

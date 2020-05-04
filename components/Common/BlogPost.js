@@ -14,7 +14,7 @@ class BlogPost extends Component {
 					<div className="row">
 						<div className="col-lg-4 col-md-6">
 							<div className="blog-item">
-								<Link href="/blog-details">
+								<Link href="/blog/covid-19">
 									<a>
 										<img
 											src={require("../../images/blog/blog3.png")}
@@ -26,37 +26,36 @@ class BlogPost extends Component {
 								<div className="blog-content">
 									<ul className="meta-tags">
 										<li>
-											<Link href="#">
+											<Link href="/blog/covid-19">
 												<a>
 													<i className="fa fa-user-alt"></i>
-													Admin
+													Emilio Izquierdo
 												</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="#">
+											<Link href="/blog/covid-19">
 												<a>
-													<i className="fas fa-calendar-week"></i>7 Dec 2020
+													<i className="fas fa-calendar-week"></i>09 Apr 2020
 												</a>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<i className="far fa-comments"></i>3 Comments
-										</li>
+										</li> */}
 									</ul>
 
 									<h3>
-										<Link href="/blog-details">
-											<a>Startup marketing solution for business owner</a>
+										<Link href="/blog/covid-19">
+											<a>Covid-19</a>
 										</Link>
 									</h3>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod.
+										This is no time to panic, but it certainly is a good time to reassess your data strategies as you set up your home office
 									</p>
 
-									<Link href="/blog-details">
+									<Link href="/blog/covid-19">
 										<a className="read-more">
 											Read More
 											<i className="fa fa-chevron-right"></i>
@@ -68,7 +67,7 @@ class BlogPost extends Component {
 
 						<div className="col-lg-4 col-md-6">
 							<div className="blog-item">
-								<Link href="/blog-details">
+								<Link href="/blog/real-time-alerts">
 									<a>
 										<img
 											src={require("../../images/blog/blog4.png")}
@@ -80,37 +79,36 @@ class BlogPost extends Component {
 								<div className="blog-content">
 									<ul className="meta-tags">
 										<li>
-											<Link href="#">
+											<Link href="/blog/real-time-alerts">
 												<a>
 													<i className="fa fa-user-alt"></i>
-													Admin
+													Emilio Izquierdo
 												</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="#">
+											<Link href="/blog/real-time-alerts">
 												<a>
-													<i className="fas fa-calendar-week"></i>7 Dec 2020
+													<i className="fas fa-calendar-week"></i>10 Mar 2020
 												</a>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<i className="far fa-comments"></i>3 Comments
-										</li>
+										</li> */}
 									</ul>
 
 									<h3>
-										<Link href="/blog-details">
-											<a>Web developement best work in future world</a>
+										<Link href="/blog/real-time-alerts">
+											<a>Real-time Data and Alerts</a>
 										</Link>
 									</h3>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod.
+										Check out this guide, and soon you'll become a real-time data expert capable of solving lots of different problems.
 									</p>
 
-									<Link href="/blog-details">
+									<Link href="/blog/real-time-alerts">
 										<a className="read-more">
 											Read More
 											<i className="fa fa-chevron-right"></i>
@@ -122,7 +120,7 @@ class BlogPost extends Component {
 
 						<div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 							<div className="blog-item">
-								<Link href="/blog-details">
+								<Link href="/blog/ga-network-dimensions">
 									<a>
 										<img
 											src={require("../../images/blog/blog5.png")}
@@ -134,43 +132,42 @@ class BlogPost extends Component {
 								<div className="blog-content">
 									<ul className="meta-tags">
 										<li>
-											<Link href="#">
+											<Link href="/blog/ga-network-dimensions">
 												<a>
 													<i className="fa fa-user-alt"></i>
-													Admin
+													Emilio Izquierdo
 												</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="#">
+											<Link href="/blog/ga-network-dimensions">
 												<a>
-													<i className="fas fa-calendar-week"></i>7 Dec 2020
+													<i className="fas fa-calendar-week"></i>4 Mar 2020
 												</a>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<i className="far fa-comments"></i>3 Comments
-										</li>
+										</li> */}
 									</ul>
 
 									<h3>
-										<Link href="/blog-details">
-											<a>Creative solutions to improve your business!</a>
+										<Link href="/blog/ga-network-dimensions">
+											<a>Removed Dimensions from Google Analytics</a>
 										</Link>
 									</h3>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod.
+										Mourning the Death of “Service Provider” & “Network Domain” in Google Analytics.
 									</p>
 
-									<Link href="/blog-details">
-										<a className="read-more">
-											Read More
-											<i className="fa fa-chevron-right"></i>
-										</a>
-									</Link>
-								</div>
+								<Link href="/blog/ga-network-dimensions">
+									<a className="read-more">
+										Read More
+										<i className="fa fa-chevron-right"></i>
+									</a>
+								</Link>
+							</div>
 							</div>
 						</div>
 					</div>
