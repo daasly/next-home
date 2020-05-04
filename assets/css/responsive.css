@@ -1547,6 +1547,9 @@
     left: 0;
     width: unset;
   }
+  .main-banner-two .creative-shape img{
+    width: 100%;
+  }
   .main-banner-three {
     height: 1000px;
   }
