@@ -455,7 +455,7 @@
     margin-right: 5px;
   }
   .productive-content .productive-btn .productive-btn-one {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 5px;
   }
   .productive-image {
@@ -1546,6 +1546,9 @@
     top: -415px;
     left: 0;
     width: unset;
+  }
+  .main-banner-two .creative-shape img{
+    width: 100%;
   }
   .main-banner-three {
     height: 1000px;

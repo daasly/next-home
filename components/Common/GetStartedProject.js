@@ -36,6 +36,26 @@ class GetStartedProject extends Component {
                     </a>
                   </div>
                 )}
+                {this.props.domo && (
+                  <>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div style={{ display: 'flex'}}>
+                      <ul style={{listStyleType: 'none', display: 'flex', padding: '0', marginTop: 10}}>
+                        <li style={{padding: 10}}>
+					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb" style={{ width: 80}}/>
+					              </li>
+					              <li style={{padding: 10}}>
+					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb" style={{ width: 80}}/>
+					              </li>
+					              <li style={{padding: 10}}>
+					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb" style={{ width: 80}}/>
+					              </li>
+                      </ul>
+                    </div>   
+                  </>
+                )}
               </div>
             </div>
 
@@ -45,26 +65,7 @@ class GetStartedProject extends Component {
               </div>
             </div>
           </div>
-          {this.props.domo && (
-                        <>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <div style={{ display: 'flex', justifyContent: 'center'}}>
-                            <ul style={{listStyleType: 'none', display: 'flex', padding: '0', marginTop: 10}}>
-                                <li style={{padding: 10}}>
-					    	    	<img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb" style={{ width: 80}}/>
-					    	    </li>
-					    	    <li style={{padding: 10}}>
-					    	    	<img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb" style={{ width: 80}}/>
-					    	    </li>
-					    	    <li style={{padding: 10}}>
-					    	    	<img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb" style={{ width: 80}}/>
-					    	    </li>
-                            </ul>
-                        </div>   
-                        </>
-                    )}
+          
         </div>
       </section>
     );
