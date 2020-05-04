@@ -15,7 +15,7 @@ class ServiceDetails extends Component {
                 <br/>
                 <br/>
                 <GetStartedProject 
-                    smallTitle="Google Analytics" 
+                    smallTitle="Digital Marketing Tools" 
                     title="Google Tag Manager and Google Analytics Management" 
                     button="Schedule a Consultation"
                     subtext={true}

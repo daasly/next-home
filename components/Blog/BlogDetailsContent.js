@@ -5,7 +5,7 @@ import BlogSideBar from './BlogSideBar';
 class BlogDetailsContent extends Component {
     
     render() {
-        console.log(this.props)
+        
         return (
             <section className="blog-details-area ptb-100">
                 <div className="container">
@@ -71,7 +71,7 @@ class BlogDetailsContent extends Component {
                                         <ul className="social">
                                             <li><span>Share:</span></li>
                                             <li>
-                                                <Link href="https://www.linkedin.com/shareArticle?mini=true&url=http://dev.daasly.com/blog-details&title=Daasly&source=Daasly">
+                                                <Link href={this.props.shareLink ? this.props.shareLink : '#'}>
                                                     <a target="_blank">
                                                         <i className="fab fa-linkedin"></i>
                                                     </a>

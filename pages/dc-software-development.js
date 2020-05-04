@@ -23,7 +23,7 @@ class ServiceDetails extends Component {
                 /> */}
                 <ServiceDetailsContent 
                     header="See Your Data How You Want To" 
-                    subtext='Provide your team with a clear and organized, custom-built dashboard to suit your organization’s exact needs and priorities. Our Data-Centric Software Development service includes custom lead management systems to help optimize your CRM, as well as seamless API integration of your most relevant data, so you can see exactly what you and make analysis effortless.' 
+                    subtext='Provide your team with a clear and organized, custom-built dashboard to suit your organization’s exact needs and priorities. Our Data-Centric Software Development service includes custom lead management systems to help optimize your CRM, as well as seamless API integration of your most relevant data, so you can see exactly what you need and make analysis effortless.' 
                     listItems="" 
                     imageOne={require('../images/projects/project3.png')}
                     imageTwo={require('../images/data-service.png')}
