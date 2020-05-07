@@ -2511,6 +2511,8 @@ Blog Section CSS
   padding: 30px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  overflow: scroll;
+  height: 275px;
 }
 
 .blog-item .blog-content .meta-tags {
