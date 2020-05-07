@@ -5015,6 +5015,7 @@ Blog Details Area CSS
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 30px;
+  justify-content: center;
 }
 
 .blog-details-desc .article-footer .article-tags {
@@ -5068,6 +5069,9 @@ Blog Details Area CSS
   list-style-type: none;
   text-align: right;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .blog-details-desc .article-footer .article-share .social li {
@@ -5082,17 +5086,23 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-footer .article-share .social li a {
-  display: block;
+  display: flex;
   color: #00b0ee;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   line-height: 30px;
   border-radius: 50%;
   background-color: #eeeef0;
   text-align: center;
   font-size: 12px;
   margin-left: 5px;
+  align-items: center;
+  justify-content: center;
 }
+
+.blog-details-desc .article-footer .article-share .social li a i {
+	font-size: 20px;
+}	
 
 .blog-details-desc .article-footer .article-share .social li a:hover {
   color: #ffffff;
