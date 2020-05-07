@@ -17,7 +17,7 @@ class Customers extends Component {
               <a target="_blank" className="partner-item">
                 <img
                   src={require('../../images/Aramark edited (1).svg')}
-                  alt="image"
+                  alt="aramark"
                   id="aramark"
                   className="partner-logo"
                 />
@@ -30,7 +30,7 @@ class Customers extends Component {
               <a target="_blank" className="partner-item">
                 <img
                   src={require('../../images/Frontpoint Edited.svg')}
-                  alt="image"
+                  alt="frontpoint"
                   id="frontpoint"
                   className="partner-logo"
                 />
@@ -43,7 +43,7 @@ class Customers extends Component {
               <a target="_blank" className="partner-item">
                 <img
                   src={require('../../images/Collegis Edited.svg')}
-                  alt="image"
+                  alt="collegis"
                   id="collegis"
                   className="partner-logo"
                 />
@@ -56,7 +56,7 @@ class Customers extends Component {
               <a target="_blank" className="partner-item">
                 <img
                   src={require('../../images/WOW Edited.svg')}
-                  alt="image"
+                  alt="whereoware"
                   id="whereoware"
                   className="partner-logo"
                 />
@@ -69,7 +69,7 @@ class Customers extends Component {
               <a target="_blank" className="partner-item">
                 <img
                   src={require('../../images/Youfit Edited.png')}
-                  alt="image"
+                  alt="youfit"
                   id="youfit"
                   className="partner-logo"
                 />
@@ -82,7 +82,7 @@ class Customers extends Component {
               <a target="_blank" className="partner-item">
                 <img
                   src={require('../../images/Digital Ink Edited.svg')}
-                  alt="image"
+                  alt="digitalInk"
                   id="dgtink"
                   className="partner-logo"
                 />
@@ -104,7 +104,7 @@ class Customers extends Component {
             {/* <div className="partner-item"> */}
             <Link href="//www.newyorklife.com/">
               <a target="_blank" className="partner-item">
-                <img src={require('../../images/NYL Logo Edited.png')} alt="image" id="nylife" />
+                <img src={require('../../images/NYL Logo Edited.png')} alt="newYorkLife" id="nylife" />
               </a>
             </Link>
             {/* </div> */}
