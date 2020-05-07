@@ -1,6 +1,6 @@
-import React, { Component } from "react"
-import dynamic from "next/dynamic"
-const OwlCarousel = dynamic(import("react-owl-carousel3"))
+import React, { Component } from 'react'
+import dynamic from 'next/dynamic'
+const OwlCarousel = dynamic(import('react-owl-carousel3'))
 
 const options = {
 	loop: true,
@@ -57,13 +57,15 @@ class Testimonial extends Component {
 							<div className="testimonial-single-item">
 								<div className="testimonial-image">
 									<img
-										src={require("../../images/clients/dan_antonson.jpeg")}
-										alt="image"
+										src={require('../../images/clients/dan_antonson.jpeg')}
+										alt="dan_antonson"
 									/>
 								</div>
 
 								<div className="testimonial-info">
-									<a target='_blank'href='//www.linkedin.com/in/danantonson/'><h3>Dan Antonson</h3></a>
+									<a target="_blank" href="//www.linkedin.com/in/danantonson/">
+										<h3>Dan Antonson</h3>
+									</a>
 									<span>Associate Director- Marketing Technology</span>
 								</div>
 
@@ -72,7 +74,9 @@ class Testimonial extends Component {
 										<i className="flaticon-quote"></i>
 									</div>
 									<p>
-										Daasly has been a solid resource for data onboarding. They know their way around data and have been instrumental in developing our overall data strategy.
+										Daasly has been a solid resource for data onboarding. They
+										know their way around data and have been instrumental in
+										developing our overall data strategy.
 									</p>
 								</div>
 							</div>
@@ -80,13 +84,15 @@ class Testimonial extends Component {
 							<div className="testimonial-single-item">
 								<div className="testimonial-image">
 									<img
-										src={require("../../images/clients/RonMerryman.jpeg")}
-										alt="image"
+										src={require('../../images/clients/RonMerryman.jpeg')}
+										alt="ron_merryman"
 									/>
 								</div>
 
 								<div className="testimonial-info">
-									<a target='_blank'href='//www.linkedin.com/in/ronmerryman/'><h3>Ron Merryman</h3></a>
+									<a target="_blank" href="//www.linkedin.com/in/ronmerryman/">
+										<h3>Ron Merryman</h3>
+									</a>
 									<span>Vice President - Information Technology</span>
 								</div>
 
@@ -95,21 +101,25 @@ class Testimonial extends Component {
 										<i className="flaticon-quote"></i>
 									</div>
 									<p>
-										Daasly has become one of our greatest partnerships.  They don't just understand data, they understand our data and routinely demonstrate their ability to exceed our expectations both visually and conceptually.
+										Daasly has become one of our greatest partnerships. They
+										don't just understand data, they understand our data and
+										routinely demonstrate their ability to exceed our
+										expectations both visually and conceptually.
 									</p>
 								</div>
 							</div>
 
-						
 							<div className="testimonial-single-item">
 								<div className="testimonial-image">
-										<img
-											src={require("../../images/clients/dan_antonson.jpeg")}
-											alt="image"
-										/>
+									<img
+										src={require('../../images/clients/dan_antonson.jpeg')}
+										alt="image"
+									/>
 								</div>
 								<div className="testimonial-info">
-									<a target='_blank'href='//www.linkedin.com/in/danantonson/'><h3>Dan Antonson</h3></a>
+									<a target="_blank" href="//www.linkedin.com/in/danantonson/">
+										<h3>Dan Antonson</h3>
+									</a>
 									<span>Associate Director- Marketing Technology</span>
 								</div>
 								<div className="testimonial-content">
@@ -117,33 +127,34 @@ class Testimonial extends Component {
 										<i className="flaticon-quote"></i>
 									</div>
 									<p>
-										Daasly has been a solid resource for data onboarding. They know their way around data and have been instrumental in developing our overall data strategy.
+										Daasly has been a solid resource for data onboarding. They
+										know their way around data and have been instrumental in
+										developing our overall data strategy.
 									</p>
 								</div>
 							</div>
-							
 						</OwlCarousel>
 					) : (
-						""
+						''
 					)}
 				</div>
 
 				{/* Shape Images */}
 				<div className="testimonial-shape">
 					<img
-						src={require("../../images/shape/testimonial-shape-1.png")}
+						src={require('../../images/shape/testimonial-shape-1.png')}
 						alt="main-image"
 					/>
 				</div>
 				<div className="testimonial-shape-img1">
 					<img
-						src={require("../../images/shape/testimonial-shape-2.png")}
+						src={require('../../images/shape/testimonial-shape-2.png')}
 						alt="main-image"
 					/>
 				</div>
 				<div className="testimonial-shape-img2">
 					<img
-						src={require("../../images/shape/testimonial-shape-3.png")}
+						src={require('../../images/shape/testimonial-shape-3.png')}
 						alt="main-image"
 					/>
 				</div>

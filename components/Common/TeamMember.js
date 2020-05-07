@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import Link from "next/link"
+import React, { Component } from 'react'
+import Link from 'next/link'
 
 class TeamMember extends Component {
 	render() {
@@ -16,8 +16,8 @@ class TeamMember extends Component {
 							<div className="single-team-item">
 								<div className="team-image">
 									<img
-										src={require("../../images/team/Patricia Caricature Final.jpg")}
-										alt="team"
+										src={require('../../images/team/Patricia Caricature Final.jpg')}
+										alt="patricia_perdomo"
 									/>
 
 									<div className="team-social">
@@ -53,8 +53,8 @@ class TeamMember extends Component {
 							<div className="single-team-item">
 								<div className="team-image">
 									<img
-										src={require("../../images/team/Emilio Caricature Final.jpg")}
-										alt="team"
+										src={require('../../images/team/Emilio Caricature Final.jpg')}
+										alt="emilio_izquierdo"
 									/>
 
 									<div className="team-social">
@@ -95,8 +95,8 @@ class TeamMember extends Component {
 							<div className="single-team-item">
 								<div className="team-image">
 									<img
-										src={require("../../images/team/Will Caricature Final.jpg")}
-										alt="team"
+										src={require('../../images/team/Will Caricature Final.jpg')}
+										alt="william_kennedy"
 									/>
 
 									<div className="team-social">
