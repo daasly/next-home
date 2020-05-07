@@ -44,13 +44,13 @@ class GetStartedProject extends Component {
                     <div style={{ display: 'flex'}}>
                       <ul style={{listStyleType: 'none', display: 'flex', padding: '0', marginTop: 10}}>
                         <li style={{padding: 10}}>
-					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="sdvosb" style={{ width: 80}}/>
+					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="domo-technical-consultant-cert" style={{ width: 80}}/>
 					              </li>
 					              <li style={{padding: 10}}>
-					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="sdvosb" style={{ width: 80}}/>
+					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="domo-professional-services-cert" style={{ width: 80}}/>
 					              </li>
 					              <li style={{padding: 10}}>
-					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="sdvosb" style={{ width: 80}}/>
+					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="domo-platform-cert" style={{ width: 80}}/>
 					              </li>
                       </ul>
                     </div>   
