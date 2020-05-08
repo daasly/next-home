@@ -22,9 +22,59 @@ class BlogCardTwo extends Component {
 					</div>
 
 					<div className="row">
+						<div className="col-lg-4 col-md-6">
+              <div className="blog-item">
+                <Link href="/blog/data-buy-in-blog">
+                  <a>
+                    <img src={require('../../images/blog/blog2.png')} alt="image" />
+                  </a>
+                </Link>
 
+                <div className="blog-content">
+                  <ul className="meta-tags">
+                    <li>
+                      <Link href="/blog/data-buy-in-blog">
+                        <a>
+                          <i className="fa fa-user-alt"></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/blog/data-buy-in-blog">
+                        <a>
+                          <i className="fas fa-calendar-week"></i>12 Sept 2019
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
 
-                    <div className="col-lg-4 col-md-6">
+                  <h3>
+                    <Link href="/blog/data-buy-in-blog">
+                      <a>The Data Buy-In</a>
+                    </Link>
+                  </h3>
+                  <div className="overflow-scroll">
+                    <p>
+                      Data professionals face an endless challenge to get the buy-in of management
+                      and IT to provide the technology and resources needed to efficiently and
+                      effectively analyze their constantly growing enterprise data stores.
+                    </p>
+                  </div>
+
+                  <Link href="/blog/data-buy-in-blog">
+                    <a className="read-more">
+                      Read More
+                      <i className="fa fa-chevron-right"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
 							<div className="blog-item">
 								<Link href="/blog/the-first-step-blog">
 									<a>
