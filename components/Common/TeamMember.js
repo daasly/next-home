@@ -17,7 +17,7 @@ class TeamMember extends Component {
 								<div className="team-image">
 									<img
 										src={require("../../images/team/Patricia Caricature Final.jpg")}
-										alt="team"
+										alt="patricia_perdomo"
 									/>
 
 									<div className="team-social">
@@ -54,7 +54,7 @@ class TeamMember extends Component {
 								<div className="team-image">
 									<img
 										src={require("../../images/team/Emilio Caricature Final.jpg")}
-										alt="team"
+										alt="emilio_izquierdo"
 									/>
 
 									<div className="team-social">
@@ -96,7 +96,7 @@ class TeamMember extends Component {
 								<div className="team-image">
 									<img
 										src={require("../../images/team/Will Caricature Final.jpg")}
-										alt="team"
+										alt="william_kennedy"
 									/>
 
 									<div className="team-social">
