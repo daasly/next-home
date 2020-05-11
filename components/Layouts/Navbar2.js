@@ -45,8 +45,8 @@ class Navbar extends Component {
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link href="/">
                   <a className="navbar-brand">
-                    <img src={logohorizontalwhite} className="white-logo" alt="logo" />
-                    <img src={logohorizontalblack} className="black-logo" alt="logo" />
+                    <img src={logohorizontalwhite} className="white-logo" alt="daasly_logo" />
+                    <img src={logohorizontalblack} className="black-logo" alt="daasly_logo" />
                   </a>
                 </Link>
 

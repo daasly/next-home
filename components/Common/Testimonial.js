@@ -58,7 +58,7 @@ class Testimonial extends Component {
 								<div className="testimonial-image">
 									<img
 										src={require("../../images/clients/dan_antonson.jpeg")}
-										alt="image"
+										alt="dan_antonson"
 									/>
 								</div>
 
@@ -81,7 +81,7 @@ class Testimonial extends Component {
 								<div className="testimonial-image">
 									<img
 										src={require("../../images/clients/RonMerryman.jpeg")}
-										alt="image"
+										alt="ron_merryman"
 									/>
 								</div>
 
