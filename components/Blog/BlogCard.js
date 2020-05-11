@@ -16,7 +16,7 @@ const BlogCard = (props) => {
             <div className="section-title">
               <h2>Thank You</h2>
               <br />
-              <span style={{ color: '#737b9a' }}>{this.props.pageTitle}</span>
+              <span style={{ color: '#737b9a' }}>{props.pageTitle}</span>
             </div>
           )}
           <div className="section-title">
