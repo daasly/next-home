@@ -30,7 +30,7 @@ class GetStartedProject extends Component {
                   </div>
                 ) : (
                   <div className="productive-btn">
-                    <a className="productive-btn-one" href="/contact">
+                    <a className="productive-btn-one-schedule" href="/contact">
                       Schedule a Consultation
                       <span></span>
                     </a>
