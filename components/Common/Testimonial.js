@@ -137,7 +137,7 @@ class Testimonial extends Component {
 										<i className="flaticon-quote"></i>
 									</div>
 									<p>
-										Emilio and the whole Daasly team are the perfect partners for any job involving data. He is extremely detail-oriented, hard-working, passionate, and personable. He is extremely invested in making others successful and is constantly growing and learning. I look forward to working with the team again.
+										Emilio and the whole Daasly team are the perfect partners for any job involving data. He is extremely detail-oriented, hard-working, passionate, and personable. He is always invested in making others successful and is constantly growing and learning. I look forward to working with the team again.
 									</p>
 								</div>
 							</div>
