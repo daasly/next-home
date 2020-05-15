@@ -22,7 +22,6 @@ class Pivot extends Component {
                   articleLink="https://www.cmswire.com/digital-experience/a-responsive-data-strategy-is-more-critical-now-than-ever-before/"
                   shareLink="https://www.linkedin.com/shareArticle?mini=true&url=https://daasly.com/blog/pivot&title=&summary=&source="
                   needHelp='Need help pivoting your existing strategy or setting up a new strategy? Daasly, Inc. is here for you!'
-                  hashtag='#datastrategy #datamanagement #pivoting #strategytoexecution #data #dataanalytics'
                   />
                 <Footer />
             </React.Fragment>
