@@ -33,6 +33,59 @@ const BlogCard = (props) => {
           </div>
 
           <div className="row">
+
+          <div className="col-lg-4 col-md-6">
+              <div className="blog-item">
+                <Link href="/blog/market-realities">
+                  <a>
+                    <img src={require('../../images/blog/blog3.png')} alt="image" />
+                  </a>
+                </Link>
+
+                <div className="blog-content">
+                  <ul className="meta-tags">
+                    <li>
+                      <Link href="/blog/market-realities">
+                        <a>
+                          <i className="fa fa-user-alt"></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/blog/market-realities">
+                        <a>
+                          <i className="fas fa-calendar-week"></i>19 May 2020
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
+
+                  <h3>
+                    <Link href="/blog/market-realities">
+                      <a>A Shift to Better Understand Your Business</a>
+                    </Link>
+                  </h3>
+                  <div className="overflow-scroll">
+                    <p>
+                      Market realities have shifted and with these shifts come opportunities to adjust data and analytics strategies.
+                    </p>
+                  </div>
+
+                  <Link href="/blog/market-realities">
+                    <a className="read-more">
+                      Read More
+                      <i className="fa fa-chevron-right"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+
             <div className="col-lg-4 col-md-6">
               <div className="blog-item">
                 <Link href="/blog/creative-data">
@@ -287,58 +340,6 @@ const BlogCard = (props) => {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item">
-                <Link href="/blog/google-tag-manager">
-                  <a>
-                    <img src={require('../../images/blog/blog5.png')} alt="image" />
-                  </a>
-                </Link>
-
-                <div className="blog-content">
-                  <ul className="meta-tags">
-                    <li>
-                      <Link href="/blog/google-tag-manager">
-                        <a>
-                          <i className="fa fa-user-alt"></i>
-                          Emilio Izquierdo
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/google-tag-manager">
-                        <a>
-                          <i className="fas fa-calendar-week"></i>27 Feb 2020
-                        </a>
-                      </Link>
-                    </li>
-                    {/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-                  </ul>
-
-                  <h3>
-                    <Link href="/blog/google-tag-manager">
-                      <a>Google Tag Manager is Your Friend</a>
-                    </Link>
-                  </h3>
-                  <div>
-                    <p>
-                      There are well over 11 reasons why you should use Google Tag Manager, these
-                      are just the tip.
-                    </p>
-                  </div>
-                  <Link href="/blog/google-tag-manager">
-                    <a className="read-more">
-                      Read More
-                      <i className="fa fa-chevron-right"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
             
 
           </div>
