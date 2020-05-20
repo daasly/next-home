@@ -44,7 +44,6 @@ class BlogDetailsContent extends Component {
                                         <p>{this.props.quote}</p>
                                         {/* <cite>Tom Cruise</cite> */}
                                     </blockquote>
-                                    <p>{this.props.hashtag}</p>
                                     <p>Read the complete article that inspired this post <a target="_blank" href={this.props.articleLink}>here</a>.</p>
  
                                     
