@@ -39,7 +39,8 @@ class BlogDetailsContent extends Component {
 
                                     <h3>{this.props.title}</h3>
                                     <p>{this.props.text}</p>
-                                    <p>{this.props.needHelp}</p>
+                                    <p>{this.props.text2}</p>
+                                    <p>{this.props.text3}</p>
                                     <blockquote>
                                         <p>{this.props.quote}</p>
                                         {/* <cite>Tom Cruise</cite> */}
