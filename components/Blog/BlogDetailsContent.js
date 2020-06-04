@@ -38,8 +38,13 @@ class BlogDetailsContent extends Component {
                                     </div>
 
                                     <h3>{this.props.title}</h3>
-                                    <p>{this.props.text}</p>
-                                    <p>{this.props.text2}</p>
+                                    <p>{this.props.textLink ? <a  href={this.props.textLink} target="_blank">{this.props.linkedText}</a> : null} {this.props.text}</p>
+                                    {this.props.text2 ? (
+                                        <p>{this.props.text2 }</p>
+                                    ) : (
+                                        <p>Interested to know more about Daasly’s <Link href="https://daasly.com/data-strategy"><a> Report Rewind</a></Link>? Check out our process and how we can help.</p>
+                                    )}
+                                   
                                     <p>{this.props.text3}</p>
                                     <blockquote>
                                         <p>{this.props.quote}</p>
