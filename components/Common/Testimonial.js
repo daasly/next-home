@@ -104,20 +104,40 @@ class Testimonial extends Component {
 							<div className="testimonial-single-item">
 								<div className="testimonial-image">
 										<img
-											src={require("../../images/clients/dan_antonson.jpeg")}
+											src={require("../../images/clients/Ross_Cohen.jpg")}
 											alt="image"
 										/>
 								</div>
 								<div className="testimonial-info">
-									<a target='_blank'href='//www.linkedin.com/in/danantonson/'><h3>Dan Antonson</h3></a>
-									<span>Associate Director- Marketing Technology</span>
+									<a target='_blank'href='//www.linkedin.com/in/recohen/'><h3>Ross Cohen</h3></a>
+									<span>Vice President - Digital</span>
 								</div>
 								<div className="testimonial-content">
 									<div className="icon">
 										<i className="flaticon-quote"></i>
 									</div>
 									<p>
-										Daasly has been a solid resource for data onboarding. They know their way around data and have been instrumental in developing our overall data strategy.
+										Daasly knows their way around Domo. Their mastery of the tool helped us knock out some of our hairiest, long-standing BI challenges in innovative and value-creating ways.
+									</p>
+								</div>
+							</div>
+							<div className="testimonial-single-item">
+								<div className="testimonial-image">
+										<img
+											src={require("../../images/clients/Allison_Lazar.jpg")}
+											alt="image"
+										/>
+								</div>
+								<div className="testimonial-info">
+									<a target='_blank'href='//www.linkedin.com/in/allison-lazar-8b06085a'><h3>Allison Lazar</h3></a>
+									<span>Senior Director of Analytics</span>
+								</div>
+								<div className="testimonial-content">
+									<div className="icon">
+										<i className="flaticon-quote"></i>
+									</div>
+									<p>
+										Emilio and the whole Daasly team are the perfect partners for any job involving data. He is extremely detail-oriented, hard-working, passionate, and personable. He is always invested in making others successful and is constantly growing and learning. I look forward to working with the team again.
 									</p>
 								</div>
 							</div>
