@@ -18,6 +18,7 @@ class GANetworkDimensions extends Component {
                   author='Emilio Izquierdo' 
                   title="Removed Dimensions from Google Analytics"
                   quote="Mourning the Death of “Service Provider” & “Network Domain” in Google Analytics"
+                  text2={true}
                   text="Were you affected by Google’s decisions to remove the Service Provider and Network Domain dimensions from Google Analytics (GA)? These dimensions are commonly used to filter out internal network traffic that may skew your analytics. Have no fear, there are other solutions! One solution is to assign an identifier to the user agent field on your corporate browsers, this dimension can be picked up as a custom dimension and used to filter out your internal traffic. 
                       Need help? Daasly is here for you!"
                   articleLink="//www.clickinsight.ca/blog/service-provider-not-set-google-analytics"

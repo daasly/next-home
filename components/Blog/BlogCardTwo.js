@@ -22,7 +22,56 @@ class BlogCardTwo extends Component {
 					</div>
 
 					<div className="row">
+						<div className="col-lg-4 col-md-6">
+              <div className="blog-item">
+                <Link href="/blog/ga-network-dimensions">
+                  <a>
+                    <img src={require('../../images/blog/blog6.png')} alt="image" />
+                  </a>
+                </Link>
 
+                <div className="blog-content">
+                  <ul className="meta-tags">
+                    <li>
+                      <Link href="/blog/ga-network-dimensions">
+                        <a>
+                          <i className="fa fa-user-alt"></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/blog/ga-network-dimensions">
+                        <a>
+                          <i className="fas fa-calendar-week"></i>4 Mar 2020
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
+
+                  <h3>
+                    <Link href="/blog/ga-network-dimensions">
+                      <a>Removed Dimensions from Google Analytics</a>
+                    </Link>
+                  </h3>
+
+                  <p>
+                    Mourning the Death of “Service Provider” & “Network Domain” in Google Analytics.
+                  </p>
+
+                  <Link href="/blog/ga-network-dimensions">
+                    <a className="read-more">
+                      Read More
+                      <i className="fa fa-chevron-right"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+						
 						<div className="col-lg-4 col-md-6">
               <div className="blog-item">
                 <Link href="/blog/google-tag-manager">

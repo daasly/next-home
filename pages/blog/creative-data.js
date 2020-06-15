@@ -18,6 +18,7 @@ class Covid19 extends Component {
                   author='Emilio Izquierdo' 
                   title="Getting Creative with Data"
                   quote="Who says data is boring?"
+                  text2={true}
                   text="It's cool to see how these creative data professionals incorporated visualizations into physical, touchable forms."
                   articleLink="//tdwi.org/articles/2020/04/22/BI-ALL-Visualization-Physical.aspx?utm_source=nl&utm_medium=email&utm_campaign=nl257&share=&mkt_tok=eyJpIjoiTURJeU56WmhOR1kyT1RRNCIsInQiOiJlYVpFNDBtRDJRMHNMcnQ3K3JXTldkQTM0NGM5MmFraGJ2eTJySDN6Q09oenNLQmxlMkh1WmFXRlZtMWJ0NDg0R0prWlI4dzlSQVVCSnpkWXR2aXFJSmJ2RG51TlRcL0JqOVRkaFJ4dXRaVXJcL2p1N00xb0ZwVGxKTHlSeUk1YTdlIn0%3D"
                   shareLink="https://www.linkedin.com/shareArticle?mini=true&url=https://daasly.com/blog/creative-data&title=&summary=&source="

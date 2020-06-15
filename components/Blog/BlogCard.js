@@ -36,6 +36,56 @@ const BlogCard = (props) => {
 
           <div className="col-lg-4 col-md-6">
               <div className="blog-item">
+                <Link href="/blog/data-decisions">
+                  <a>
+                    <img src={require('../../images/blog/blog6.png')} alt="image" />
+                  </a>
+                </Link>
+
+                <div className="blog-content">
+                  <ul className="meta-tags">
+                    <li>
+                      <Link href="/blog/data-decisions">
+                        <a>
+                          <i className="fa fa-user-alt"></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/blog/data-decisions">
+                        <a>
+                          <i className="fas fa-calendar-week"></i>3 Jun 2020
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
+
+                  <h3>
+                    <Link href="/blog/data-decisions">
+                      <a>Make Better Data Decisions</a>
+                    </Link>
+                  </h3>
+
+                  <p>
+                    A BI strategy that will put you in control of your data environment.
+                  </p>
+
+                  <Link href="/blog/data-decisions">
+                    <a className="read-more">
+                      Read More
+                      <i className="fa fa-chevron-right"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+          <div className="col-lg-4 col-md-6">
+              <div className="blog-item">
                 <Link href="/blog/market-realities">
                   <a>
                     <img src={require('../../images/blog/blog3.png')} alt="image" />
@@ -282,56 +332,6 @@ const BlogCard = (props) => {
                   </p>
 
                   <Link href="/blog/real-time-alerts">
-                    <a className="read-more">
-                      Read More
-                      <i className="fa fa-chevron-right"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item">
-                <Link href="/blog/ga-network-dimensions">
-                  <a>
-                    <img src={require('../../images/blog/blog6.png')} alt="image" />
-                  </a>
-                </Link>
-
-                <div className="blog-content">
-                  <ul className="meta-tags">
-                    <li>
-                      <Link href="/blog/ga-network-dimensions">
-                        <a>
-                          <i className="fa fa-user-alt"></i>
-                          Emilio Izquierdo
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/ga-network-dimensions">
-                        <a>
-                          <i className="fas fa-calendar-week"></i>4 Mar 2020
-                        </a>
-                      </Link>
-                    </li>
-                    {/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-                  </ul>
-
-                  <h3>
-                    <Link href="/blog/ga-network-dimensions">
-                      <a>Removed Dimensions from Google Analytics</a>
-                    </Link>
-                  </h3>
-
-                  <p>
-                    Mourning the Death of “Service Provider” & “Network Domain” in Google Analytics.
-                  </p>
-
-                  <Link href="/blog/ga-network-dimensions">
                     <a className="read-more">
                       Read More
                       <i className="fa fa-chevron-right"></i>
