@@ -1,36 +1,40 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class GetStartedProject extends Component {
   render() {
     return (
-      <section className={this.props.spacing ? this.props.spacing : "productive-section pt-100"}>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="productive-content">
+      <section
+        className={
+          this.props.spacing ? this.props.spacing : 'productive-section pt-100'
+        }
+      >
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-lg-6'>
+              <div className='productive-content'>
                 <span>{this.props.smallTitle}</span>
                 <h3>{this.props.title}</h3>
-                {this.props.subtext ? null : 
+                {this.props.subtext ? null : (
                   <p>
-                    {
-                    this.props.body ? this.props.body : 'Get on track for a better, effective and more productive business by tackling your most difficult data problems with Daasly.'
-                    }
+                    {this.props.body
+                      ? this.props.body
+                      : 'Get on track for a better, effective and more productive business by tackling your most difficult data problems with Daasly.'}
                   </p>
-                }
+                )}
                 {this.props.contact ? (
-                  <div className="productive-btn">
-                    <a className="productive-btn-one" href="/contact">
+                  <div className='productive-btn'>
+                    <a className='productive-btn-one' href='/contact'>
                       Get Started
                       <span></span>
                     </a>
-                    <a href="/contact" className="productive-btn">
+                    <a href='/contact' className='productive-btn'>
                       Contact Us
                       <span></span>
                     </a>
                   </div>
                 ) : (
-                  <div className="productive-btn">
-                    <a className="productive-btn-one" href="/contact">
+                  <div className='productive-btn'>
+                    <a className='productive-btn-one-schedule' href='/contact'>
                       Schedule a Consultation
                       <span></span>
                     </a>
@@ -38,38 +42,62 @@ class GetStartedProject extends Component {
                 )}
                 {this.props.domo && (
                   <>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div style={{ display: 'flex'}}>
-                      <ul style={{listStyleType: 'none', display: 'flex', padding: '0', marginTop: 10}}>
-                        <li style={{padding: 10}}>
-					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-tc.svg" alt="domo-technical-consultant-cert" style={{ width: 80}}/>
-					              </li>
-					              <li style={{padding: 10}}>
-					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-ps.svg" alt="domo-professional-services-cert" style={{ width: 80}}/>
-					              </li>
-					              <li style={{padding: 10}}>
-					 	              <img src="https://storage.cloud.google.com/daasly_public/domo-p.svg" alt="domo-platform-cert" style={{ width: 80}}/>
-					              </li>
+                    <br />
+                    <br />
+                    <br />
+                    <div style={{ display: 'flex' }}>
+                      <ul
+                        style={{
+                          listStyleType: 'none',
+                          display: 'flex',
+                          padding: '0',
+                          marginTop: 10
+                        }}
+                      >
+                        <li style={{ padding: 10 }}>
+                          <a href='https://www.domo.com' target='_blank'>
+                            <img
+                              src='https://storage.cloud.google.com/daasly_public/domo-tc.svg'
+                              alt='domo-technical-consultant-cert'
+                              style={{ width: 80 }}
+                            />
+                          </a>
+                        </li>
+                        <li style={{ padding: 10 }}>
+                          <a href='https://www.domo.com' target='_blank'>
+                            <img
+                              src='https://storage.cloud.google.com/daasly_public/domo-ps.svg'
+                              alt='domo-professional-services-cert'
+                              style={{ width: 80 }}
+                            />
+                          </a>
+                        </li>
+                        <li style={{ padding: 10 }}>
+                          <a href='https://www.domo.com' target='_blank'>
+                            <img
+                              src='https://storage.cloud.google.com/daasly_public/domo-p.svg'
+                              alt='domo-platform-cert'
+                              style={{ width: 80 }}
+                            />
+                          </a>
+                        </li>
                       </ul>
-                    </div>   
+                    </div>
                   </>
                 )}
               </div>
             </div>
 
-            <div className="col-lg-6">
-              <div className="productive-image">
-                <img src={require('../../images/productive.png')} alt="image" />
+            <div className='col-lg-6'>
+              <div className='productive-image'>
+                <img src={require('../../images/productive.png')} alt='image' />
               </div>
             </div>
           </div>
-          
         </div>
       </section>
-    );
+    )
   }
 }
 
-export default GetStartedProject;
+export default GetStartedProject

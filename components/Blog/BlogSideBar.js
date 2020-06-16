@@ -19,50 +19,51 @@ class BlogSideBar extends Component {
                 <div className="widget widget_plamb_posts_thumb">
                     <h3 className="widget-title">Recent posts</h3>
                     <article className="item">
-                        <Link href="/blog/pivot">
+                        <Link href="/blog/data-decisions">
                             <a className="thumb">
                                 <span className="fullimage cover bg1" role="img"></span>
                             </a>
                         </Link> 
                         <div className="info">
-                            <time>May 7, 2020</time>
+                            <time>June 3, 2020</time>
                             <h4 className="title usmall">
-                                <Link href="/blog/pivot">
-                                    <a>Benefits of a Responsive Data Strategy</a>
+                                <Link href="/blog/data-decisions">
+                                    <a>Make Better Data Decisions</a>
                                 </Link>
                             </h4>
                         </div>
                     </article>
                     <article className="item">
-                        <Link href="/blog/covid-19">
+                        <Link href="/blog/market-realities">
                             <a className="thumb">
                                 <span className="fullimage cover bg2" role="img"></span>
                             </a>
                         </Link> 
                         <div className="info">
-                            <time>April 09, 2020</time>
+                            <time>May 19, 2020</time>
                             <h4 className="title usmall">
-                                <Link href="/blog/covid-19">
-                                    <a>Covid-19</a>
+                                <Link href="/blog/market-realities">
+                                    <a>A Shift to Better Understand Your Business</a>
                                 </Link>
                             </h4>
                         </div>
                     </article>  
                     <article className="item">
-                        <Link href="/blog/real-time-alerts">
+                        <Link href="/blog/creative-data">
                             <a className="thumb">
                                 <span className="fullimage cover bg3" role="img"></span>
                             </a>
                         </Link> 
                         <div className="info">
-                            <time>March 10, 2020</time>
+                            <time>May 13, 2020</time>
                             <h4 className="title usmall">
-                                <Link href="/blog/real-time-alerts">
-                                    <a>Real-time Data and Alerts</a>
+                                <Link href="/blog/creative-data">
+                                    <a>Getting Creative with Data</a>
                                 </Link>
                             </h4>
                         </div>
                     </article>  
+                    
                 </div>  
                 {/* <div className="widget widget_categories">
                     <h3 className="widget-title">Categories</h3>    

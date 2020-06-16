@@ -17,6 +17,7 @@ class Covid19 extends Component {
                   date='April 09, 2020' 
                   author='Emilio Izquierdo' 
                   title="Covid-19"
+                  text2={true}
                   quote="This is no time to panic, but it certainly is a good time to reassess your data strategies as you set up your home office."
                   text="How is Covid-19 impacting your data strategy? Are you focusing on accomplishing your same goals in preparation to hit the ground running when the current crisis subsides? Are you reshifting your efforts to drive different priorities now? Whichever path you choose calls for an assessment of how you're presently handling your data strategy."
                   articleLink="//tdwi.org/articles/2020/03/25/DIQ-ALL-Data-Management-and-Coronavirus.aspx?utm_source=nl&utm_medium=email&utm_campaign=nl252&share=&mkt_tok=eyJpIjoiWm1Gall6aGxZelkwWWpZMyIsInQiOiJYWjAyWnNzZDkwY1J6RHBSWXhKZDRhNHQyOWxuSnRrVE11dCtacjZqOEVsazZRZFZiYmhSXC9TNDU4Mk9jVE50VFdpYnh0QVwvOXg2WTQ3bU9kaURCUXhCWWhZeGZKd05udG1hQXVlcnZTcFlIaUI2Q01zMzNNdXpLeFh6U1hSaGNIIn0%3D"
