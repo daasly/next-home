@@ -2566,6 +2566,7 @@ Blog Section CSS
   text-decoration: none;
 }
 
+
 .blog-item .blog-content p {
   margin: 0;
 }
@@ -5041,6 +5042,11 @@ Blog Details Area CSS
 
 .blog-details-desc .article-content .features-list li:last-child {
   margin-bottom: 0;
+}
+
+.blog-details-desc .article-content p a:hover {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .blog-details-desc .article-footer {
