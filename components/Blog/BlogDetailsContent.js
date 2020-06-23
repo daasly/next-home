@@ -3,17 +3,17 @@ import Link from 'next/link';
 import BlogSideBar from './BlogSideBar';
 
 class BlogDetailsContent extends Component {
-    
+
     render() {
-        
+
         return (
             <section className="blog-details-area ptb-100">
                 <div className="container">
-                <div className="section-title">
-						<span>Read Our Latest Post</span>
-						<h2>Blog & Updates</h2>
-						<br/>
-					</div>
+                    <div className="section-title">
+                        <span>Read Our Latest Post</span>
+                        <h2>Blog & Updates</h2>
+                        <br />
+                    </div>
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="blog-details-desc">
@@ -25,11 +25,11 @@ class BlogDetailsContent extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <span>Posted on:</span> 
+                                                <span>Posted on:</span>
                                                 {this.props.date}
                                             </li>
                                             <li>
-                                                <span>Posted by:</span> 
+                                                <span>Posted by:</span>
                                                 <Link href="#">
                                                     <a>{this.props.author}</a>
                                                 </Link>
@@ -38,23 +38,27 @@ class BlogDetailsContent extends Component {
                                     </div>
 
                                     <h3>{this.props.title}</h3>
-                                    <p>{this.props.textLink ? <a  href={this.props.textLink} target="_blank">{this.props.linkedText}</a> : null} {this.props.text}</p>
+                                    <p>{this.props.textLink ? <a href={this.props.textLink} target="_blank">{this.props.linkedText}</a> : null} {this.props.text}</p>
                                     {this.props.text2 ? (
-                                        <p>{this.props.text2 }</p>
+                                        <p>{this.props.text2}</p>
                                     ) : (
-                                        <p>Interested to know more about Daasly’s <Link href="https://daasly.com/data-strategy"><a> Report Rewind</a></Link>? Check out our process and how we can help.</p>
-                                    )}
-                                   
+                                            <p>Interested to know more about Daasly’s <Link href="https://daasly.com/data-strategy"><a> Report Rewind</a></Link>? Check out our process and how we can help.</p>
+                                        )}
+
                                     <p>{this.props.text3}</p>
+                                    <p>{this.props.text4}</p>
+                                    <p>{this.props.text5}</p>
+                                    <p>{this.props.text6}</p>
+                                    <p>{this.props.text7}</p>
                                     <blockquote>
                                         <p>{this.props.quote}</p>
                                         {/* <cite>Tom Cruise</cite> */}
                                     </blockquote>
                                     <p>Read the complete article that inspired this post <a target="_blank" href={this.props.articleLink}>here</a>.</p>
- 
-                                    
 
-                                    
+
+
+
                                 </div>
 
                                 {/* Article footer */}
@@ -89,7 +93,7 @@ class BlogDetailsContent extends Component {
                                                     </a>
                                                 </Link>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -98,7 +102,7 @@ class BlogDetailsContent extends Component {
                                 {/* <div className="comments-area">
                                     <h3 className="comments-title">2 Comments:</h3> */}
 
-                                    {/* <ol className="comment-list">
+                                {/* <ol className="comment-list">
                                         <li className="comment">
                                             <article className="comment-body">
                                                 <footer className="comment-meta">
@@ -221,7 +225,7 @@ class BlogDetailsContent extends Component {
                                     </ol>
 
                                     {/* Comment respond */}
-                                    {/* <div className="comment-respond">
+                                {/* <div className="comment-respond">
                                         <h3 className="comment-reply-title">Leave a Reply</h3>
 
                                         <form className="comment-form">
@@ -258,7 +262,7 @@ class BlogDetailsContent extends Component {
                                 {/* </div> */}
                             </div>
                         </div>
-                    
+
                         <div className="col-lg-4">
                             <BlogSideBar />
                         </div>
