@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { useRouter } from "next/router"
+import axios from 'axios'
 
 const ContactForm = () => {
 	const router = useRouter()
@@ -11,17 +12,19 @@ const ContactForm = () => {
 		subject: "",
 		contactMethod: ''
 	})
-	
+	const [error, setError] = useState(null)
+
 	const handleSubmit = (e) => {
 		e.preventDefault()
-		const form = event.target
-		const data = new FormData(form)
-		const xhr = new XMLHttpRequest()
-		xhr.open(form.method, form.action)
-		xhr.setRequestHeader("Accept", "application/json")
-		xhr.send(data)
-		console.log(data)
-		router.push("/thank-you")
+		try {
+			axios({
+				method: 'POST',
+				url: 'https://us-central1-daasly.cloudfunctions.net/api/lead',
+				data: { ...state, leadsourceID: process.env.leadsourceID }
+			}).then(() => router.push("/thank-you"))
+		} catch (error) {
+			setError("error")
+		}
 	}
 	const handleChange = (e) => {
 		setState({ ...state, [e.target.name]: e.target.value })
@@ -39,10 +42,10 @@ const ContactForm = () => {
 
 					<div className="col-lg-6">
 						<div className="contact-form">
+							{error && <p>{error}</p>}
 							<h3>Send Us a Message</h3>
 							<form
 								id="contactForm"
-								action={`https://us-central1-daasly.cloudfunctions.net/addLead?sourceKey=${process.env.apiKey}&email=${state.email}&name=${state.name}&phone=${state.phone}&subject=${state.subject}&message=${state.message}&contactMethod=${state.contactMethod}`}
 								onSubmit={handleSubmit}
 							>
 								<div className="row">
@@ -120,7 +123,7 @@ const ContactForm = () => {
 										</div>
 									</div>
 									<div className="col-lg-6 col-md-6">
-										<h5 style={{width: 250}}>Preferred Contact Method</h5>
+										<h5 style={{ width: 250 }}>Preferred Contact Method</h5>
 										<div className="form-group">
 											<div
 												style={{
@@ -134,28 +137,28 @@ const ContactForm = () => {
 												<label htmlFor="email">
 													Email
 												</label>
-													
-													<input
-													  style={{height: 40, marginLeft: 10}}
-														type="radio"
-														id="email"
-														className="form-control"
-														name="contactMethod"
-														value="email"
-														onClick={handleChange}
-													/>
+
+												<input
+													style={{ height: 40, marginLeft: 10 }}
+													type="radio"
+													id="email"
+													className="form-control"
+													name="contactMethod"
+													value="email"
+													onClick={handleChange}
+												/>
 												<label htmlFor="email">
 													Phone
 												</label>
-													<input
-													  style={{height: 40, marginLeft: 10}}
-														type="radio"
-														id="phone"
-														className="form-control"
-														name="contactMethod"
-														onClick={handleChange}
-														value='phone'
-													/>
+												<input
+													style={{ height: 40, marginLeft: 10 }}
+													type="radio"
+													id="phone"
+													className="form-control"
+													name="contactMethod"
+													onClick={handleChange}
+													value='phone'
+												/>
 											</div>
 										</div>
 									</div>
@@ -166,7 +169,7 @@ const ContactForm = () => {
 										</button>
 									</div>
 									<div className="col-lg-12 col-md-12">
-										<p style={{fontSize: '12px'}}>
+										<p style={{ fontSize: '12px' }}>
 											I consent to having Daasly use the provided information
 											for direct marketing purposes including contact by phone,
 											email, SMS, or other electronic means.

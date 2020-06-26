@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import axios from 'axios'
 
 class SubscribeStyleThree extends Component {
 	state = {
@@ -6,20 +7,21 @@ class SubscribeStyleThree extends Component {
 		disabled: false
 	}
 
-	handleChange= e => {
-		this.setState({email: e.target.value})
+	handleChange = e => {
+		this.setState({ email: e.target.value })
 	}
 
 	handleSubmit = e => {
 		e.preventDefault()
-		const form = event.target
-		const data = new FormData(form)
-		const xhr = new XMLHttpRequest()
-		xhr.open(form.method, form.action)
-		xhr.setRequestHeader("Accept", "application/json")
-		xhr.send(data)
-		this.setState({disabled: true})
-		form.reset()
+		try {
+			axios.post('https://us-central1-daasly.cloudfunctions.net/api/lead', { ...this.state, leadsourceID: process.env.newsLetterLeadSource })
+				.then(() => {
+					this.setState({ disabled: true, email: '' })
+				})
+		} catch (error) {
+			console.log(error)
+		}
+
 	}
 	render() {
 		return (
@@ -47,8 +49,7 @@ class SubscribeStyleThree extends Component {
 									</p>
 								</div>
 
-								<form className="newsletter-form" 
-									action={`https://us-central1-daasly.cloudfunctions.net/addLead?sourceKey=${process.env.newsLetterKey}&email=${this.state.email}`}
+								<form className="newsletter-form"
 									onSubmit={this.handleSubmit}
 								>
 									<input
@@ -57,12 +58,13 @@ class SubscribeStyleThree extends Component {
 										placeholder="Enter your email"
 										name="email"
 										onChange={this.handleChange}
+										value={this.state.email}
 									/>
 									{this.state.disabled ? (
-									<button type="submit" disabled style={{backgroundColor: 'lightgrey'}}>Subscribed!</button>
-								):
-								<button type="submit">Subscribe</button>
-								}
+										<button type="submit" disabled style={{ backgroundColor: 'lightgrey' }}>Subscribed!</button>
+									) :
+										<button type="submit">Subscribe</button>
+									}
 								</form>
 							</div>
 						</div>

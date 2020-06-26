@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import BlogCardTwo from './BlogCardTwo'
+import BlogCardThree from './BlogCardThree'
 
 const BlogCard = (props) => {
   const [pageOne, setPageOne] = useState(true)
@@ -33,8 +34,58 @@ const BlogCard = (props) => {
           </div>
 
           <div className="row">
+            <div className="col-lg-4 col-md-6">
+              <div className="blog-item">
+                <Link href="/blog/strategy-and-social-good">
+                  <a>
+                    <img src={require('../../images/blog/blog2.png')} alt="image" />
+                  </a>
+                </Link>
 
-          <div className="col-lg-4 col-md-6">
+                <div className="blog-content">
+                  <ul className="meta-tags">
+                    <li>
+                      <Link href="/blog/strategy-and-social-good">
+                        <a>
+                          <i className="fa fa-user-alt"></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/blog/strategy-and-social-good">
+                        <a>
+                          <i className="fas fa-calendar-week"></i>15 Jun 2020
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
+
+                  <h3 className="overflow-scroll">
+                    <Link href="/blog/strategy-and-social-good">
+                      <a>Creating a Data Strategy to Drive Your Nonprofit</a>
+                    </Link>
+                  </h3>
+                  <div className="overflow-scroll">
+                    <p>
+                      Consider these five steps to develop a well-informed, well-defined data strategy for your nonprofit organization and gain an advantage.
+                    </p>
+                  </div>
+
+                  <Link href="/blog/strategy-and-social-good">
+                    <a className="read-more">
+                      Read More
+                      <i className="fa fa-chevron-right"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
               <div className="blog-item">
                 <Link href="/blog/data-decisions">
                   <a>
@@ -84,7 +135,7 @@ const BlogCard = (props) => {
               </div>
             </div>
 
-          <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="blog-item">
                 <Link href="/blog/market-realities">
                   <a>
@@ -190,7 +241,7 @@ const BlogCard = (props) => {
 
 
 
-						<div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="blog-item">
                 <Link href="/blog/pivot">
                   <a>
@@ -290,62 +341,12 @@ const BlogCard = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item">
-                <Link href="/blog/real-time-alerts">
-                  <a>
-                    <img src={require('../../images/blog/blog1.png')} alt="image" />
-                  </a>
-                </Link>
-
-                <div className="blog-content">
-                  <ul className="meta-tags">
-                    <li>
-                      <Link href="/blog/real-time-alerts">
-                        <a>
-                          <i className="fa fa-user-alt"></i>
-                          Emilio Izquierdo
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/real-time-alerts">
-                        <a>
-                          <i className="fas fa-calendar-week"></i>10 Mar 2020
-                        </a>
-                      </Link>
-                    </li>
-                    {/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-                  </ul>
-
-                  <h3>
-                    <Link href="/blog/real-time-alerts">
-                      <a>Real-time Data and Alerts</a>
-                    </Link>
-                  </h3>
-
-                  <p>
-                    Check out this guide, and soon you'll become a real-time data expert capable of
-                    solving lots of different problems.
-                  </p>
-
-                  <Link href="/blog/real-time-alerts">
-                    <a className="read-more">
-                      Read More
-                      <i className="fa fa-chevron-right"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            
 
           </div>
         </div>
       )}
       {pageTwo && !pageOne && <BlogCardTwo />}
+      {pageThree && !pageOne && !pageTwo && <BlogCardThree />}
       {/* Pagination */}
       <div className="col-lg-12 col-md-12">
         <div className="pagination-area">
@@ -401,14 +402,14 @@ const BlogCard = (props) => {
             2
           </span>
 
-          {/* <span onClick={() => {
-								setPageOne(false)
-								setPageTwo(false)
-								setPageThree(true)
-								setPageFour(false)
-							}}className={pageThree ? "page-numbers current" : "page-numbers"}>3</span>
+          <span onClick={() => {
+            setPageOne(false)
+            setPageTwo(false)
+            setPageThree(true)
+            setPageFour(false)
+          }} className={pageThree ? "page-numbers current" : "page-numbers"}>3</span>
 
-							<span onClick={() => {
+          {/* <span onClick={() => {
 								setPageOne(false)
 								setPageTwo(false)
 								setPageThree(false)
@@ -425,8 +426,8 @@ const BlogCard = (props) => {
                 // setPageFour(false)
               } else if (pageTwo) {
                 setPageOne(false)
-                setPageTwo(true)
-                // setPageThree(true)
+                setPageTwo(false)
+                setPageThree(true)
                 // setPageFour(false)
               }
               // else if (pageThree){

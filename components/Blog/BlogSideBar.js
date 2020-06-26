@@ -10,20 +10,35 @@ class BlogSideBar extends Component {
                         <label>
                             <span className="screen-reader-text">Search for:</span>
                             <input type="search" className="search-field" placeholder="Search..." />
-                        </label>    
+                        </label>
                         <button type="submit">
                             <i className="fas fa-search"></i>
                         </button>
                     </form>
-                </div>  
+                </div>
                 <div className="widget widget_plamb_posts_thumb">
                     <h3 className="widget-title">Recent posts</h3>
+                    <article className="item">
+                        <Link href="/blog/strategy-and-social-good">
+                            <a className="thumb">
+                                <span className="fullimage cover bg1" role="img"></span>
+                            </a>
+                        </Link>
+                        <div className="info">
+                            <time>June 15, 2020</time>
+                            <h4 className="title usmall">
+                                <Link href="/blog/strategy-and-social-good">
+                                    <a>Creating a Data Strategy to Drive Your Nonprofit</a>
+                                </Link>
+                            </h4>
+                        </div>
+                    </article>
                     <article className="item">
                         <Link href="/blog/data-decisions">
                             <a className="thumb">
                                 <span className="fullimage cover bg1" role="img"></span>
                             </a>
-                        </Link> 
+                        </Link>
                         <div className="info">
                             <time>June 3, 2020</time>
                             <h4 className="title usmall">
@@ -38,7 +53,7 @@ class BlogSideBar extends Component {
                             <a className="thumb">
                                 <span className="fullimage cover bg2" role="img"></span>
                             </a>
-                        </Link> 
+                        </Link>
                         <div className="info">
                             <time>May 19, 2020</time>
                             <h4 className="title usmall">
@@ -47,24 +62,9 @@ class BlogSideBar extends Component {
                                 </Link>
                             </h4>
                         </div>
-                    </article>  
-                    <article className="item">
-                        <Link href="/blog/creative-data">
-                            <a className="thumb">
-                                <span className="fullimage cover bg3" role="img"></span>
-                            </a>
-                        </Link> 
-                        <div className="info">
-                            <time>May 13, 2020</time>
-                            <h4 className="title usmall">
-                                <Link href="/blog/creative-data">
-                                    <a>Getting Creative with Data</a>
-                                </Link>
-                            </h4>
-                        </div>
-                    </article>  
-                    
-                </div>  
+                    </article>
+
+                </div>
                 {/* <div className="widget widget_categories">
                     <h3 className="widget-title">Categories</h3>    
                     <ul>
@@ -94,7 +94,7 @@ class BlogSideBar extends Component {
                             </Link>
                         </li>
                     </ul>
-                </div> */}  
+                </div> */}
                 {/* <div className="widget widget_recent_comments">
                     <h3 className="widget-title">Recent comments</h3>   
                     <ul>
@@ -155,7 +155,7 @@ class BlogSideBar extends Component {
                         </li>
                     </ul>
                 </div> */}
-    
+
                 {/* <div className="widget widget_tag_cloud">
                     <h3 className="widget-title">Tags</h3>  
                     <div className="tagcloud section-bottom">
