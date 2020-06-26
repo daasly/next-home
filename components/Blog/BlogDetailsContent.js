@@ -3,17 +3,17 @@ import Link from 'next/link';
 import BlogSideBar from './BlogSideBar';
 
 class BlogDetailsContent extends Component {
-    
+
     render() {
-        
+
         return (
             <section className="blog-details-area ptb-100">
                 <div className="container">
-                <div className="section-title">
-						<span>Read Our Latest Post</span>
-						<h2>Blog & Updates</h2>
-						<br/>
-					</div>
+                    <div className="section-title">
+                        <span>Read Our Latest Post</span>
+                        <h2>Blog & Updates</h2>
+                        <br />
+                    </div>
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="blog-details-desc">
@@ -25,11 +25,11 @@ class BlogDetailsContent extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <span>Posted on:</span> 
+                                                <span>Posted on:</span>
                                                 {this.props.date}
                                             </li>
                                             <li>
-                                                <span>Posted by:</span> 
+                                                <span>Posted by:</span>
                                                 <Link href="#">
                                                     <a>{this.props.author}</a>
                                                 </Link>
@@ -38,23 +38,41 @@ class BlogDetailsContent extends Component {
                                     </div>
 
                                     <h3>{this.props.title}</h3>
-                                    <p>{this.props.textLink ? <a  href={this.props.textLink} target="_blank">{this.props.linkedText}</a> : null} {this.props.text}</p>
+                                    <p>{this.props.textLink ? <a href={this.props.textLink} target="_blank">{this.props.linkedText}</a> : null} {this.props.text}</p>
                                     {this.props.text2 ? (
-                                        <p>{this.props.text2 }</p>
+                                        <p>{this.props.text2}</p>
                                     ) : (
-                                        <p>Interested to know more about Daasly’s <Link href="https://daasly.com/data-strategy"><a> Report Rewind</a></Link>? Check out our process and how we can help.</p>
-                                    )}
-                                   
+                                            <p>Interested to know more about Daasly’s <Link href="https://daasly.com/data-strategy"><a> Report Rewind</a></Link>? Check out our process and how we can help.</p>
+                                        )}
+
                                     <p>{this.props.text3}</p>
+
+                                    <p>{this.props.text4}</p>
+                                    <p>{this.props.text5}</p>
+                                    <p>{this.props.text6}</p>
+                                    <p>{this.props.text7}</p>
                                     <blockquote>
                                         <p>{this.props.quote}</p>
                                         {/* <cite>Tom Cruise</cite> */}
                                     </blockquote>
-                                    <p>Read the complete article that inspired this post <a target="_blank" href={this.props.articleLink}>here</a>.</p>
- 
-                                    
+                                    {this.props.ctaStrategy && <p>It's important to keep up, Daasly, Inc can help! Let us guide you through making the shift, read about our <Link href="/data-strategy"><a>Data Strategy</a></Link> and <Link href="/data-strategy"><a>Report Rewind</a></Link> process.</p>}
+                                    {this.props.ctaCreativeData && <p>These data professionals incorporated their personality and professional interests to visualize everything from wedding buttons to Lego elevation maps. Their personalities really shine through here. Get to know more about the team as Daasly, read About them <Link href="/about-us"><a>here</a></Link>.</p>}
+                                    {this.props.ctaPivot && <p>In an ideal scenario, you have a solid data strategy in place. It's a foundation that can be built upon and can be expanded upon. If this is not the place your organization is in, help us take a few steps back alongside you, to get you moving forward! Read about our <Link href="/data-strategy"><a>Data Strategy</a></Link> and approach <Link href="/data-strategy"><a>here</a></Link>.</p>}
+                                    {this.props.ctaCovid && <p>Taking a step back with fresh eyes can bring contribute loads of insight and bring new clarity. Let us take a 1000 foot view alongside you, to get you moving forward! Read about our <Link href="/data-strategy"><a>Data Strategy</a></Link> and <Link href="/data-strategy"><a>Report Rewind</a></Link> approach <Link href="/data-strategy"><a>here</a></Link>.</p>}
+                                    {this.props.ctaRealTime && <p>Need help properly identifying the need for and setting up real-time alerts? Our BI Consultants can identify and execute approaches to make your BI strategy even more efficient. Daasly can help, read about our the <Link href="business-intelligence-consulting"><a>BI Consulting</a></Link> services <Link href="business-intelligence-consulting"><a>here</a></Link>.</p>}
+                                    {this.props.ctaGADimensions && <p>Having a difficult time navigating Digital Marketing tools and keeping up with the wave of changes? Daasly is here for you, read about how we use <Link href="digital-marketing-tools"><a>Digital Marketing Tools</a></Link> to save time and increase your data's productivity <Link href="digital-marketing-tools"><a>here</a></Link>.</p>}
+                                    {this.props.ctaGTM && <p>Having a difficult time navigating Digital Marketing tools and keeping up with the wave of changes? Daasly is here for you, read about how we use <Link href="digital-marketing-tools"><a>Digital Marketing Tools</a></Link> to save time and increase your data's productivity <Link href="digital-marketing-tools"><a>here</a></Link>.</p>}
+                                    {this.props.ctaDomoAWS && <p> Domo is in a constant state of increasing their portfolio of services and building upon their current offerings. Our expert Domo BI Consultants can optimize your Domo instance and keep you up-to-date on the tool's latest offerings to make your Bi strategy even more efficient. Daasly can help, read about our the <Link href="business-intelligence-consulting"><a>BI Consulting</a></Link> services <Link href="business-intelligence-consulting"><a>here</a></Link>.</p>}
+                                    {this.props.ctaDataBuyIn && <p>The journey to buy-in for a data strategy can be a difficult process. Change takes preparation, time, and dedication. Bring an expert along to ease the burdens often associated with buy-in. Our team knows the value of a data strategy and can help you develop a useful use case that proves worth. Read about our <Link href="/data-strategy"><a>Data Strategy</a></Link> and <Link href="/data-strategy"><a>Report Rewind</a></Link> approach <Link href="/data-strategy"><a>here</a></Link>.</p>}
+                                    {this.props.ctaFirstStep && <p>In an ideal scenario, you have a solid data strategy in place before making an investment into a BI tool. It's a foundation capable to be built and expanded upon. If this is where you are we can help you dot your i's and cross your t's. Read about our <Link href="/data-strategy"><a>Data Strategy</a></Link> consulting service and approach <Link href="/data-strategy"><a>here</a></Link>.</p>}
+                                    {this.props.ctaMarathon && <p>A solid data strategy brings with it a foundation capable to be built and expanded upon. If this is where you are we can help you dot your i's and cross your t's. Read about our <Link href="/data-strategy"><a>Data Strategy</a></Link> consulting service and approach <Link href="/data-strategy"><a>here</a></Link>.</p>}
+                                    {this.props.ctaStrategySocial && <p>Daasly can help you empower your organization and demonstrate your impact to stakeholders. Want to dive deeper? We would love to help. Get in <Link href="/contact"><a>contact</a></Link> today.</p>}
 
-                                    
+                                    {!this.props.ctaMarathon || !this.props.ctaFirstStep || !this.props.ctaDataBuyIn || !this.props.ctaDomoAWS || !this.props.ctaGTM || !this.props.ctaGADimensions || !this.props.ctaRealTime || !this.props.ctaStrategy || !this.props.ctaCreativeData || !this.props.ctaCreativeData || !this.props.ctaCovid && <p>Read the complete article that inspired this post <a target="_blank" href={this.props.articleLink}>here</a>.</p>}
+
+
+
+
                                 </div>
 
                                 {/* Article footer */}
@@ -89,7 +107,7 @@ class BlogDetailsContent extends Component {
                                                     </a>
                                                 </Link>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -98,7 +116,7 @@ class BlogDetailsContent extends Component {
                                 {/* <div className="comments-area">
                                     <h3 className="comments-title">2 Comments:</h3> */}
 
-                                    {/* <ol className="comment-list">
+                                {/* <ol className="comment-list">
                                         <li className="comment">
                                             <article className="comment-body">
                                                 <footer className="comment-meta">
@@ -221,7 +239,7 @@ class BlogDetailsContent extends Component {
                                     </ol>
 
                                     {/* Comment respond */}
-                                    {/* <div className="comment-respond">
+                                {/* <div className="comment-respond">
                                         <h3 className="comment-reply-title">Leave a Reply</h3>
 
                                         <form className="comment-form">
@@ -258,7 +276,7 @@ class BlogDetailsContent extends Component {
                                 {/* </div> */}
                             </div>
                         </div>
-                    
+
                         <div className="col-lg-4">
                             <BlogSideBar />
                         </div>

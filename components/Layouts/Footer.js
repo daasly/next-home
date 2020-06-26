@@ -29,7 +29,7 @@ class Footer extends Component {
 											</a>
 										</li> */}
 										<li>
-											<img src={require('../../images/SDVOSB edited.png')} alt="sdvosb"/>
+											<img src={require('../../images/SDVOSB edited.png')} alt="sdvosb" />
 										</li>
 									</ul>
 								</div>
@@ -150,7 +150,7 @@ class Footer extends Component {
 							<div className="col-lg-6 col-md-6">
 								<p>
 									&copy; {currentYear} Daasly. All Rights Reserved by
-									<a href="https://envytheme.com/" target="_blank">
+									<a href="https://daasly.com/">
 										Daasly, Inc.
 									</a>
 								</p>

@@ -2566,6 +2566,7 @@ Blog Section CSS
   text-decoration: none;
 }
 
+
 .blog-item .blog-content p {
   margin: 0;
 }
@@ -4940,7 +4941,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-content .entry-meta ul li a {
   display: inline-block;
-  color: #737b9a;
+  color: #00b0ee;
 }
 
 .blog-details-desc .article-content .entry-meta ul li a:hover {
@@ -5042,6 +5043,12 @@ Blog Details Area CSS
 .blog-details-desc .article-content .features-list li:last-child {
   margin-bottom: 0;
 }
+.blog-details-desc .article-content p a {
+  color: #00b0ee;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 
 .blog-details-desc .article-footer {
   display: -ms-flexbox;
