@@ -24,7 +24,7 @@ class StrategyAndSocialGood extends Component {
           text4="3. Know the laws and regulations. There is an ethical and legal responsibility to know the laws surrounding proper privacy, security measures, and how and what data to collect and maintain."
           text5="4. Implement the right tools. An enterprise application provides a 360-degree view of everything from contact records, marketing campaigns, and program management."
           text6="5. Prepare to evolve. No technology is long-term because it evolves rapidly as does the shifting landscape. Be agile enough to pivot to meet changing demands and goals."
-          text7="Daasly can help you empower your organization and demonstrate your impact to stakeholders. Want to dive deeper? We would love to help. Get in contact today."
+          ctaStrategySocial={true}
           articleLink='//www.statsglitch.com/google-analytics-real-time-alerts-4.html'
           shareLink='https://www.linkedin.com/shareArticle?mini=true&url=https://daasly.com/blog/real-time-alerts&title=&summary=&source='
         />
