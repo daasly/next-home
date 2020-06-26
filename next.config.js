@@ -15,6 +15,8 @@ module.exports = withPlugins([
         env: {
             apiKey: 'I6HxQt5HGEvjCZLysbmk',
             newsLetterKey: '2TqqbIBcergQYn16LETH',
+            leadsourceID: 'df6a5527-9869-448e-a14e-152f26c4c7c4',
+            newsLetterLeadSource: 'ba2df751-e46c-41a8-b9a6-400b6d60c07b'
         },
         mozjpeg: {
             quality: 80,
@@ -32,6 +34,6 @@ module.exports = withPlugins([
             quality: 75,
         },
     }],
-    [withCSS],[withFonts],[withSass]
+    [withCSS], [withFonts], [withSass]
 ]);
 
