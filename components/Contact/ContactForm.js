@@ -46,7 +46,6 @@ const ContactForm = () => {
 							<h3>Send Us a Message</h3>
 							<form
 								id="contactForm"
-								// action={`https://us-central1-daasly.cloudfunctions.net/addLead?sourceKey=${process.env.apiKey}&email=${state.email}&name=${state.name}&phone=${state.phone}&subject=${state.subject}&message=${state.message}&contactMethod=${state.contactMethod}`}
 								onSubmit={handleSubmit}
 							>
 								<div className="row">
