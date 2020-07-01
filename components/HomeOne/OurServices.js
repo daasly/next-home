@@ -7,7 +7,7 @@ class OurServices extends Component {
 			<section className="services-section pt-100 pb-70">
 				<div className="container">
 					<div className="section-title">
-						<span>Our Services</span>
+						<Link href="/services"><a><span>Our Services</span></a></Link>
 						<h2>What We Do</h2>
 					</div>
 
@@ -73,7 +73,7 @@ class OurServices extends Component {
 									<i className="flaticon-chart"></i>
 								</div>
 								<h3>Data-Centric Software Development</h3>
-								<br/>
+								<br />
 								<p>
 									Custom dashboards, lead management, and visualization systems
 								</p>
@@ -93,7 +93,7 @@ class OurServices extends Component {
 									<i className="flaticon-science"></i>
 								</div>
 								<h3>Digital Marketing Tools</h3>
-								<br/>
+								<br />
 								<p>Google Tag Manager and Google Analytics management</p>
 
 								<Link href="/digital-marketing-tools">
@@ -111,7 +111,7 @@ class OurServices extends Component {
 									<i className="flaticon-data-management"></i>
 								</div>
 								<h3>Business Intelligence</h3>
-								<br/>
+								<br />
 								<p>
 									Domo Certified collection and analysis of business information
 								</p>
