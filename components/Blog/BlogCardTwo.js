@@ -22,6 +22,60 @@ class BlogCardTwo extends Component {
 				</div>
 
 				<div className="row">
+				<div className='col-lg-4 col-md-6'>
+              <div className='blog-item'>
+                <Link href='/blog/covid-19'>
+                  <a>
+                    <img
+                      src={require('../../images/blog/blog2.png')}
+                      alt='image'
+                    />
+                  </a>
+                </Link>
+
+                <div className='blog-content'>
+                  <ul className='meta-tags'>
+                    <li>
+                      <Link href='/blog/covid-19'>
+                        <a>
+                          <i className='fa fa-user-alt'></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/blog/covid-19'>
+                        <a>
+                          <i className='fas fa-calendar-week'></i>09 Apr 2020
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
+
+                  <h3>
+                    <Link href='/blog/covid-19'>
+                      <a>Covid-19</a>
+                    </Link>
+                  </h3>
+                  <div className='overflow-scroll'>
+                    <p>
+                      This is no time to panic, but it certainly is a good time
+                      to reassess your data strategies as you set up your home
+                      office.
+                    </p>
+                  </div>
+                  <Link href='/blog/covid-19'>
+                    <a className='read-more'>
+                      Read More
+                      <i className='fa fa-chevron-right'></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
 
 					<div className="col-lg-4 col-md-6">
 						<div className="blog-item">
@@ -279,60 +333,7 @@ class BlogCardTwo extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-4 col-md-6">
-						<div className="blog-item">
-							<Link href="/blog/the-first-step-blog">
-								<a>
-									<img
-										src={require("../../images/blog/blog3.png")}
-										alt="image"
-									/>
-								</a>
-							</Link>
-
-							<div className="blog-content">
-								<ul className="meta-tags">
-									<li>
-										<Link href="/blog/the-first-step-blog">
-											<a>
-												<i className="fa fa-user-alt"></i>
-													Emilio Izquierdo
-												</a>
-										</Link>
-									</li>
-									<li>
-										<Link href="/blog/the-first-step-blog">
-											<a>
-												<i className="fas fa-calendar-week"></i>9 Sept 2019
-												</a>
-										</Link>
-									</li>
-									{/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-								</ul>
-
-								<h3>
-									<Link href="/blog/the-first-step-blog">
-										<a>It's the First Step</a>
-									</Link>
-								</h3>
-
-								<p>
-									Just like any machine that needs to work in unison, a technology solution will run out of fuel without the right structure and processes.
-									</p>
-
-								<Link href="/blog/the-first-step-blog">
-									<a className="read-more">
-										Read More
-											<i className="fa fa-chevron-right"></i>
-									</a>
-								</Link>
-							</div>
-						</div>
 					</div>
-
-				</div>
 			</div>
 
 		)
