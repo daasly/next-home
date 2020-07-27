@@ -15,7 +15,7 @@ class AboutUs extends Component {
 
 						<div className="col-lg-6">
 							<div className="about-content">
-								<span>Why Daasly</span>
+								<Link href="/about-us"><a><span>Why Daasly</span></a></Link>
 								<h2>Get to Know Us</h2>
 								<p>
 									Daasly is a team of experienced professionals with a proven

@@ -59,7 +59,7 @@ class BlogCardThree extends Component {
                                         <a>It's a Marathon, Not a Sprint</a>
                                     </Link>
                                 </h3>
-                                <p>
+                                <p className="overflow-scroll">
                                     Our advanced technology and machine learning algorithms allow organizations to quickly detect data relationships in structured, semi-structured, and some unstructured formats.
 								</p>
                                 <Link href="/blog/its-a-marathon-blog">

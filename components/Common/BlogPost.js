@@ -7,7 +7,7 @@ class BlogPost extends Component {
 			<section className="blog-section pt-100 pb-70">
 				<div className="container">
 					<div className="section-title">
-						<span>Blog</span>
+						<Link href='/blog'><a><span>Blog</span></a></Link>
 						<h2>Latest Posts</h2>
 					</div>
 
