@@ -19,6 +19,21 @@ class BlogSideBar extends Component {
                 <div className="widget widget_plamb_posts_thumb">
                     <h3 className="widget-title">Recent posts</h3>
                     <article className="item">
+                        <Link href="/blog/small-moments">
+                            <a className="thumb">
+                                <span className="fullimage cover bg1" role="img"></span>
+                            </a>
+                        </Link>
+                        <div className="info">
+                            <time>Jul 17, 2020</time>
+                            <h4 className="title usmall">
+                                <Link href="/blog/small-moments">
+                                    <a>Small Moments Generate Big Impacts</a>
+                                </Link>
+                            </h4>
+                        </div>
+                    </article>
+                    <article className="item">
                         <Link href="/blog/strategy-and-social-good">
                             <a className="thumb">
                                 <span className="fullimage cover bg1" role="img"></span>
@@ -48,21 +63,7 @@ class BlogSideBar extends Component {
                             </h4>
                         </div>
                     </article>
-                    <article className="item">
-                        <Link href="/blog/market-realities">
-                            <a className="thumb">
-                                <span className="fullimage cover bg2" role="img"></span>
-                            </a>
-                        </Link>
-                        <div className="info">
-                            <time>May 19, 2020</time>
-                            <h4 className="title usmall">
-                                <Link href="/blog/market-realities">
-                                    <a>A Shift to Better Understand Your Business</a>
-                                </Link>
-                            </h4>
-                        </div>
-                    </article>
+                    
 
                 </div>
                 {/* <div className="widget widget_categories">

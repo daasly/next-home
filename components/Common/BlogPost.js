@@ -12,6 +12,61 @@ class BlogPost extends Component {
 					</div>
 
 					<div className="row">
+					<div className='col-lg-4 col-md-6'>
+              <div className='blog-item'>
+                <Link href='/blog/small-moments'>
+                  <a>
+                    <img
+                      src={require('../../images/blog/blog4.png')}
+                      alt='image'
+                    />
+                  </a>
+                </Link>
+
+                <div className='blog-content'>
+                  <ul className='meta-tags'>
+                    <li>
+                      <Link href='/blog/small-moments'>
+                        <a>
+                          <i className='fa fa-user-alt'></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/blog/small-moments'>
+                        <a>
+                          <i className='fas fa-calendar-week'></i>17 Jul 2020
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
+
+                  <h3 className='overflow-scroll'>
+                    <Link href='/blog/small-moments'>
+                      <a>Small Moments Generate Big Impacts</a>
+                    </Link>
+                  </h3>
+                  <div className='overflow-scroll'>
+                    <p>
+                      Data Findings aren’t underwhelming when they align with
+                      intuition, they are confirmation. Without this
+                      verification, it’s only guessing.
+                    </p>
+                  </div>
+
+                  <Link href='/blog/small-moments'>
+                    <a className='read-more'>
+                      Read More
+                      <i className='fa fa-chevron-right'></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+							</div>
 						<div className="col-lg-4 col-md-6">
 							<div className="blog-item">
 								<Link href="/blog/strategy-and-social-good">
@@ -104,57 +159,6 @@ class BlogPost extends Component {
                   </p>
 
 									<Link href="/blog/data-decisions">
-										<a className="read-more">
-											Read More
-                      <i className="fa fa-chevron-right"></i>
-										</a>
-									</Link>
-								</div>
-							</div>
-						</div>
-
-						<div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-							<div className="blog-item">
-								<Link href="/blog/market-realities">
-									<a>
-										<img src={require('../../images/blog/blog3.png')} alt="image" />
-									</a>
-								</Link>
-
-								<div className="blog-content">
-									<ul className="meta-tags">
-										<li>
-											<Link href="/blog/market-realities">
-												<a>
-													<i className="fa fa-user-alt"></i>
-                          Emilio Izquierdo
-                        </a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/blog/market-realities">
-												<a>
-													<i className="fas fa-calendar-week"></i>19 May 2020
-                        </a>
-											</Link>
-										</li>
-										{/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-									</ul>
-
-									<h3>
-										<Link href="/blog/market-realities">
-											<a>A Shift to Better Understand Your Business</a>
-										</Link>
-									</h3>
-									<div className="overflow-scroll">
-										<p>
-											Market realities have shifted and with these shifts come opportunities to adjust data and analytics strategies.
-                    </p>
-									</div>
-
-									<Link href="/blog/market-realities">
 										<a className="read-more">
 											Read More
                       <i className="fa fa-chevron-right"></i>
