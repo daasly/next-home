@@ -16,18 +16,18 @@ class TeamMember extends Component {
               <div className='single-team-item'>
                 <div className='team-image'>
                   <img
-                    src={require('../../images/team/Patricia Caricature Final.jpg')}
-                    alt='patricia_perdomo'
+                    src={require('../../images/team/Gennipher_Dudot_Caricature.jpg')}
+                    alt='gennipher_dudot'
                   />
 
                   <div className='team-social'>
-                    <Link href='https://www.linkedin.com/in/patriciaizquierdo/   '>
+                    <Link href='https://www.linkedin.com/in/gennipher/'>
                       <a target='_blank'>
                         <i className='fab fa-linkedin'></i>
                       </a>
                     </Link>
 
-                    <Link href='mailto:patricia@daasly.com'>
+                    <Link href='mailto:gennipher@daasly.com'>
                       <a target='_blank'>
                         <i className='fas fa-envelope'></i>
                       </a>
@@ -36,14 +36,14 @@ class TeamMember extends Component {
                 </div>
 
                 <div className='team-content'>
-                  <h3>Patricia Perdomo</h3>
-                  <span>Director of Growth</span>
+                  <h3>Gennipher Dudot</h3>
+                  <span>Junior BI Analyst</span>
                   <span>
-                    Patricia is known for her ability to keep things and people
-                    in order, regardless of where she is or who she’s with. Her
-                    knack for operations keeps projects running smoothly and
-                    with purpose. On weekends you can find Patricia chasing her
-                    toddler.
+                    Gennipher takes ownership and pride in all that she does.
+                    She enjoys transforming data into insights that help
+                    stakeholders across teams improve business performance. On
+                    weekends, you can find her enjoying a California Cab while
+                    binge-watching reality tv.
                   </span>
                 </div>
               </div>
@@ -90,8 +90,44 @@ class TeamMember extends Component {
                 </div>
               </div>
             </div>
+            <div className='col-lg-4 col-sm-6'>
+              <div className='single-team-item'>
+                <div className='team-image'>
+                  <img
+                    src={require('../../images/team/Patricia Caricature Final.jpg')}
+                    alt='patricia_perdomo'
+                  />
 
-            <div className='col-lg-4 col-sm-6 offset-lg-0 offset-sm-3'>
+                  <div className='team-social'>
+                    <Link href='https://www.linkedin.com/in/patriciaizquierdo/   '>
+                      <a target='_blank'>
+                        <i className='fab fa-linkedin'></i>
+                      </a>
+                    </Link>
+
+                    <Link href='mailto:patricia@daasly.com'>
+                      <a target='_blank'>
+                        <i className='fas fa-envelope'></i>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div className='team-content'>
+                  <h3>Patricia Perdomo</h3>
+                  <span>Director of Growth</span>
+                  <span>
+                    Patricia is known for her ability to keep things and people
+                    in order, regardless of where she is or who she’s with. Her
+                    knack for operations keeps projects running smoothly and
+                    with purpose. On weekends you can find Patricia chasing her
+                    toddler.
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-4 col-sm-6'>
               <div className='single-team-item'>
                 <div className='team-image'>
                   <img
