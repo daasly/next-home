@@ -11,7 +11,14 @@ class TeamMember extends Component {
             <h2>Meet Our Team of Experts</h2>
           </div>
 
-          <div className='row'>
+          <div
+            className='row'
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              flexWrap: 'wrap'
+            }}
+          >
             <div className='col-lg-4 col-sm-6'>
               <div className='single-team-item'>
                 <div className='team-image'>
@@ -39,17 +46,16 @@ class TeamMember extends Component {
                   <h3>Gennipher Dudot</h3>
                   <span>Junior BI Analyst</span>
                   <span>
-                    Gennipher takes ownership and pride in all that she does.
-                    She enjoys transforming data into insights that help
-                    stakeholders across teams improve business performance. On
-                    weekends, you can find her enjoying a California Cab while
-                    binge-watching reality tv.
+                    Gennipher takes ownership in all that she does. She enjoys
+                    transforming data into meaningful insights that help
+                    stakeholders improve business performance. On weekends you
+                    can find her binge-watching reality TV.
                   </span>
                 </div>
               </div>
             </div>
 
-            <div className='col-lg-4 col-sm-6'>
+            <div className='col-lg-4 col-sm-12'>
               <div className='single-team-item'>
                 <div className='team-image'>
                   <img
@@ -90,6 +96,14 @@ class TeamMember extends Component {
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            className='row'
+            style={{
+              display: 'flex',
+              justifyContent: 'center'
+            }}
+          >
             <div className='col-lg-4 col-sm-6'>
               <div className='single-team-item'>
                 <div className='team-image'>
@@ -126,7 +140,6 @@ class TeamMember extends Component {
                 </div>
               </div>
             </div>
-
             <div className='col-lg-4 col-sm-6'>
               <div className='single-team-item'>
                 <div className='team-image'>
