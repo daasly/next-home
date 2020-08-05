@@ -55,7 +55,7 @@ class TeamMember extends Component {
               </div>
             </div>
 
-            <div className='col-lg-4 col-sm-12'>
+            <div className='col-lg-4 col-sm-6'>
               <div className='single-team-item'>
                 <div className='team-image'>
                   <img
