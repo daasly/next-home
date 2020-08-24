@@ -1,72 +1,76 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from 'react'
+import Link from 'next/link'
 
 class BlogSideBar extends Component {
-    render() {
-        return (
-            <aside className="widget-area">
-                <div className="widget widget_search">
-                    <form className="search-form search-top">
-                        <label>
-                            <span className="screen-reader-text">Search for:</span>
-                            <input type="search" className="search-field" placeholder="Search..." />
-                        </label>
-                        <button type="submit">
-                            <i className="fas fa-search"></i>
-                        </button>
-                    </form>
-                </div>
-                <div className="widget widget_plamb_posts_thumb">
-                    <h3 className="widget-title">Recent posts</h3>
-                    <article className="item">
-                        <Link href="/blog/small-moments">
-                            <a className="thumb">
-                                <span className="fullimage cover bg1" role="img"></span>
-                            </a>
-                        </Link>
-                        <div className="info">
-                            <time>Jul 17, 2020</time>
-                            <h4 className="title usmall">
-                                <Link href="/blog/small-moments">
-                                    <a>Small Moments Generate Big Impacts</a>
-                                </Link>
-                            </h4>
-                        </div>
-                    </article>
-                    <article className="item">
-                        <Link href="/blog/strategy-and-social-good">
-                            <a className="thumb">
-                                <span className="fullimage cover bg1" role="img"></span>
-                            </a>
-                        </Link>
-                        <div className="info">
-                            <time>June 15, 2020</time>
-                            <h4 className="title usmall">
-                                <Link href="/blog/strategy-and-social-good">
-                                    <a>Creating a Data Strategy to Drive Your Nonprofit</a>
-                                </Link>
-                            </h4>
-                        </div>
-                    </article>
-                    <article className="item">
-                        <Link href="/blog/data-decisions">
-                            <a className="thumb">
-                                <span className="fullimage cover bg1" role="img"></span>
-                            </a>
-                        </Link>
-                        <div className="info">
-                            <time>June 3, 2020</time>
-                            <h4 className="title usmall">
-                                <Link href="/blog/data-decisions">
-                                    <a>Make Better Data Decisions</a>
-                                </Link>
-                            </h4>
-                        </div>
-                    </article>
-                    
-
-                </div>
-                {/* <div className="widget widget_categories">
+  render() {
+    return (
+      <aside className='widget-area'>
+        <div className='widget widget_search'>
+          <form className='search-form search-top'>
+            <label>
+              <span className='screen-reader-text'>Search for:</span>
+              <input
+                type='search'
+                className='search-field'
+                placeholder='Search...'
+              />
+            </label>
+            <button type='submit'>
+              <i className='fas fa-search'></i>
+            </button>
+          </form>
+        </div>
+        <div className='widget widget_plamb_posts_thumb'>
+          <h3 className='widget-title'>Recent posts</h3>
+          <article className='item'>
+            <Link href='/blog/small-moments'>
+              <a className='thumb'>
+                <span className='fullimage cover bg1' role='img'></span>
+              </a>
+            </Link>
+            <div className='info'>
+              <time>Aug 18, 2020</time>
+              <h4 className='title usmall'>
+                <Link href='/blog/data-driven'>
+                  <a>
+                    These Four Principles will Inspire a Data Driven Culture
+                  </a>
+                </Link>
+              </h4>
+            </div>
+          </article>
+          <article className='item'>
+            <Link href='/blog/small-moments'>
+              <a className='thumb'>
+                <span className='fullimage cover bg1' role='img'></span>
+              </a>
+            </Link>
+            <div className='info'>
+              <time>Jul 17, 2020</time>
+              <h4 className='title usmall'>
+                <Link href='/blog/small-moments'>
+                  <a>Small Moments Generate Big Impacts</a>
+                </Link>
+              </h4>
+            </div>
+          </article>
+          <article className='item'>
+            <Link href='/blog/strategy-and-social-good'>
+              <a className='thumb'>
+                <span className='fullimage cover bg1' role='img'></span>
+              </a>
+            </Link>
+            <div className='info'>
+              <time>June 15, 2020</time>
+              <h4 className='title usmall'>
+                <Link href='/blog/strategy-and-social-good'>
+                  <a>Creating a Data Strategy to Drive Your Nonprofit</a>
+                </Link>
+              </h4>
+            </div>
+          </article>
+        </div>
+        {/* <div className="widget widget_categories">
                     <h3 className="widget-title">Categories</h3>    
                     <ul>
                         <li>
@@ -96,7 +100,7 @@ class BlogSideBar extends Component {
                         </li>
                     </ul>
                 </div> */}
-                {/* <div className="widget widget_recent_comments">
+        {/* <div className="widget widget_recent_comments">
                     <h3 className="widget-title">Recent comments</h3>   
                     <ul>
                         <li>
@@ -157,7 +161,7 @@ class BlogSideBar extends Component {
                     </ul>
                 </div> */}
 
-                {/* <div className="widget widget_tag_cloud">
+        {/* <div className="widget widget_tag_cloud">
                     <h3 className="widget-title">Tags</h3>  
                     <div className="tagcloud section-bottom">
                         <Link href="#">
@@ -210,9 +214,9 @@ class BlogSideBar extends Component {
                         </Link>
                     </div>
                 </div> */}
-            </aside>
-        );
-    }
+      </aside>
+    )
+  }
 }
 
-export default BlogSideBar;
+export default BlogSideBar
