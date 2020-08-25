@@ -33,7 +33,63 @@ const BlogCard = props => {
               </p>
             </div>
           </div>
-         <div className='row'>
+          <div className='row'>
+            <div className='col-lg-4 col-md-6'>
+              <div className='blog-item'>
+                <Link href='/blog/data-driven'>
+                  <a>
+                    <img
+                      src={require('../../images/blog/blog1.png')}
+                      alt='image'
+                    />
+                  </a>
+                </Link>
+
+                <div className='blog-content'>
+                  <ul className='meta-tags'>
+                    <li>
+                      <Link href='/blog/data-driven'>
+                        <a>
+                          <i className='fa fa-user-alt'></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/blog/data-driven'>
+                        <a>
+                          <i className='fas fa-calendar-week'></i>18 Aug 2020
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                  </ul>
+
+                  <h3 className='overflow-scroll'>
+                    <Link href='/blog/data-driven'>
+                      <a>
+                        These Four Principles will Inspire a Data Driven Culture
+                      </a>
+                    </Link>
+                  </h3>
+                  <div className='overflow-scroll'>
+                    <p>
+                      Unlock the full potential of your organization by adopting
+                      a data driven culture. 
+                    </p>
+                  </div>
+
+                  <Link href='/blog/data-driven'>
+                    <a className='read-more'>
+                      Read More
+                      <i className='fa fa-chevron-right'></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
             <div className='col-lg-4 col-md-6'>
               <div className='blog-item'>
                 <Link href='/blog/small-moments'>
@@ -305,64 +361,10 @@ const BlogCard = props => {
                 </div>
               </div>
             </div>
-
-            <div className='col-lg-4 col-md-6'>
-              <div className='blog-item'>
-                <Link href='/blog/pivot'>
-                  <a>
-                    <img
-                      src={require('../../images/blog/blog2.png')}
-                      alt='image'
-                    />
-                  </a>
-                </Link>
-
-                <div className='blog-content'>
-                  <ul className='meta-tags'>
-                    <li>
-                      <Link href='/blog/pivot'>
-                        <a>
-                          <i className='fa fa-user-alt'></i>
-                          Emilio Izquierdo
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/blog/pivot'>
-                        <a>
-                          <i className='fas fa-calendar-week'></i>07 May 2020
-                        </a>
-                      </Link>
-                    </li>
-                    {/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-                  </ul>
-
-                  <h3>
-                    <Link href='/blog/pivot'>
-                      <a>Benefits of a Responsive Data Strategy</a>
-                    </Link>
-                  </h3>
-                  <div className='overflow-scroll'>
-                    <p>
-                      A responsive data strategy enables even the most complex
-                      businesses to be resilient and agile in times of change.
-                    </p>
-                  </div>
-
-                  <Link href='/blog/pivot'>
-                    <a className='read-more'>
-                      Read More
-                      <i className='fa fa-chevron-right'></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       )}
+
       {pageTwo && !pageOne && <BlogCardTwo />}
       {pageThree && !pageOne && !pageTwo && <BlogCardThree />}
       {/* Pagination */}
