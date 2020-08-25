@@ -59,9 +59,7 @@ class BlogPost extends Component {
                   <div className='overflow-scroll'>
                     <p>
                       Unlock the full potential of your organization by adopting
-                      a data driven culture. Tackle new challenges and continue
-                      moving forward with trusted, comprehensive answers back by
-                      data.
+                      a data driven culture.
                     </p>
                   </div>
 
