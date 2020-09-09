@@ -36,10 +36,10 @@ class ContactInfo extends Component {
 
 						<div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
 							<div className="single-contact-box">
-								<a href="http://maps.google.com/?q=Daasly" target="_blank"><i className="fa fa-map-marker"></i></a>
+								<a href="http://bit.ly/DiscoverDaasly1" target="_blank"><i className="fab fa-bity"></i></a>
 								<div className="content-title">
-									<h3>Meet Us</h3>
-									<p>Miami Lakes, FL 33016</p>
+									<h3>Book a Consultation</h3>
+									<a href="http://bit.ly/DiscoverDaasly1" target="_blank"><p>bit.ly/DiscoverDaasly1</p></a>
 								</div>
 							</div>
 						</div>
