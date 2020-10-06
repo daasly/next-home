@@ -103,7 +103,7 @@ class OurServices extends Component {
                   Domo Certified collection and analysis of business information
                 </p>
 
-                <Link href='/business-intelligence-consulting'>
+                <Link href='/augmented-business-intelligence'>
                   <a className='service-btn'>
                     Read More
                     <i className='flaticon-right'></i>
@@ -123,7 +123,7 @@ class OurServices extends Component {
                   Domo Certified collection and analysis of business information
                 </p>
 
-                <Link href='/business-intelligence-consulting'>
+                <Link href='/outsourced-business-intelligence'>
                   <a className='service-btn'>
                     Read More
                     <i className='flaticon-right'></i>
