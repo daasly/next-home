@@ -135,11 +135,11 @@ class Footer extends Component {
                     >
                       <i className='fab fa-bity'></i>
                     </a>
-                    <a href='http://bit.ly/DiscoverDaasly2' target='_blank'>
+                    <a href='http://bit.ly/DiscoverDaasly1' target='_blank'>
                       <h3>Book a Consultation</h3>
                     </a>
-                    <a href='http://bit.ly/DiscoverDaasly2' target='_blank'>
-                      <span>http://bit.ly/DiscoverDaasly2</span>
+                    <a href='http://bit.ly/DiscoverDaasly1' target='_blank'>
+                      <span>http://bit.ly/DiscoverDaasly1</span>
                     </a>
                   </div>
                 </div>

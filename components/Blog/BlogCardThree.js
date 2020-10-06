@@ -20,6 +20,60 @@ class BlogCardThree extends Component {
         </div>
 
         <div className='row'>
+        <div className='col-lg-4 col-md-6'>
+            <div className='blog-item'>
+              <Link href='/blog/domo-and-aws'>
+                <a>
+                  <img
+                    src={require('../../images/blog/blog4.png')}
+                    alt='image'
+                  />
+                </a>
+              </Link>
+
+              <div className='blog-content'>
+                <ul className='meta-tags'>
+                  <li>
+                    <Link href='/blog/domo-and-aws'>
+                      <a>
+                        <i className='fa fa-user-alt'></i>
+                        Emilio Izquierdo
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/blog/domo-and-aws'>
+                      <a>
+                        <i className='fas fa-calendar-week'></i>19 Feb 2020
+                      </a>
+                    </Link>
+                  </li>
+                  {/* <li>
+											<i className="far fa-comments"></i>3 Comments
+										</li> */}
+                </ul>
+
+                <h3>
+                  <Link href='/blog/domo-and-aws'>
+                    <a>Domo Partners with AWS</a>
+                  </Link>
+                </h3>
+
+                <p>
+                  The new Domo BI platform update features a new collaboration
+                  with AWS to enable users to work with third-party data and a
+                  low-code tool for developers.
+                </p>
+
+                <Link href='/blog/domo-and-aws'>
+                  <a className='read-more'>
+                    Read More
+                    <i className='fa fa-chevron-right'></i>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
           <div className='col-lg-4 col-md-6'>
             <div className='blog-item'>
               <Link href='/blog/data-buy-in-blog'>

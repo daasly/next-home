@@ -23,6 +23,23 @@ class BlogSideBar extends Component {
         <div className='widget widget_plamb_posts_thumb'>
           <h3 className='widget-title'>Recent posts</h3>
           <article className='item'>
+            <Link href='/blog/business-intelligence-propels'>
+              <a className='thumb'>
+                <span className='fullimage cover bg1' role='img'></span>
+              </a>
+            </Link>
+            <div className='info'>
+              <time>Sep 18, 2020</time>
+              <h4 className='title usmall'>
+                <Link href='/blog/business-intelligence-propels'>
+                  <a>
+                  How Business Intelligence Propels CFOs
+                  </a>
+                </Link>
+              </h4>
+            </div>
+          </article>
+          <article className='item'>
             <Link href='/blog/small-moments'>
               <a className='thumb'>
                 <span className='fullimage cover bg1' role='img'></span>
@@ -50,21 +67,6 @@ class BlogSideBar extends Component {
               <h4 className='title usmall'>
                 <Link href='/blog/small-moments'>
                   <a>Small Moments Generate Big Impacts</a>
-                </Link>
-              </h4>
-            </div>
-          </article>
-          <article className='item'>
-            <Link href='/blog/strategy-and-social-good'>
-              <a className='thumb'>
-                <span className='fullimage cover bg1' role='img'></span>
-              </a>
-            </Link>
-            <div className='info'>
-              <time>June 15, 2020</time>
-              <h4 className='title usmall'>
-                <Link href='/blog/strategy-and-social-good'>
-                  <a>Creating a Data Strategy to Drive Your Nonprofit</a>
                 </Link>
               </h4>
             </div>

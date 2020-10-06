@@ -110,14 +110,14 @@ class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/digital-marketing-tools" activeClassName="active">
-                            <a className="nav-link">Digital Marketing Tools</a>
+                          <Link href="/augmented-business-intelligence" activeClassName="active">
+                            <a className="nav-link">Augmented BI</a>
                           </Link>
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/business-intelligence-consulting" activeClassName="active">
-                            <a className="nav-link">BI Consulting</a>
+                          <Link href="/outsourced-business-intelligence" activeClassName="active">
+                            <a className="nav-link">Outsourced BI</a>
                           </Link>
                         </li>
                       </ul>
