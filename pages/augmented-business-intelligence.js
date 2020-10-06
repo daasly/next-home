@@ -14,13 +14,7 @@ class ServiceDetails extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <GetStartedProject domo={true} smallTitle="Business Intelligence Consulting"title="Domo Certified Platform Professional Services Partner" button="Schedule a Consultation" subtext={true}/>
-                {/* <PageBanner
-                    pageTitle="Business Intelligence Consulting" 
-                    breadcrumbTextOne="Home" 
-                    breadcrumbTextTwo="Service Details" 
-                    breadcrumbUrl="/" 
-                /> */}
+                <GetStartedProject domo={true} smallTitle="Augmented Business Intelligence"title="Domo Certified Platform Professional Services Partner" button="Schedule a Consultation" subtext={true}/>
                 <ServiceDetailsContent 
                    header="Add Our Expertise to Your Team's Skill Set" 
                    subtext="Daasly is a proud Certified Domo Platform, Professional Services and Technical Consultant Partners. Domo is a game-changing, cloud-based platform specializing in business intelligence tools and data visualization. Domo can be used to:"

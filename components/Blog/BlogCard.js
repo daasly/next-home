@@ -36,6 +36,57 @@ const BlogCard = props => {
           <div className='row'>
             <div className='col-lg-4 col-md-6'>
               <div className='blog-item'>
+                <Link href='/blog/business-intelligence-propels'>
+                  <a>
+                    <img
+                      src={require('../../images/blog/blog5.png')}
+                      alt='image'
+                    />
+                  </a>
+                </Link>
+
+                <div className='blog-content'>
+                  <ul className='meta-tags'>
+                    <li>
+                      <Link href='/blog/business-intelligence-propels'>
+                        <a>
+                          <i className='fa fa-user-alt'></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/blog/business-intelligence-propels'>
+                        <a>
+                          <i className='fas fa-calendar-week'></i>18 Sep 2020
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+
+                  <h3 className='overflow-scroll'>
+                    <Link href='/blog/business-intelligence-propels'>
+                      <a>How Business Intelligence Propels CFOs</a>
+                    </Link>
+                  </h3>
+                  <div className='overflow-scroll'>
+                    <p>
+                      Stakeholders are demanding more from CFO’s. With a BI
+                      team, CFO’s can finally meet and exceed these requests.
+                    </p>
+                  </div>
+
+                  <Link href='/blog/business-intelligence-propels'>
+                    <a className='read-more'>
+                      Read More
+                      <i className='fa fa-chevron-right'></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-4 col-md-6'>
+              <div className='blog-item'>
                 <Link href='/blog/data-driven'>
                   <a>
                     <img
@@ -77,7 +128,7 @@ const BlogCard = props => {
                   <div className='overflow-scroll'>
                     <p>
                       Unlock the full potential of your organization by adopting
-                      a data driven culture. 
+                      a data driven culture.
                     </p>
                   </div>
 
@@ -301,58 +352,6 @@ const BlogCard = props => {
                   </div>
 
                   <Link href='/blog/market-realities'>
-                    <a className='read-more'>
-                      Read More
-                      <i className='fa fa-chevron-right'></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className='col-lg-4 col-md-6'>
-              <div className='blog-item'>
-                <Link href='/blog/creative-data'>
-                  <a>
-                    <img
-                      src={require('../../images/blog/blog4.png')}
-                      alt='image'
-                    />
-                  </a>
-                </Link>
-
-                <div className='blog-content'>
-                  <ul className='meta-tags'>
-                    <li>
-                      <Link href='/blog/creative-data'>
-                        <a>
-                          <i className='fa fa-user-alt'></i>
-                          Emilio Izquierdo
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/blog/creative-data'>
-                        <a>
-                          <i className='fas fa-calendar-week'></i>13 May 2020
-                        </a>
-                      </Link>
-                    </li>
-                    {/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-                  </ul>
-
-                  <h3>
-                    <Link href='/blog/creative-data'>
-                      <a>Getting Creative with Data</a>
-                    </Link>
-                  </h3>
-                  <div className='overflow-scroll'>
-                    <p>Who says data is boring?</p>
-                  </div>
-
-                  <Link href='/blog/creative-data'>
                     <a className='read-more'>
                       Read More
                       <i className='fa fa-chevron-right'></i>
