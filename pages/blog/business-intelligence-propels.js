@@ -4,7 +4,7 @@ import PageBanner from '../../components/Common/PageBanner'
 import BlogDetailsContent from '../../components/Blog/BlogDetailsContent'
 import Footer from '../../components/Layouts/Footer'
 
-class SmallMoments extends Component {
+class BusinessIntelligence extends Component {
   render() {
     return (
       <React.Fragment>
@@ -29,4 +29,4 @@ class SmallMoments extends Component {
   }
 }
 
-export default SmallMoments
+export default BusinessIntelligence
