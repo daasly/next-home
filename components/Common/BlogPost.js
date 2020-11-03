@@ -18,6 +18,56 @@ class BlogPost extends Component {
           <div className='row'>
           <div className='col-lg-4 col-md-6'>
               <div className='blog-item'>
+                <Link href='/blog/analytics-challenges'>
+                  <a>
+                    <img
+                      src={require('../../images/blog/blog3.png')}
+                      alt='image'
+                    />
+                  </a>
+                </Link>
+
+                <div className='blog-content'>
+                  <ul className='meta-tags'>
+                    <li>
+                      <Link href='/blog/analytics-challenges'>
+                        <a>
+                          <i className='fa fa-user-alt'></i>
+                          Emilio Izquierdo
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/blog/analytics-challenges'>
+                        <a>
+                          <i className='fas fa-calendar-week'></i>20 Oct 2020
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+
+                  <h3 className='overflow-scroll'>
+                    <Link href='/blog/analytics-challenges'>
+                      <a>Analytics Challenges and How to Resolve Them</a>
+                    </Link>
+                  </h3>
+                  <div className='overflow-scroll'>
+                    <p>
+                    Data analytics is critical to staying relevant and competitive. These are the top challenges you’ll face and how to overcome them.
+                    </p>
+                  </div>
+
+                  <Link href='/blog/analytics-challenges'>
+                    <a className='read-more'>
+                      Read More
+                      <i className='fa fa-chevron-right'></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          <div className='col-lg-4 col-md-6'>
+              <div className='blog-item'>
                 <Link href='/blog/business-intelligence-propels'>
                   <a>
                     <img
@@ -115,61 +165,6 @@ class BlogPost extends Component {
                   </div>
 
                   <Link href='/blog/data-driven'>
-                    <a className='read-more'>
-                      Read More
-                      <i className='fa fa-chevron-right'></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6'>
-              <div className='blog-item'>
-                <Link href='/blog/small-moments'>
-                  <a>
-                    <img
-                      src={require('../../images/blog/blog4.png')}
-                      alt='image'
-                    />
-                  </a>
-                </Link>
-
-                <div className='blog-content'>
-                  <ul className='meta-tags'>
-                    <li>
-                      <Link href='/blog/small-moments'>
-                        <a>
-                          <i className='fa fa-user-alt'></i>
-                          Emilio Izquierdo
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/blog/small-moments'>
-                        <a>
-                          <i className='fas fa-calendar-week'></i>17 Jul 2020
-                        </a>
-                      </Link>
-                    </li>
-                    {/* <li>
-											<i className="far fa-comments"></i>3 Comments
-										</li> */}
-                  </ul>
-
-                  <h3 className='overflow-scroll'>
-                    <Link href='/blog/small-moments'>
-                      <a>Small Moments Generate Big Impacts</a>
-                    </Link>
-                  </h3>
-                  <div className='overflow-scroll'>
-                    <p>
-                      Data Findings aren’t underwhelming when they align with
-                      intuition, they are confirmation. Without this
-                      verification, it’s only guessing.
-                    </p>
-                  </div>
-
-                  <Link href='/blog/small-moments'>
                     <a className='read-more'>
                       Read More
                       <i className='fa fa-chevron-right'></i>
