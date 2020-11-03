@@ -23,6 +23,23 @@ class BlogSideBar extends Component {
         <div className='widget widget_plamb_posts_thumb'>
           <h3 className='widget-title'>Recent posts</h3>
           <article className='item'>
+            <Link href='/blog/analytics-challenges'>
+              <a className='thumb'>
+                <span className='fullimage cover bg1' role='img'></span>
+              </a>
+            </Link>
+            <div className='info'>
+              <time>Oct 20, 2020</time>
+              <h4 className='title usmall'>
+                <Link href='/blog/analytics-challenges'>
+                  <a>
+                    Analytics Challenges and How to Resolve Them
+                  </a>
+                </Link>
+              </h4>
+            </div>
+          </article>
+          <article className='item'>
             <Link href='/blog/business-intelligence-propels'>
               <a className='thumb'>
                 <span className='fullimage cover bg1' role='img'></span>
@@ -52,21 +69,6 @@ class BlogSideBar extends Component {
                   <a>
                     These Four Principles will Inspire a Data Driven Culture
                   </a>
-                </Link>
-              </h4>
-            </div>
-          </article>
-          <article className='item'>
-            <Link href='/blog/small-moments'>
-              <a className='thumb'>
-                <span className='fullimage cover bg1' role='img'></span>
-              </a>
-            </Link>
-            <div className='info'>
-              <time>Jul 17, 2020</time>
-              <h4 className='title usmall'>
-                <Link href='/blog/small-moments'>
-                  <a>Small Moments Generate Big Impacts</a>
                 </Link>
               </h4>
             </div>
